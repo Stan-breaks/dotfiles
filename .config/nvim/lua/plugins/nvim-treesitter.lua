@@ -18,7 +18,7 @@ local config = function()
       "yaml",
       "html",
       "css",
-      "bash",       -- Removed duplicate "markdown"
+      "bash", -- Removed duplicate "markdown"
       "lua",
       "dockerfile",
       "gitignore",
@@ -32,6 +32,7 @@ local config = function()
       "vimdoc",
       "vim",
       "go",
+      "zig",
     },
     auto_install = true,
     highlight = {
