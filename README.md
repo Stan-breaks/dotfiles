@@ -23,7 +23,7 @@ My personal configuration files for Arch Linux, managed using GNU Stow.
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/dotfiles
+git clone https://github.com/Stan-breaks/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ```
 
