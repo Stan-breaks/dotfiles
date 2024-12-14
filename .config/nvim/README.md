@@ -1,44 +1,159 @@
-# lazy.nvim Configuration
+# dotfiles/.config/nvim
 
-This repository contains my personal lazy.nvim configuration. It is set up to enhance productivity and ease of use.
+<a href="https://dotfyle.com/Stan-breaks/dotfiles-config-nvim"><img src="https://dotfyle.com/Stan-breaks/dotfiles-config-nvim/badges/plugins?style=flat" /></a>
+<a href="https://dotfyle.com/Stan-breaks/dotfiles-config-nvim"><img src="https://dotfyle.com/Stan-breaks/dotfiles-config-nvim/badges/leaderkey?style=flat" /></a>
+<a href="https://dotfyle.com/Stan-breaks/dotfiles-config-nvim"><img src="https://dotfyle.com/Stan-breaks/dotfiles-config-nvim/badges/plugin-manager?style=flat" /></a>
 
-## Getting Started
+## Install Instructions
 
-These instructions will get you a copy of the project up and running on your local machine.
+> Install requires Neovim 0.9+. Always review the code before installing a configuration.
 
-### Prerequisites
+Clone the repository and install the plugins:
 
-- Neovim >= 0.8.0 (needs to be built with LuaJIT)
-- Git >= 2.19.0 (for partial clones support)
-- A Nerd Font (optional)
-
-### Installation
-
-You can add the following Lua code to your `init.lua` to bootstrap lazy.nvim:
-
-```lua
-local lazypath = vim.fn.stdpath ("data") .. "/lazy/lazy.nvim"
-if not vim.loop.fs_stat (lazypath) then
- vim.fn.system ( {
- "git",
- "clone",
- "--filter=blob:none",
- "https://github.com/folke/lazy.nvim.git",
- "--branch=stable", -- latest stable release
- lazypath,
- })
-end
-vim.opt.rtp:prepend (lazypath)
+```sh
+git clone git@github.com:Stan-breaks/dotfiles ~/.config/Stan-breaks/dotfiles
 ```
 
-Next step is to add lazy.nvim below the code added in the prior step in `init.lua`:
+Open Neovim with this config:
 
-```lua
-require ("lazy").setup (plugins, opts)
+```sh
+NVIM_APPNAME=Stan-breaks/dotfiles/.config/nvim nvim
 ```
 
-- `plugins`: this should be a `table` or a `string`
-    - `table`: a list with your Plugin Spec
-    - `string`: a Lua module name that contains your Plugin Spec.
+## Plugins
 
-Please replace `plugins` and `opts` with your actual plugin specifications and options.
+### color
+
+- [xiyaowong/transparent.nvim](https://dotfyle.com/plugins/xiyaowong/transparent.nvim)
+
+### comment
+
+- [numToStr/Comment.nvim](https://dotfyle.com/plugins/numToStr/Comment.nvim)
+
+### completion
+
+- [hrsh7th/nvim-cmp](https://dotfyle.com/plugins/hrsh7th/nvim-cmp)
+
+### cursorline
+
+- [RRethy/vim-illuminate](https://dotfyle.com/plugins/RRethy/vim-illuminate)
+
+### diagnostics
+
+- [folke/trouble.nvim](https://dotfyle.com/plugins/folke/trouble.nvim)
+
+### editing-support
+
+- [windwp/nvim-autopairs](https://dotfyle.com/plugins/windwp/nvim-autopairs)
+- [windwp/nvim-ts-autotag](https://dotfyle.com/plugins/windwp/nvim-ts-autotag)
+
+### file-explorer
+
+- [stevearc/oil.nvim](https://dotfyle.com/plugins/stevearc/oil.nvim)
+
+### fuzzy-finder
+
+- [nvim-telescope/telescope.nvim](https://dotfyle.com/plugins/nvim-telescope/telescope.nvim)
+
+### git
+
+- [kdheepak/lazygit.nvim](https://dotfyle.com/plugins/kdheepak/lazygit.nvim)
+- [lewis6991/gitsigns.nvim](https://dotfyle.com/plugins/lewis6991/gitsigns.nvim)
+
+### icon
+
+- [kyazdani42/nvim-web-devicons](https://dotfyle.com/plugins/kyazdani42/nvim-web-devicons)
+- [nvim-tree/nvim-web-devicons](https://dotfyle.com/plugins/nvim-tree/nvim-web-devicons)
+
+### indent
+
+- [lukas-reineke/indent-blankline.nvim](https://dotfyle.com/plugins/lukas-reineke/indent-blankline.nvim)
+
+### keybinding
+
+- [folke/which-key.nvim](https://dotfyle.com/plugins/folke/which-key.nvim)
+
+### lsp
+
+- [nvimtools/none-ls.nvim](https://dotfyle.com/plugins/nvimtools/none-ls.nvim)
+- [creativenull/efmls-configs-nvim](https://dotfyle.com/plugins/creativenull/efmls-configs-nvim)
+- [nvimdev/lspsaga.nvim](https://dotfyle.com/plugins/nvimdev/lspsaga.nvim)
+- [neovim/nvim-lspconfig](https://dotfyle.com/plugins/neovim/nvim-lspconfig)
+- [onsails/lspkind.nvim](https://dotfyle.com/plugins/onsails/lspkind.nvim)
+
+### lsp-installer
+
+- [williamboman/mason.nvim](https://dotfyle.com/plugins/williamboman/mason.nvim)
+
+### lua-colorscheme
+
+- [ellisonleao/gruvbox.nvim](https://dotfyle.com/plugins/ellisonleao/gruvbox.nvim)
+
+### marks
+
+- [ThePrimeagen/harpoon](https://dotfyle.com/plugins/ThePrimeagen/harpoon)
+
+### note-taking
+
+- [epwalsh/obsidian.nvim](https://dotfyle.com/plugins/epwalsh/obsidian.nvim)
+
+### nvim-dev
+
+- [MunifTanjim/nui.nvim](https://dotfyle.com/plugins/MunifTanjim/nui.nvim)
+- [folke/neodev.nvim](https://dotfyle.com/plugins/folke/neodev.nvim)
+- [nvim-lua/plenary.nvim](https://dotfyle.com/plugins/nvim-lua/plenary.nvim)
+
+### plugin-manager
+
+- [folke/lazy.nvim](https://dotfyle.com/plugins/folke/lazy.nvim)
+
+### scrolling
+
+- [karb94/neoscroll.nvim](https://dotfyle.com/plugins/karb94/neoscroll.nvim)
+
+### snippet
+
+- [L3MON4D3/LuaSnip](https://dotfyle.com/plugins/L3MON4D3/LuaSnip)
+
+### startup
+
+- [goolord/alpha-nvim](https://dotfyle.com/plugins/goolord/alpha-nvim)
+
+### statusline
+
+- [nvim-lualine/lualine.nvim](https://dotfyle.com/plugins/nvim-lualine/lualine.nvim)
+
+### syntax
+
+- [nvim-treesitter/nvim-treesitter](https://dotfyle.com/plugins/nvim-treesitter/nvim-treesitter)
+
+### utility
+
+- [rcarriga/nvim-notify](https://dotfyle.com/plugins/rcarriga/nvim-notify)
+- [folke/noice.nvim](https://dotfyle.com/plugins/folke/noice.nvim)
+
+### web-development
+
+- [luckasRanarison/tailwind-tools.nvim](https://dotfyle.com/plugins/luckasRanarison/tailwind-tools.nvim)
+
+## Language Servers
+
+- bashls
+- clangd
+- dockerls
+- efm
+- emmet_ls
+- gopls
+- html
+- intelephense
+- jdtls
+- jsonls
+- lua_ls
+- pyright
+- rust_analyzer
+- svelte
+- tsserver
+- zls
+
+This readme was generated by [Dotfyle](https://dotfyle.com)
+
