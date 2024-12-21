@@ -40,7 +40,7 @@ local config = function()
   lspconfig.rust_analyzer.setup({
     capabilities = capabilities,
     on_attach = on_attach,
-    filetypes = { "rust" },
+    filetypes = { "rust", },
     settings = {
       rust = {
         analyzer = {

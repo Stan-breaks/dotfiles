@@ -41,7 +41,6 @@ local config = function()
       "fixjson",
       "shfmt",
       "clang-format",
-      "rustfmt",
       "gofumpt",
       "google-java-format",
 
