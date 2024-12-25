@@ -39,6 +39,8 @@ luac.out
 *.x86_64
 *.hex
 
+# spicetify
+*spicetify
 
 plugin/packer_compiled.lua
 
