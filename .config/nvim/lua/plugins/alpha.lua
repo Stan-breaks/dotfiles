@@ -32,18 +32,8 @@ local config = function()
     dashboard.button("g", "  Find text", ":Telescope live_grep<CR>"),
     dashboard.button("m", "  Mason", ":Mason<CR>"),
     dashboard.button("l", "  Lazy", ":Lazy<CR>"),
-    dashboard.button("c", "  Config", ":e $MYVIMRC<CR>"),
     dashboard.button("q", "  Quit", ":qa<CR>"),
   }
-  -- Custom footer with Lazy plugin count
-  local function footer()
-    local stats = require("lazy").stats()
-    local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
-    return "⚡ Neovim loaded " .. stats.count .. " plugins in " .. ms .. "ms"
-  end
-
-  dashboard.section.footer.val = footer()
-
   -- Layout configuration
   dashboard.config.layout = {
     { type = "padding", val = 2 },
