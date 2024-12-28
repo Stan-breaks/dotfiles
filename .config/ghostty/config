@@ -3,4 +3,5 @@ font-family = JetBrains Mono Nerd Font Mono
 theme = GruvboxDarkHard
 font-size = 10.0
 background-opacity = 0.80
+confirm-close-surface = false 
 command = tmux new-session -A -s main
