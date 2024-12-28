@@ -4,4 +4,6 @@ theme = GruvboxDarkHard
 font-size = 10.0
 background-opacity = 0.80
 confirm-close-surface = false 
+window-padding-x = 2
+window-padding-y = 2
 command = tmux new-session -A -s main
