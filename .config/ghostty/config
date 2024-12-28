@@ -1,0 +1,6 @@
+gtk-titlebar = false
+font-family = JetBrains Mono Nerd Font Mono
+theme = GruvboxDarkHard
+font-size = 10.0
+background-opacity = 0.80
+command = tmux new-session -A -s main
