@@ -29,6 +29,8 @@ local config = function()
     }),
     -- configure lspkind for vs-code like icons
     formatting = {
+      fields = { "kind", "abbr", "menu" },
+      expandable_indicator = true,
       format = lspkind.cmp_format({
         maxwidth = 50,
         ellipsis_char = "...",
@@ -40,6 +42,13 @@ end
 return {
   "hrsh7th/nvim-cmp",
   config = config,
+  opts = function(_, opts)
+    opts.sources = opts.sources or {}
+    table.insert(opts.sources, {
+      name = "lazydev",
+      group_index = 0, -- set group index to 0 to skip loading LuaLS completions
+    })
+  end,
   dependencies = {
     "onsails/lspkind.nvim",
     {
