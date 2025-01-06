@@ -30,4 +30,5 @@ vim.api.nvim_set_keymap("n", "<C-_>", "gcc", { noremap = false })
 vim.api.nvim_set_keymap("v", "<C-_>", "gcc", { noremap = false })
 
 --noice
+keymap.set("n", "<leader>n", ":NoiceHistory<CR>")
 keymap.set("n", "<leader>ds", ":NoiceDismiss<CR>")
