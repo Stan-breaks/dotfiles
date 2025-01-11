@@ -1,4 +1,4 @@
-function config()
+local config = function()
   local presets = require("markview.presets");
 
   require("markview").setup({
@@ -15,5 +15,6 @@ return {
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
     "nvim-tree/nvim-web-devicons"
-  }
+  },
+  config = config
 }
