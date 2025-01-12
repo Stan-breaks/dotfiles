@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "bottom",
-    "mod": "dock",
+    "mode": "dock",
     "height": 15,
     "exclusive": true,
     "passthrough": false,
@@ -45,8 +45,6 @@
         "custom/r_end",
         "custom/l_end",
         "custom/wallchange",
-        "custom/theme",
-        "custom/wbar",
         "custom/cliphist",
         "custom/power",
         "custom/r_end",
@@ -309,26 +307,6 @@
         "on-click": "swwwallpaper.sh -n",
         "on-click-right": "swwwallpaper.sh -p",
         "on-click-middle": "sleep 0.1 && swwwallselect.sh",
-        "interval": 86400,
-        "tooltip": true
-    },
-    "custom/theme": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰟡 switch theme",
-        "on-click": "themeswitch.sh -n",
-        "on-click-right": "themeswitch.sh -p",
-        "on-click-middle": "sleep 0.1 && themeselect.sh",
-        "interval": 86400,
-        "tooltip": true
-    },
-    "custom/wbar": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo  switch bar //  dock",
-        "on-click": "wbarconfgen.sh n",
-        "on-click-right": "wbarconfgen.sh p",
-        "on-click-middle": "sleep 0.1 && quickapps.sh kitty firefox spotify code dolphin",
         "interval": 86400,
         "tooltip": true
     },
