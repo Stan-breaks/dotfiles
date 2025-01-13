@@ -29,11 +29,20 @@ local config = function()
     dashboard.button("n", "  New file", ":ene <BAR> startinsert <CR>"),
     dashboard.button("f", "  Find file", ":Telescope find_files<CR>"),
     dashboard.button("r", "  Recent files", ":Telescope oldfiles<CR>"),
-    dashboard.button("g", "  Find text", ":Telescope live_grep<CR>"),
     dashboard.button("m", "  Mason", ":Mason<CR>"),
     dashboard.button("l", "  Lazy", ":Lazy<CR>"),
     dashboard.button("q", "  Quit", ":qa<CR>"),
   }
+  -- Custom footer with Lazy plugin count
+  vim.api.nvim_create_autocmd('User', {
+    pattern = 'LazyVimStarted',
+    callback = function()
+      local stats = require('lazy').stats()
+      local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
+      dashboard.section.footer.val = '⚡ Neovim loaded  ' .. stats.count .. ' plugins loaded in ' .. ms .. 'ms'
+      pcall(vim.cmd.AlphaRedraw)
+    end,
+  })
   -- Layout configuration
   dashboard.config.layout = {
     { type = "padding", val = 2 },
