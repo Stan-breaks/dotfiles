@@ -72,5 +72,7 @@ opt.autoread = true  -- Auto reload changed files
 -- Add visual feedback for errors instead of bells
 opt.visualbell = true
 
---obsidian
-opt.conceallevel = 2
+
+-- Spellings
+opt.spell = true
+opt.spelllang = "en_us"
