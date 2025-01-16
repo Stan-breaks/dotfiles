@@ -35,3 +35,6 @@ keymap.set("n", "<leader>ds", ":NoiceDismiss<CR>")
 
 --gitBlame
 keymap.set("n", "<leader>bl", ":BlameToggle<CR>")
+
+--SpellWarn
+keymap.set("n", "<leader>sp", ":Spellwarn toggle<CR>")
