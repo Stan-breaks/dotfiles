@@ -2,8 +2,10 @@ local config = function()
   local presets = require("markview.presets");
 
   require("markview").setup({
-    checkboxes = presets.checkboxes.nerd,
-    headings = presets.headings.glow
+    markdown = {
+      headings = presets.headings.glow,
+      checkboxes = presets.checkboxes.nerd
+    }
   });
 end
 
