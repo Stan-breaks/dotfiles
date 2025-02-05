@@ -27,6 +27,9 @@ local config = function()
       "gopls",
       "jdtls",
       "zls",
+      "htmx",
+      "tailwindcss",
+      "templ",
     },
   })
 
