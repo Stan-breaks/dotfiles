@@ -4,7 +4,6 @@ local on_attach = require("util.lsp").on_attach
 
 local config = function()
   require("neoconf").setup({})
-  local cmp_nvim_lsp = require("cmp_nvim_lsp")
 
   local lspconfig = require("lspconfig")
 
@@ -15,7 +14,8 @@ local config = function()
     vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
   end
 
-  local capabilities = cmp_nvim_lsp.default_capabilities()
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
   -- lua
   lspconfig.lua_ls.setup({
@@ -138,7 +138,7 @@ local config = function()
   lspconfig.gopls.setup({
     capabilities = capabilities,
     on_attach = on_attach,
-    filetypes = { "go" },
+    filetypes = { "go", "gomod" },
     settings = {
       gopls = {
         analyses = {
@@ -184,6 +184,26 @@ local config = function()
     on_attach = on_attach,
     filetypes = { "zig" },
   })
+
+  --htmx
+  lspconfig.htmx.setup({
+    capabilities = capabilities,
+    on_attach = on_attach,
+    filetypes = { "html" }
+  })
+
+  --tailwind
+  lspconfig.tailwindcss.setup({
+    settings = {
+      includeLanguages = {
+        templ = "html",
+        htmx = "html"
+      },
+    }
+  })
+
+  --templ
+  lspconfig.templ.setup({})
 
   local luacheck = require("efmls-configs.linters.luacheck")
   local stylua = require("efmls-configs.formatters.stylua")
