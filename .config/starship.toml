@@ -1,0 +1,38 @@
+[character] 
+success_symbol = "[❯](bold #689d6a)"  # Gruvbox yellow
+error_symbol = "[❯](bold #cc241d)"    # Gruvbox deep red
+
+[directory]
+format = "[$path]($style) "
+style = "bold #689d6a"  # Gruvbox green
+truncation_length = 3
+truncate_to_repo = true
+truncation_symbol = ""
+
+[git_branch]
+format = "on [$symbol$branch]($style) "
+symbol = " "  # Nerd Font Git icon
+style = "bold #b16286"  # Gruvbox dark purple
+
+[git_status]
+format = '([\[$all_status$ahead_behind\]]($style) )'
+style = "bold #cc241d"  # Gruvbox deep red
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "bold #fabd2f"  # Gruvbox yellow
+min_time = 1
+show_milliseconds = false
+
+[package]
+format = "[$symbol$version]($style) "
+symbol = "📦 "
+style = "bold #d3869b"  # Gruvbox purple
+
+# Remove unneeded modules for a cleaner look
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
