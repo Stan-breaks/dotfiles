@@ -31,10 +31,11 @@ vim.api.nvim_set_keymap("v", "<C-_>", "gcc", { noremap = false })
 
 --noice
 keymap.set("n", "<leader>n", ":NoiceHistory<CR>")
-keymap.set("n", "<leader>ds", ":NoiceDismiss<CR>")
+keymap.set("n", "<leader>nd", ":NoiceDismiss<CR>")
 
 --gitBlame
 keymap.set("n", "<leader>bl", ":BlameToggle<CR>")
 
 --SpellWarn
 keymap.set("n", "<leader>sp", ":Spellwarn toggle<CR>")
+
