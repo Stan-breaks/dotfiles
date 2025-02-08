@@ -1,0 +1,8 @@
+mv .config/nushell/ dotfiles/.config/nushell
+cd dotfiles
+cler 
+clear
+config nu
+ls
+stow . --adopt
+clear
