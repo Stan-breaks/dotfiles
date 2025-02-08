@@ -19,9 +19,9 @@ format = '([\[$all_status$ahead_behind\]]($style) )'
 style = "bold #cc241d"  # Gruvbox deep red
 
 [cmd_duration]
-format = "[$duration]($style) "
+format = "\t[$duration]($style) "
 style = "bold #fabd2f"  # Gruvbox yellow
-min_time = 1
+min_time = 5
 show_milliseconds = false
 
 [package]
