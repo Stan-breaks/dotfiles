@@ -1,5 +1,4 @@
 local config = function()
-  -- Gruvbox color palette (dark mode)
   local colors = {
     error = "#cc241d",      -- Gruvbox red
     warn = "#d79921",       -- Gruvbox yellow
@@ -9,37 +8,6 @@ local config = function()
     foreground = "#ebdbb2", -- Gruvbox light foreground
     border = "#504945",     -- Gruvbox dark border color
   }
-  -- Notify setup (integrated with Noice)
-  local notify = require("notify")
-  notify.setup({
-    stages = "slide",
-    timeout = 3000,
-    fps = 60,
-    background_colour = colors.background,
-    minimum_width = 50,
-    maximum_width = 100,
-    render = "compact",
-    icons = {
-      ERROR = "",
-      WARN = "",
-      INFO = "",
-      DEBUG = "",
-      TRACE = "✎",
-    },
-    highlights = {
-      ErrorMsg = {
-        fg = colors.error,
-        bg = colors.background,
-        bold = true,
-      },
-      WarningMsg = {
-        fg = colors.warn,
-        bg = colors.background,
-        italic = true,
-      },
-    },
-  })
-
   -- Noice setup
   require("noice").setup({
     -- Styling to match Gruvbox theme
@@ -175,22 +143,7 @@ local config = function()
       }
     },
   })
-
-  -- Custom highlights to integrate with Gruvbox
-  vim.cmd([[
-      " Noice Highlights matching Gruvbox
-      highlight NoicePopupNormal guibg=#1d2021 guifg=#ebdbb2
-      highlight NoiceBorder guifg=#504945
-      highlight NoiceError guifg=#cc241d
-      highlight NoiceWarn guifg=#d79921
-      highlight NoiceInfo guifg=#458588
-    ]])
-
-  -- Override vim.notify with our custom notify
-  vim.notify = notify
 end
-
-
 return {
   "folke/noice.nvim",
   event = "VeryLazy",

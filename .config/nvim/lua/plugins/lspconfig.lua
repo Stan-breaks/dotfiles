@@ -106,7 +106,6 @@ local config = function()
       "less",
       "svelte",
       "vue",
-      "html",
     },
   })
 
@@ -138,7 +137,7 @@ local config = function()
   lspconfig.gopls.setup({
     capabilities = capabilities,
     on_attach = on_attach,
-    filetypes = { "go", "gomod" },
+    filetypes = { "go", "gomod", "gotmpl", "gowork" },
     settings = {
       gopls = {
         analyses = {
@@ -148,36 +147,6 @@ local config = function()
       },
     },
   })
-
-  --java
-  lspconfig.jdtls.setup({
-    capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "java" },
-    settings = {
-      java = {
-        signatureHelp = { enabled = true },
-        maven = {
-          downloadSources = true,
-        },
-        referencesCodeLens = {
-          enabled = true,
-        },
-        references = {
-          includeDecompiledSources = true,
-        },
-        inlayHints = {
-          parameterNames = {
-            enabled = 'all', -- literals, all, none
-          },
-        },
-        format = {
-          enabled = false,
-        },
-      },
-    },
-  })
-
   --zig
   lspconfig.zls.setup({
     capabilities = capabilities,
@@ -185,11 +154,24 @@ local config = function()
     filetypes = { "zig" },
   })
 
-  --htmx
-  lspconfig.htmx.setup({
+  --templ
+  lspconfig.templ.setup({
     capabilities = capabilities,
     on_attach = on_attach,
-    filetypes = { "html" }
+  })
+
+  --htmx
+  lspconfig.htmx.setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+    filetypes = { "html", "templ" },
+  })
+
+  --html
+  lspconfig.html.setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+    filetypes = { "html", "templ" },
   })
 
   --tailwind
@@ -197,13 +179,11 @@ local config = function()
     settings = {
       includeLanguages = {
         templ = "html",
-        htmx = "html"
       },
     }
   })
 
-  --templ
-  lspconfig.templ.setup({})
+
 
   local luacheck = require("efmls-configs.linters.luacheck")
   local stylua = require("efmls-configs.formatters.stylua")

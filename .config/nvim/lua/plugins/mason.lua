@@ -30,6 +30,7 @@ local config = function()
       "htmx",
       "tailwindcss",
       "templ",
+      "html",
     },
   })
 
