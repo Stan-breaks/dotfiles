@@ -58,7 +58,7 @@ opt.modifiable = true         -- Allow buffer modifications
 opt.encoding = "UTF-8"        -- Set default encoding
 
 -- File-specific Settings ------------------------
-opt.conceallevel = 2 -- Hide markup in markdown files
+opt.conceallevel = 1 -- Hide markup in markdown files
 
 -- Window Behavior ------------------------------
 opt.winblend = 0        -- Window transparency (0-100)
