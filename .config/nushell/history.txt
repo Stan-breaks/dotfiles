@@ -6,3 +6,6 @@ config nu
 ls
 stow . --adopt
 clear
+ls
+clear
+ls
