@@ -26,4 +26,5 @@ return {
     vim.g.lazygit_use_custom_config_file_path = 0 -- config file path is evaluated if this value is 1
     vim.g.lazygit_config_file_path = {} -- table of custom config file paths
   end,
+  event = "VeryLazy",
 }

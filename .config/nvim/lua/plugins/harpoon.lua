@@ -12,4 +12,5 @@ return {
   opts = {
     -- You can add any Harpoon configuration options here
   },
+  event = "VeryLazy"
 }

@@ -98,50 +98,6 @@ local config = function()
       inc_rename = true,
       lsp_doc_border = true,
     },
-
-    -- Message routing with Gruvbox-inspired color handling
-    routes = {
-      {
-        filter = {
-          event = "msg_show",
-          kind = "search_count",
-        },
-        opts = { skip = true },
-      },
-      {
-        filter = {
-          event = "msg_show",
-          kind = "wmsg",
-        },
-        view = "mini",
-      },
-      {
-        filter = {
-          event = "msg_show",
-          kind = "emsg",
-          find = "E325",
-        },
-        opts = { skip = true },
-      },
-    },
-
-    -- Advanced routing for different message types
-    format = {
-      level = {
-        error = {
-          icon = "❌ ",
-          hl_group = "NoiceError",
-        },
-        warn = {
-          icon = "⚠️ ",
-          hl_group = "NoiceWarn",
-        },
-        info = {
-          icon = "ℹ️ ",
-          hl_group = "NoiceInfo",
-        },
-      }
-    },
   })
 end
 return {
