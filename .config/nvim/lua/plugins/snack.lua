@@ -1,6 +1,7 @@
 return {
   "folke/snacks.nvim",
-  event = "VeryLazy",
+  lazy = false,
+  priority = 1000,
   ---@type snacks.Config
   opts = {
     dashboard = {
@@ -9,14 +10,6 @@ return {
         { section = "header" },
         { section = "keys",   gap = 1, padding = 1 },
         { section = "startup" },
-        {
-          section = "terminal",
-          cmd = "ascii-image-converter ~/.config/wall.png -C ",
-          random = 10,
-          height = 30,
-          indent = 4,
-          pane = 2,
-        },
       },
     },
     indent = { enabled = true },
