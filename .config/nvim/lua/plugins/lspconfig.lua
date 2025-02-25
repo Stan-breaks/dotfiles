@@ -176,11 +176,7 @@ local config = function()
 
   --tailwind
   lspconfig.tailwindcss.setup({
-    settings = {
-      includeLanguages = {
-        templ = "html",
-      },
-    }
+    filetypes = { "templ", "html" }
   })
 
 
