@@ -1,4 +1,5 @@
 local config = function()
+  -- Gruvbox color palette (dark mode)
   local colors = {
     error = "#cc241d",      -- Gruvbox red
     warn = "#d79921",       -- Gruvbox yellow
@@ -8,6 +9,37 @@ local config = function()
     foreground = "#ebdbb2", -- Gruvbox light foreground
     border = "#504945",     -- Gruvbox dark border color
   }
+  -- Notify setup (integrated with Noice)
+  local notify = require("notify")
+  notify.setup({
+    stages = "slide",
+    timeout = 3000,
+    fps = 60,
+    background_colour = colors.background,
+    minimum_width = 50,
+    maximum_width = 100,
+    render = "compact",
+    icons = {
+      ERROR = "",
+      WARN = "",
+      INFO = "",
+      DEBUG = "",
+      TRACE = "✎",
+    },
+    highlights = {
+      ErrorMsg = {
+        fg = colors.error,
+        bg = colors.background,
+        bold = true,
+      },
+      WarningMsg = {
+        fg = colors.warn,
+        bg = colors.background,
+        italic = true,
+      },
+    },
+  })
+
   -- Noice setup
   require("noice").setup({
     -- Styling to match Gruvbox theme
@@ -98,8 +130,67 @@ local config = function()
       inc_rename = true,
       lsp_doc_border = true,
     },
+
+    -- Message routing with Gruvbox-inspired color handling
+    routes = {
+      {
+        filter = {
+          event = "msg_show",
+          kind = "search_count",
+        },
+        opts = { skip = true },
+      },
+      {
+        filter = {
+          event = "msg_show",
+          kind = "wmsg",
+        },
+        view = "mini",
+      },
+      {
+        filter = {
+          event = "msg_show",
+          kind = "emsg",
+          find = "E325",
+        },
+        opts = { skip = true },
+      },
+    },
+
+    -- Advanced routing for different message types
+    format = {
+      level = {
+        error = {
+          icon = "❌ ",
+          hl_group = "NoiceError",
+        },
+        warn = {
+          icon = "⚠️ ",
+          hl_group = "NoiceWarn",
+        },
+        info = {
+          icon = "ℹ️ ",
+          hl_group = "NoiceInfo",
+        },
+      }
+    },
   })
+
+  -- Custom highlights to integrate with Gruvbox
+  vim.cmd([[
+      " Noice Highlights matching Gruvbox
+      highlight NoicePopupNormal guibg=#1d2021 guifg=#ebdbb2
+      highlight NoiceBorder guifg=#504945
+      highlight NoiceError guifg=#cc241d
+      highlight NoiceWarn guifg=#d79921
+      highlight NoiceInfo guifg=#458588
+    ]])
+
+  -- Override vim.notify with our custom notify
+  vim.notify = notify
 end
+
+
 return {
   "folke/noice.nvim",
   event = "VeryLazy",
