@@ -25,6 +25,9 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>", opts) -- Toggle Minimize
 vim.api.nvim_set_keymap("n", "<C-_>", "gcc", { noremap = false })
 vim.api.nvim_set_keymap("v", "<C-_>", "gcc", { noremap = false })
 
+--noice
+keymap.set("n", "<leader>uh", ":NoiceHistory<CR>")
+keymap.set("n", "<leader>un", ":NoiceDismiss<CR>")
 
 --gitBlame
 keymap.set("n", "<leader>bl", ":BlameToggle<CR>")
