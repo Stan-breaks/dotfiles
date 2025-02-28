@@ -52,8 +52,6 @@ local config = function()
         border = {
           style = "rounded",
           padding = { 0, 1 },
-          color = colors.border,
-
         },
         win_options = {
           winhighlight = {
@@ -71,8 +69,7 @@ local config = function()
         },
         win_options = {
           winhighlight = {
-            Normal = "NoicePopupNormal",
-            FloatBorder = "NoiceBorder",
+            Normal = "Normal", FloatBorder = "DiagnosticInfo"
           },
         },
       },
