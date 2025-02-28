@@ -1,5 +1,6 @@
 local keymap = vim.keymap
 
+
 local opts = { noremap = true, silent = true }
 
 --Directory Navigation
@@ -31,3 +32,9 @@ keymap.set("n", "<leader>un", ":NoiceDismiss<CR>")
 
 --gitBlame
 keymap.set("n", "<leader>bl", ":BlameToggle<CR>")
+
+--fzf
+keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>")
+keymap.set("n", "<leader>fg", ":lua require('fzf-lua').live_grep()<CR>")
+keymap.set("n", "<leader>fq", ":lua require('fzf-lua').quickfix()<CR>")
+keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>")
