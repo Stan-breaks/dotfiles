@@ -9,18 +9,15 @@ local config = function()
       "BufferLineBackground",
       "BufferLineSeparator",
       "BufferLineIndicatorSelected",
-
       "IndentBlanklineChar",
-
       "Oil",
-      "Snacks",
-      -- make floating windows transparent
       "LspFloatWinNormal",
       "Normal",
       "NormalFloat",
       "FloatBorder",
-    },
-    exclude = {}, -- table: groups you don't want to clear
+      -- Add noice-specific groups:
+      "NoicePopupNormal",
+    }
   })
 end
 return {
