@@ -14,6 +14,7 @@ return {
   lazy = true,
   ft = "markdown", -- If you decide to lazy-load anyway
 
+  event = "VeryLazy",
   dependencies = {
     "nvim-treesitter/nvim-treesitter",
     "nvim-tree/nvim-web-devicons"

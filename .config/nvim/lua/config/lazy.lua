@@ -20,30 +20,15 @@ require("config.options")
 require("config.keymaps")
 require("config.autocmds")
 
-require("lazy")
-local opts = {
-  defaults = {
-    lazy = true,
+require("lazy").setup({
+  spec = {
+    { import = "plugins" },
   },
-  rtp = {
-    disabled_plugins = {
-      "gzip",
-      "matchit",
-      "matchparen",
-      "netrw",
-      "netrwPlugin",
-      "tarPlugin",
-      "tohtml",
-      "tutor",
-      "zipPlugin",
-    },
-    change_detection = {
-      notify = true,
-    },
-  },
-}
-
-require("lazy").setup("plugins", opts)
+  install = { colorscheme = { "gruvbox" } },
+  checker = { enabled = true },
+})
+vim.o.background = "dark"
 vim.cmd([[colorscheme gruvbox]])
 vim.lsp.set_log_level("warn")
-vim.g.gruvbox_transparent = true
+
+require("config.lazygit")
