@@ -23,6 +23,7 @@ local config = function()
       "dockerfile",
       "gitignore",
       "python",
+      "php",
       "vue",
       "svelte",
       "toml",
