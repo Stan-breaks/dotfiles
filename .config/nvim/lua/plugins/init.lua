@@ -210,5 +210,16 @@ return {
     priority = 1000,
     config = true,
     opts = ...
-  }
+  }, {
+  'augmentcode/augment.vim',
+  event = "VeryLazy",
+  cmd = "Augment",
+    opts = {
+g:augment_disable_completions = v:true,
+    }
+}, {
+  "LunarVim/bigfile.nvim",
+  event = "BufReadPre",
+  opts = {}
+}
 }
