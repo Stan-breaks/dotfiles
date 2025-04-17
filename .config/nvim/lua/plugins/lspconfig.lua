@@ -82,6 +82,7 @@ local config = function()
       "typescriptreact",
       "javascriptreact",
       "javascript",
+      "templ",
     },
     root_dir = lspconfig.util.root_pattern("package.json", "tsconfig.json", ".git"),
   })
