@@ -37,8 +37,3 @@ keymap.set("n", "<leader>bl", ":BlameToggle<CR>")
 keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>")
 keymap.set("n", "<leader>fq", ":lua require('fzf-lua').quickfix()<CR>")
 keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>")
-
---Augment
-keymap.set("n", "<leader>ac", ":Augment chat<CR>")
-keymap.set("n", "<leader>acn", ":Augment chat-new<CR>")
-keymap.set("n", "<leader>at", ":Augment chat-toggle<CR>")
