@@ -214,8 +214,6 @@ return {
   'augmentcode/augment.vim',
   event = "VeryLazy",
   cmd = "Augment",
-  opts = {
-  }
 }, {
   "LunarVim/bigfile.nvim",
   event = "BufReadPre",
