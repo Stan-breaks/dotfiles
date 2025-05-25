@@ -25,7 +25,7 @@ require("lazy").setup({
     { import = "plugins" },
   },
   install = { colorscheme = { "gruvbox" } },
-  checker = { enabled = true },
+  checker = { enabled = false },
 })
 vim.o.background = "dark"
 vim.cmd([[colorscheme gruvbox]])
