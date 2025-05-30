@@ -21,4 +21,6 @@ abbr .5 'cd ../../../../..'
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 abbr mkdir 'mkdir -p'
 
+abbr clear 'clear;fortune|cowsay'
+
 
