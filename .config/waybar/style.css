@@ -10,7 +10,7 @@
 @import "theme.css";
 
 window#waybar {
-  background: @bar-bg;
+  background: transparent;
 }
 
 tooltip {
