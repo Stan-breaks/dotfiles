@@ -61,19 +61,9 @@
         "persistent-workspaces": {}
     },
     "hyprland/window": {
-        "format": "  {}",
+        "format": "  ",
         "rotate": 0,
         "separate-outputs": true,
-        "rewrite": {
-            "stan@ArchLinux:(.*)": "$1 ",
-            "(.*) — Mozilla Firefox": "$1 󰈹",
-            "(.*)Mozilla Firefox": "Firefox 󰈹",
-            "(.*) - Visual Studio Code": "$1 󰨞",
-            "(.*)Visual Studio Code": "Code 󰨞",
-            "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify": "Spotify 󰓇",
-            "(.*)Steam": "Steam 󰓓"
-        },
         "max-length": 1000
     },
     "idle_inhibitor": {
