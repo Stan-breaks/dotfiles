@@ -3,6 +3,7 @@ local config = function()
   require("transparent").setup({
     enable = true,
     extra_groups = {
+      "NormalFloat",
       "NoicePopupNormal",
     },
   })
