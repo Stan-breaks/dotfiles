@@ -4,11 +4,11 @@ local config = function()
 
   -- Absolutely unhinged custom ASCII art
   dashboard.section.header.val = {
-    [[                                                                     ]],
-    [[                   ╭─────────────────────────╮                       ]],
-    [[                   │    ⚡ TERMINAL WIZARD ⚡│                       ]],
-    [[                   ╰─────────────────────────╯                       ]],
-    [[                                                                     ]],
+    [[                                                                         ]],
+    [[                       ╭──────────────────────╮                          ]],
+    [[                       │ ⚡ TERMINAL WIZARD ⚡│                          ]],
+    [[                       ╰──────────────────────╯                          ]],
+    [[                                                                        ]],
     [[                                 /^\                   ]],
     [[              L L               /   \               L L]],
     [[           __/|/|_             /  .  \             _|\|\__]],

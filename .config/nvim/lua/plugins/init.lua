@@ -177,5 +177,10 @@ return {
   opts = {}
 }, {
   "tpope/vim-obsession"
-}
+}, {
+  "m4xshen/hardtime.nvim",
+  lazy = false,
+  dependencies = { "MunifTanjim/nui.nvim" },
+  opts = {},
+},
 }
