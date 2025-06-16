@@ -1,6 +1,6 @@
 # UI Settings
 set selection-clipboard clipboard
-set font "JetBrains Mono 11"
+set font "JetBrains Mono Nerd Font Mono 11"
 
 # Background and foreground
 set default-bg "#1d2021"
