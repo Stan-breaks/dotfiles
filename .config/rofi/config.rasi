@@ -1,0 +1,301 @@
+// ╭─────────────────────────────────────────────────────────╮
+// │                 Gruvbox Retro Dark Hard Theme           │
+// │                   Optimized for Jerry                   │
+// ╰─────────────────────────────────────────────────────────╯
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                  Gruvbox Color Palette                  │
+// │              Authentic Retro Terminal Colors            │
+// ╰─────────────────────────────────────────────────────────╯
+* {
+    // Gruvbox dark hard base colors
+    main-bg:                    #1d2021;  // dark0_hard
+    main-fg:                    #fbf1c7;  // light0
+    
+    // Gruvbox accent colors
+    primary-accent:             #fb4934;  // bright_red
+    secondary-accent:           #b8bb26;  // bright_green
+    tertiary-accent:            #fabd2f;  // bright_yellow
+    quaternary-accent:          #83a598;  // bright_blue
+    
+    // Additional gruvbox colors
+    orange-accent:              #fe8019;  // bright_orange
+    purple-accent:              #d3869b;  // bright_purple
+    aqua-accent:                #8ec07c;  // bright_aqua
+    
+    // Selection and interaction colors
+    selected-bg:                #fb4934;  // bright_red
+    selected-fg:                #1d2021;  // dark0_hard
+    hover-bg:                   #3c3836;  // dark2
+    
+    // Border and separator colors
+    border-color:               #504945;  // dark4
+    separator-color:            #665c54;  // dark4
+    
+    // Background variations
+    dark-bg:                    #282828;  // dark0
+    darker-bg:                  #32302f;  // dark1
+    
+    // Transparency values
+    bg-transparency:            rgba(29, 32, 33, 0.95);
+    overlay-transparency:       rgba(29, 32, 33, 0.9);
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                      Main Window                        │
+// ╰─────────────────────────────────────────────────────────╯
+window {
+    transparency:                "real";
+    fullscreen:                  false;
+    enabled:                     true;
+    cursor:                      "default";
+    background-color:            @bg-transparency;
+    location:                    center;
+    anchor:                      center;
+    width:                       75%;
+    height:                      65%;
+    border:                      2px solid;
+    border-color:                @orange-accent;
+    border-radius:               0px;  // Sharp corners for retro feel
+    padding:                     0em;
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                    Layout Structure                     │
+// ╰─────────────────────────────────────────────────────────╯
+mainbox {
+    orientation:                 vertical;
+    spacing:                     0em;
+    padding:                     1.2em;
+    background-color:            transparent;
+    children:                    [ "inputbar", "message", "listview" ];
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                      Input Bar                          │
+// ╰─────────────────────────────────────────────────────────╯
+inputbar {
+    enabled:                     true;
+    spacing:                     0.8em;
+    padding:                     0.8em 1em;
+    background-color:            @darker-bg;
+    border:                      1px solid;
+    border-color:                @secondary-accent;
+    border-radius:               0px;  // Sharp corners
+    text-color:                  @main-fg;
+    margin:                      0em 0em 1em 0em;
+    children:                    [ "prompt", "entry" ];
+}
+
+prompt {
+    enabled:                     true;
+    background-color:            transparent;
+    text-color:                  @orange-accent;
+    font:                        "JetBrains Mono Bold 12";
+}
+
+entry {
+    enabled:                     true;
+    placeholder:                 "Search applications...";
+    placeholder-color:           #928374;  // gray
+    background-color:            transparent;
+    text-color:                  @main-fg;
+    font:                        "JetBrains Mono 12";
+    cursor:                      text;
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                      Message Box                        │
+// ╰─────────────────────────────────────────────────────────╯
+message {
+    enabled:                     true;
+    margin:                      0em 0em 1em 0em;
+    padding:                     0.8em;
+    border:                      1px solid;
+    border-color:                @quaternary-accent;
+    border-radius:               0px;
+    background-color:            rgba(131, 165, 152, 0.1);
+}
+
+textbox {
+    background-color:            transparent;
+    text-color:                  @quaternary-accent;
+    font:                        "JetBrains Mono 10";
+    vertical-align:              0.5;
+    horizontal-align:            0.0;
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                      List View                          │
+// ╰─────────────────────────────────────────────────────────╯
+listview {
+    enabled:                     true;
+    columns:                     4;
+    lines:                       3;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    spacing:                     0.8em;
+    padding:                     0.5em;
+    margin:                      0em;
+    background-color:            transparent;
+    cursor:                      "default";
+    flow:                        horizontal;
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                  Application Elements                   │
+// ╰─────────────────────────────────────────────────────────╯
+element {
+    enabled:                     true;
+    orientation:                 vertical;
+    spacing:                     0.4em;
+    padding:                     1em;
+    margin:                      0em;
+    cursor:                      pointer;
+    background-color:            transparent;
+    border-radius:               0px;  // Sharp corners for retro
+    text-color:                  @main-fg;
+}
+
+element normal.normal {
+    background-color:            rgba(60, 56, 54, 0.6);  // dark2 with transparency
+    text-color:                  @main-fg;
+    border:                      1px solid;
+    border-color:                transparent;
+}
+
+element normal.urgent {
+    background-color:            rgba(251, 73, 52, 0.2);  // bright_red with transparency
+    text-color:                  @primary-accent;
+    border:                      1px solid;
+    border-color:                @primary-accent;
+}
+
+element normal.active {
+    background-color:            rgba(184, 187, 38, 0.2);  // bright_green with transparency
+    text-color:                  @secondary-accent;
+    border:                      1px solid;
+    border-color:                @secondary-accent;
+}
+
+element selected.normal {
+    background-color:            @selected-bg;
+    text-color:                  @selected-fg;
+    border:                      2px solid;
+    border-color:                @orange-accent;
+}
+
+element selected.urgent {
+    background-color:            @primary-accent;
+    text-color:                  @main-bg;
+    border:                      2px solid;
+    border-color:                @orange-accent;
+}
+
+element selected.active {
+    background-color:            @secondary-accent;
+    text-color:                  @main-bg;
+    border:                      2px solid;
+    border-color:                @orange-accent;
+}
+
+element alternate.normal {
+    background-color:            rgba(40, 40, 40, 0.4);  // dark0 with transparency
+    text-color:                  @main-fg;
+    border:                      1px solid;
+    border-color:                transparent;
+}
+
+element alternate.urgent {
+    background-color:            rgba(251, 73, 52, 0.15);
+    text-color:                  @primary-accent;
+    border:                      1px solid;
+    border-color:                rgba(251, 73, 52, 0.3);
+}
+
+element alternate.active {
+    background-color:            rgba(184, 187, 38, 0.15);
+    text-color:                  @secondary-accent;
+    border:                      1px solid;
+    border-color:                rgba(184, 187, 38, 0.3);
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                   Icon and Text                         │
+// ╰─────────────────────────────────────────────────────────╯
+element-icon {
+    size:                        64px;
+    background-color:            transparent;
+    cursor:                      inherit;
+    margin:                      0em 0em 0.5em 0em;
+    border-radius:               0px;  // Sharp corners
+}
+
+element-text {
+    enabled:                     true;
+    expand:                      true;
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    font:                        "JetBrains Mono Medium 9";
+    margin:                      0em;
+    padding:                     0em;
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                     Scrollbar                           │
+// ╰─────────────────────────────────────────────────────────╯
+scrollbar {
+    width:                       6px;
+    border:                      0px;
+    handle-color:                @orange-accent;
+    handle-width:                6px;
+    padding:                     0em;
+    margin:                      0em 0em 0em 0.5em;
+    border-radius:               0px;  // Sharp corners
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                      Error States                       │
+// ╰─────────────────────────────────────────────────────────╯
+error-message {
+    padding:                     1em;
+    border:                      2px solid;
+    border-color:                @primary-accent;
+    border-radius:               0px;
+    background-color:            rgba(251, 73, 52, 0.1);
+    text-color:                  @primary-accent;
+}
+
+// ╭─────────────────────────────────────────────────────────╮
+// │                    Configuration                        │
+// ╰─────────────────────────────────────────────────────────╯
+configuration {
+    modi:                        "drun";
+    show-icons:                  true;
+    icon-theme:                  "Papirus-Dark";
+    display-drun:                "⚡ Launch";
+    drun-display-format:         "{name}";
+    disable-history:             false;
+    fullscreen:                  false;
+    hide-scrollbar:              true;
+    sidebar-mode:                false;
+    hover-select:                true;
+    eh:                          1;
+    auto-select:                 false;
+    parse-hosts:                 false;
+    parse-known-hosts:           false;
+    combi-modi:                  "drun";
+    matching:                    "fuzzy";
+    scroll-method:               0;
+    normalize-match:             true;
+    lazy-grab:                   false;
+    case-sensitive:              false;
+}
