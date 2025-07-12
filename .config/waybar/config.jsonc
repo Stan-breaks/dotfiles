@@ -15,15 +15,14 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
+	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","cpu","memory","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/l_end","backlight","network","pulseaudio","pulseaudio#microphone","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","tray","battery","custom/r_end","custom/l_end","custom/wallchange","custom/theme","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","cpu","memory","custom/cpuinfo","custom/gpuinfo","custom/r_end","custom/padd","custom/l_end","tray","battery","custom/wbar","custom/cliphist","custom/power","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
 
     "hyprland/workspaces": {
-        "disable-scroll": true,
         "rotate": 0,
         "all-outputs": true,
         "active-only": false,
@@ -36,19 +35,9 @@
     },
 
     "hyprland/window": {
-        "format": "  {}",
+        "format": "  ",
         "rotate": 0,
         "separate-outputs": true,
-        "rewrite": {
-            "stan@ArchLinux:(.*)": "$1 ",
-            "(.*) — Mozilla Firefox": "$1 󰈹",
-            "(.*)Mozilla Firefox": "Firefox 󰈹",
-            "(.*) - Visual Studio Code": "$1 󰨞",
-            "(.*)Visual Studio Code": "Code 󰨞",
-            "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify": "Spotify 󰓇",
-            "(.*)Steam": "Steam 󰓓"
-        },
         "max-length": 1000
     },
 
@@ -56,8 +45,8 @@
         "format": "{icon}",
         "rotate": 0,
         "format-icons": {
-            "activated": "󰥔",
-            "deactivated": ""
+            "activated": "󰥔 ",
+            "deactivated": " "
         }
     },
 
@@ -98,7 +87,7 @@
         "states": {
             "c": 90, // critical
             "h": 60, // high
-            "m": 30, // medium
+            "m": 30 // medium
         },
         "interval": 30,
         "format": "󰾆 {used}GB",
@@ -130,7 +119,7 @@
         "interval": 5, // once every 5 seconds
         "tooltip": true,
         "max-length": 1000,
-        "on-click": "gpuinfo.sh --toggle",
+        "on-click": "gpuinfo.sh --toggle"
     },
 
     "custom/gpuinfo#nvidia": {
@@ -140,7 +129,7 @@
         "rotate": 0,
         "interval": 5, // once every 5 seconds
         "tooltip": true,
-        "max-length": 1000,
+        "max-length": 1000
     },
 
     "custom/gpuinfo#amd": {
@@ -150,7 +139,7 @@
         "rotate": 0,
         "interval": 5, // once every 5 seconds
         "tooltip": true,
-        "max-length": 1000,
+        "max-length": 1000
     },
 
     "custom/gpuinfo#intel": {
@@ -160,7 +149,7 @@
         "rotate": 0,
         "interval": 5, // once every 5 seconds
         "tooltip": true,
-        "max-length": 1000,
+        "max-length": 1000
     },
 
     "backlight": {
@@ -183,7 +172,7 @@
         "format-disconnected": "󰖪 ",
         "tooltip-format-disconnected": "Disconnected",
         "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
-        "interval": 2,
+        "interval": 2
     },
 
 "pulseaudio": {
@@ -229,7 +218,7 @@
         "on-click": "hyprctl dispatch exec 'systemupdate.sh up'",
         "interval": 86400, // once every day
         "tooltip": true,
-        "signal": 20,
+        "signal": 20
     },
     "custom/keybindhint": {
         "format": " ",
@@ -257,27 +246,7 @@
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
 
-    "custom/wallchange": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰆊 switch wallpaper",
-        "on-click": "swwwallpaper.sh -n",
-        "on-click-right": "swwwallpaper.sh -p",
-        "on-click-middle": "sleep 0.1 && swwwallselect.sh",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-
-    "custom/theme": {
-        "format": "{}",
-        "rotate": 0,
-        "exec": "echo ; echo 󰟡 switch theme",
-        "on-click": "themeswitch.sh -n",
-        "on-click-right": "themeswitch.sh -p",
-        "on-click-middle": "sleep 0.1 && themeselect.sh",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
+    
 
     "custom/cliphist": {
         "format": "{}",
