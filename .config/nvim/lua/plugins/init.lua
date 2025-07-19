@@ -177,5 +177,9 @@ return {
   opts = {}
 }, {
   "tpope/vim-obsession"
+}, {
+  "dmtrKovalenko/fold-imports.nvim",
+  opts = {},
+  event = "BufRead"
 }
 }
