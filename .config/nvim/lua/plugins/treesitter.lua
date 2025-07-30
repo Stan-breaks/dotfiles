@@ -18,7 +18,7 @@ local config = function()
       "yaml",
       "html",
       "css",
-      "bash", -- Removed duplicate "markdown"
+      "bash",
       "lua",
       "dockerfile",
       "gitignore",
