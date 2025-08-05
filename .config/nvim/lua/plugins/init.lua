@@ -139,11 +139,6 @@ return {
     "numToStr/Comment.nvim",
     event = "VeryLazy",
   },
-  -- git blame
-  {
-    "FabijanZulj/blame.nvim",
-    event = "VeryLazy",
-  },
   -- harpoon
   {
     "ThePrimeagen/harpoon",
@@ -176,10 +171,12 @@ return {
   event = "BufReadPre",
   opts = {}
 }, {
-  "tpope/vim-obsession"
-}, {
   "dmtrKovalenko/fold-imports.nvim",
   opts = {},
   event = "BufRead"
-}
+},
+  {
+    'LhKipp/nvim-nu',
+    opts = {}
+  }
 }

@@ -9,3 +9,172 @@ clear
 ls
 clear
 ls
+clear
+ytsurf
+gophertube
+ls
+cat ~/.cache/ytsurf/history.json
+echo ~/.cache/ytsurf/history.json
+. ~/.cache/ytsurf/history.json
+jq . ~/.cache/ytsurf/history.json
+read . ~/.cache/ytsurf/history.json
+open ~/.cache/ytsurf/history.json
+open ~/.cache/ytsurf/000c285457fc971f862a79b786476c78812c8897063c6fa9c045f579a3b2d63f.json
+fish
+clear
+vim .
+nvim .
+nvim
+starship
+starship completions
+clear
+speedtest 
+starship config
+ls
+clear
+z dotfiles .config
+zoxide init nushell
+source ``
+z dotfiles .config
+z ~/dotfiles .config
+z ~/dotfiles
+clear
+z 
+x ~/dotfiles/
+clear
+mkdir ($nu.data-dir | path join "vendor/autoload")<\n>starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+clear
+nvim greet.nu
+greet.nu
+./greet.nu
+chmod +x greet.nu
+./greet.nu
+greet.nu
+./greet.nu
+greet stan
+clear
+ls
+clear
+z ~/dotfiles
+zoxide query 
+clear
+zi
+source ~/.zoxide.nu
+clear
+z ~/dotfiles
+clear
+cd -
+z dotfiles .config
+z dotfiles 
+z .config
+clear
+source ~/dotfiles/.config/nushell/git_completion.nu
+nvim --oil
+ls
+clear
+paru -S carapace-bin
+## ~/.config/nushell/env.nu<\n>$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir ~/.cache/carapace<\n>carapace _carapace nushell | save --force ~/.cache/carapace/init.nu<\n><\n>#~/.config/nushell/config.nu<\n>source ~/.cache/carapace/init.nu<\n>
+$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
+mkdir ~/.cache/carapace
+carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
+source ~/.cache/carapace/init.nu
+clear
+sl 
+clear
+nvim 
+source ~/dotfiles/.config/nushell/vim.nu
+vim .
+clear
+vim .
+source ~/dotfiles/.config/nushell/weather.nu
+weather
+vim .
+clear
+nu
+sudo pacman -Rdd fish kitty zsh
+clear
+sudo pacman -Rdd yazi
+tldr wine
+wine winecfg
+wine uninstaller<\n>
+sudo pacman -Rdd vim
+clear
+cd ~/.wine/drive_c/Program\ Files/<\n>
+cd ~/.wine/drive_c/Program
+cd ~/.wine/drive_c/
+ls
+z `Program Files/`
+clear
+z `Program Files/`
+nu
+cd `Program Files/`
+ls
+cd `../Program Files (x86)/`
+ls
+rm SafeExamBrowser/
+rm -rf SafeExamBrowser/
+clear
+ls
+cd `Common Files/`
+ls
+cd ../
+ls
+weather
+ls
+cd ..
+ls
+cd users/
+nu
+nvim
+nu
+vim .
+nu
+fish
+z ~/.local/share/applications/wine/
+ls
+cd Programs/
+ls
+rm -rf SafeExamBrowser/ `Rockstar Games/`
+clear
+sudo pacman -Syyu
+clear
+sudo pacman -Rdd sudo
+sudo pacman -Syyu
+sudo pacman -Syyu sudo
+do pacman -Syyu sudo
+sudo-rs pacman -Syyu sudo
+pacman -Sy sudo
+root
+sudo-rs whoami<\n>
+su -
+clear
+sudo pacman -Syyu
+sudo
+sudo-rs pacman -Syyu
+clear
+sudo-rs whoami<\n>
+cat <<EOF > /etc/sudo-rs/config.toml<\n>[users.stan]<\n>allowed = ["ALL"]<\n><\n>[defaults]<\n>preserve_env = true<\n>EOF<\n>
+cat <<EOF > /etc/sudo-rs/config.toml<\n>[users.stan]<\n>allowed = ["ALL"]<\n><\n>[defaults]<\n>preserve_env = true<\n>EOF
+vim /etc/sudo-rs/config/toml
+su -
+sudo-rs
+sudo-rs whoami<\n>
+clear
+su
+sudo whoami
+sudo-rs whoami<\n>
+sudo-rs whoami
+sudo-rs pacman -Syyu
+sudo-rs pacman -Rdd sudo-rs
+sudo pacman -Rdd sudo-rs
+su
+clear
+sudo whoami
+group stan
+su
+sudo whoami
+group stan
+groups stan
+groups root
+whoami
+clear

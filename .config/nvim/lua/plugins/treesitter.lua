@@ -1,14 +1,5 @@
 local config = function()
   require("nvim-treesitter.configs").setup({
-    build = ":TSUpdate",
-    indent = {
-      enable = true,
-    },
-
-    event = {
-      "BufReadPre",
-      "BufNewFile",
-    },
     ensure_installed = {
       "rust",
       "markdown",
@@ -38,7 +29,12 @@ local config = function()
     auto_install = true,
     highlight = {
       enable = true,
-      additional_vim_regex_highlighting = true,
+      -- Remove additional_vim_regex_highlighting or set to false
+      -- This can cause conflicts and the error you're seeing
+      additional_vim_regex_highlighting = false,
+    },
+    indent = {
+      enable = true,
     },
     incremental_selection = {
       enable = true,
@@ -54,6 +50,11 @@ end
 
 return {
   "nvim-treesitter/nvim-treesitter",
+  build = ":TSUpdate", -- Moved here
+  event = {            -- Moved here
+    "BufReadPre",
+    "BufNewFile",
+  },
   lazy = false,
   config = config,
 }

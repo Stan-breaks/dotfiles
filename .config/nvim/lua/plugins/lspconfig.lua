@@ -192,7 +192,11 @@ local config = function()
 
   local luacheck = require("efmls-configs.linters.luacheck")
   local stylua = require("efmls-configs.formatters.stylua")
-  local flake8 = require("efmls-configs.linters.flake8")
+  local flake8 = {
+    lintCommand = "flake8 --ignore=E501 --stdin-display-name ${INPUT} -",
+    lintStdin = true,
+    lintFormats = { "%f:%l:%c: %m" },
+  }
   local black = require("efmls-configs.formatters.black")
   local eslint = require("efmls-configs.linters.eslint_d")
   local prettier_d = require("efmls-configs.formatters.prettier_d")
