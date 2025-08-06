@@ -178,3 +178,147 @@ groups stan
 groups root
 whoami
 clear
+z ~/projects/
+z shellProjects/
+ls
+sudo pacman -Syyu
+sudo cpupower frequency-set -g performance
+sudo cpupower frequency-set -g powersave
+clear
+ls
+clear
+vim .
+z ytsurf/
+clear
+./ytsurf dumbo
+ls
+./ytsurf.sh dumbo
+vim .
+z ~/projects/AUR/
+z ytsurf/
+clear
+vim .
+ls
+upgradepkg
+updpkgsums
+ls
+makepkg --printsrcinfo > .SRCINFO<\n>
+cat .SRCINFO 
+makepkg --printsrcinfo > .SRCINFO<\n>
+makepkg --printsrcinfo | save .SRCINFO
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+cat .SRCINFO 
+clear
+lazygit 
+paru -Syyu
+clear
+ytsurf dumbo
+vim ytsurf/
+z ytsurf/
+ls
+zi ytsurf
+clear
+lazygit 
+clear
+vim .
+which nu
+chsh -s /usr/bin/nu<\n>
+ls /etc/shells
+sudo chsh -s /usr/bin/nu
+vim .
+chsh -s /usr/bin/nu<\n>
+su
+clear
+ls
+chsh -s /usr/bin/nu<\n>
+sudo sh -c 'echo /usr/bin/nu >> /etc/shells'
+chsh -s /usr/bin/nu<\n>
+ls /etc/shells
+z /etc/shells
+cd /etc/shells
+cat /etc/shells
+chsh -s /bin/nu<\n>
+chsh -s /usr/bin/nu<\n>
+sudo chsh -s /usr/bin/nu $USER<\n>
+sudo chsh -s /usr/bin/nu $env.USER<\n>
+getent passwd $env.USER
+grep -i fish ~/.local/share/applications/*.desktop
+vim .
+ls
+clear
+z project
+clear
+nvim
+clear
+weather
+clewar
+clear
+cd ..
+ls
+rm *.mkv
+ls
+rm *.wav
+ls
+rm *.avi
+rm -rf nltk_data/
+rm -rf sddm-astronaut-theme/
+rm -rf spicetify-themes/
+ls hello
+rm -rf hello
+ls
+ls extensions/
+rm -rf extensions/  bug_bounty_event/
+ls mpv/
+mpv "mpv/Production Hell - Heaven's Gate.mp4" 
+rm -rf mpv/
+clear
+ls
+presenterm slides.txt
+clear
+mkdir presenterm
+mv slides.txt presenterm/
+ls presenterm/
+clear
+ls
+ls Templates/
+ls go/
+clear
+cd projects/
+ls
+z -
+ls
+ls leetcode/
+z projects/ work
+z projects/ 
+z work/
+cd ~
+z projects/ work
+clear
+ls
+z afyasoko/
+ls
+clear
+z virtual_doctor_backend/
+z virtual_doctor_frontend/
+cd ..
+z virtual_doctor_backend/
+z app/
+clear
+vim .
+clear
+nu
+nu
+ls
+clear
+use-venv
+python main.py 
+pip install requirements.txt 
+# Check which python and pip are active<\n>which python<\n>which pip
+# Check which python and pip are active<\n>which pytho
+# Check which python and pip are active<\n>which python
+clear
+use-venv
+clear
+use-venv
+which pip
+clear

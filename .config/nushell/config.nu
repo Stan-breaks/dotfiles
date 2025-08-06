@@ -35,4 +35,5 @@ alias sudo = sudo-rs
 source ~/dotfiles/.config/nushell/weather.nu
 source ~/.cache/carapace/init.nu
 source ~/dotfiles/.config/nushell/vim.nu
+source ~/dotfiles/.config/nushell/scripts/use_venv.nu
 source ~/.zoxide.nu
