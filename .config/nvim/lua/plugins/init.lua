@@ -175,8 +175,4 @@ return {
   opts = {},
   event = "BufRead"
 },
-  {
-    'LhKipp/nvim-nu',
-    opts = {}
-  }
 }
