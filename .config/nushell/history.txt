@@ -322,3 +322,130 @@ clear
 use-venv
 which pip
 clear
+lazygit 
+clear
+vim .
+clear
+vim .
+sudo pacman -S python-virtualenv<\n>python -m virtualenv .venv<\n>overlay use .venv/bin/activate.nu
+sudo pacman -S python-virtualenv
+python -m virtualenv .venv
+overlay use .venv/bin/activate.nu
+ls
+ls .venv
+rm -rf .venv/
+clear
+overlay use .venv/bin/activate.nu 
+python -m virtualenv .venv
+overlay use .venv/bin/activate.nu 
+clear
+.venv/bin/python main.py
+clear
+overlay use .venv/bin/activate.nu 
+clear
+python main.py 
+sudo systemctl start mysqld
+vim .
+python main.py 
+note
+z dot
+clear
+z ~/.local/share/bin
+clear
+ls
+vim .
+ghostty +version 
+ghostty --_xdg-terminal-exec fastfetch
+ghostty --_xdg-terminal-exec "fastfetch"
+clear
+ghostty --_xdg-terminal-exec=fastfetch
+ghostty +help 
+testrunner.sh 
+vim .
+wf-recorder 
+mpv recording.mkv 
+rm recording.mkv
+clear
+z bash
+clear
+vim .
+sudo cpupower frequency-set -g performance
+clear
+ffmpeg \<\n>  -f pulse -i default \<\n>  -f x11grab -i :0.0 \<\n>  -video_size 1920x1080 \<\n>  -framerate 30 \<\n>  -c:v libx264 -preset ultrafast \<\n>  output.mp4<\n>
+clear
+sudo cpupower frequency-set -g powersave
+clear
+./record.sh 
+clear
+./record.sh 
+ls
+z ~/Videos/records/
+ls
+mpv video_20250806_214812.mkv 
+mpv audio_20250806_214812.wav 
+./record.sh
+clear
+vim .
+clear
+rm *
+ls
+clear
+vim
+clear
+ps
+clear
+ls
+weather
+clear
+ls
+weather
+bluetui 
+sudo pacman -S chafa
+go install github.com/ashish0kumar/mufetch@latest
+mufetch
+clear
+Z ~
+Z ~/
+z ~
+clear
+git clone https://github.com/ashish0kumar/mufetch.git<\n>cd mufetch/<\n>go build<\n>sudo mv mufetch /usr/local/bin/<\n>mufetch --help
+mufetch
+mufetch search backrooms
+rm /usr/local/bin/mufetch
+sudo rm /usr/local/bin/mufetch
+clear
+ls
+cd ..
+rm -rf mufetch/
+clear
+jj
+sudo pacman -S jj
+cargo install jj
+z ba
+jj log --no-graph | fzf | xargs jj diff
+clear
+note
+sudo cpupower frequency-set -g performance
+sudo pacman -Syyu
+note
+day
+back
+dat
+day
+back
+flow_state 
+clea
+clear
+note
+back
+ghostty +show-face 
+cleaer
+clear
+paru -Syyu
+clear
+back
+paru -Syyu
+z do
+vim
+paru -Syyu
+clear
