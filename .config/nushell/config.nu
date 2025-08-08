@@ -29,6 +29,7 @@ $env.PROMPT_INDICATOR_VI_INSERT = ": "
 $env.PROMPT_INDICATOR_VI_NORMAL = "〉"
 $env.PROMPT_MULTILINE_INDICATOR = "::: "
 $env.config.buffer_editor = "nvim"
+$env.config.edit_mode = 'vi'
 
 alias sudo = sudo-rs
 
