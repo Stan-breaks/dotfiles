@@ -449,3 +449,353 @@ z do
 vim
 paru -Syyu
 clear
+lazygit 
+sl
+ls
+cd books
+clear
+ls
+rm 80K_HOURS_final.pdf
+clear
+ls
+zathura 2209.07663v2.pdf 
+zathura driven_to_distraction.pdf 
+clear
+ls
+zathura toaz.info-the-amateurx27s-mind-jeremy-silman-pr_9dfe802204bf676e28f88beee0e16cc7.pdf 
+rm `Full stack engineer.pdf`
+clear
+ls
+rm 2209.07663v2.pdf
+clear
+ls
+zathura "LGR Cheat Sheet.pdf" 
+z ~
+ls
+cd Videos/
+ls
+mpv 2025-08-08_14-12-04.mkv 
+clear
+zathura driven_to_distraction.pdf 
+clear
+z pr
+ls
+z web
+sudo cpupower frequency-set -g powersave
+clear
+z bas
+clear
+vim nimble.sh
+zi ytsurf
+clear
+vim .
+chmod +x nimble.sh 
+./nimble.sh hello
+./nimble.sh 
+zi ytsurf
+./nimble.sh  init
+./nimble.sh  initi
+./nimble.sh
+./nimble.sh init new
+./nimble.sh init
+sudo pacman -S firefox
+sudo pacman -Rdd firefox
+sudo pacman -S firefox
+sudo pacman -Rdd firefox
+clea
+clear
+vim .
+paru -S davinci-resolve-beta 
+clear
+paru -S davinci-resolve 
+weather
+paru -S davinci-resolve 
+clear
+./nimble.sh init new
+clear
+ls
+./nimble.sh init new
+rm -rf new/
+clear
+./nimble.sh init new
+rm -rf new/
+./nimble.sh init new
+ls
+# Download and install the .pkg.tar.zst package<\n>curl -L -O https://github.com/berbyte/sinkzone/releases/latest/download/sinkzone-linux-amd64.pkg.tar.zst<\n>sudo pacman -U sinkzone-linux-amd64.pkg.tar.zst
+ls
+sudo pacman -U sinkzone-linux-amd64.pkg.tar.zst
+clear
+# AMD64<\n>curl -L -o sinkzone https://github.com/berbyte/sinkzone/releases/latest/download/sinkzone-linux-amd64<\n>chmod +x sinkzone<\n>sudo mv sinkzone /usr/local/bin/
+sinkzone monitor backup.sh
+sinkzone monitor
+sinkzone 
+sinkzone tui
+sinkzone 
+sinkzone resolver
+ls
+rm sinkzone-linux-amd64.pkg.tar.zst
+clear
+sudo rm /usr/local/bin/sinkzone
+clear
+sudo pacman -S sinkzone
+./nimble.sh init new
+ls
+rm new
+ls
+./nimble.sh init
+clear
+./nimble.sh init new
+cd new
+ls
+clear
+cd ../
+rm -rf new/
+clear
+sudo mv nimble.sh /usr/local/bin/nimble
+clear
+nimble init new
+rm -rf new/
+clear
+vim .
+ytsurf don toliver
+sudo apk add procs
+sudo pacman -S procs
+clear
+procs
+sudo pacman -Rdd procs
+sudo pacman -S zellij
+bluetui 
+clear
+clear
+vim .
+clear
+fastfetch
+z game
+ls
+rm -rf `Grand Theft Auto V/`
+rm Read_Me_Instructions.txt
+rm `STEAMRIP » Free Pre-installed Steam Games.url`
+rm _CommonRedist/
+rm -rf _CommonRedist/
+rm greet.nu
+clear
+fastfetch
+z down
+z ~/Downloads/
+ls
+ya
+yazi
+clear
+ls
+rm *iso
+ls
+unzip zig-book-1.2.6.zip 
+ls zig-book-1.2.6/
+rm zig-book-1.2.6.zip
+rm -rf zig-book-1.2.6/
+clear
+ls
+rm -rf stan*
+ls
+rm -rf space-isolation/
+clear
+ls
+fastfetch 
+clear
+fastfetch 
+fastfetch 
+cclear
+clear
+fastfetch 
+vim .
+vim .
+fastfetch 
+vim .
+clear
+vim .
+fastfetch 
+mpv solo.mp4 
+rm solo.mp4
+clear
+tldr hyprctl 
+hyprctl clients
+clear
+ls
+feh unnamed.png
+rm unnamed.png
+feh Untitled.jpg
+rm Untitled.jpg
+feh Untitled.png
+rm Untitled.png
+clear
+ls
+rm signal*
+ls
+rm simon-gurren-laggan_1.gif
+rm report202525230225043.pdf report202553160953002.pdf
+clear
+rm Resonance.zip
+ls
+feh qjh0am8ewj8e1.png
+rm qjh0am8ewj8e1.png
+clear
+ls
+rm project-report-67e39022028f82144c9f8a0b.txt
+rm `Project Presentation Summary.pptx`
+ls
+ls project/
+rm -rf project/
+clear
+ls
+zathura logbook.pdf 
+rm logbook.pdf
+clear
+ls
+fzf
+rm Chat*
+ls
+feh post
+feh post.png
+rm post.png
+clear
+ls
+rm `EXAM PROJECT MGT 201.docx` examcard.pdf
+clear
+ls
+rm What*
+ls
+clear
+rm jpg*
+ls
+rm anu*
+clear
+ls
+rm it-infrastructure-upgrade-gantt.svg
+feh pic
+feh pic.png
+rm pic.png
+clear
+rm *pptx
+ls
+rm intent_to_graduate_form.pdf
+rm Interview.Coder-Windows-1.0.18.exe
+rm go*
+clear
+ls
+feh insta.jpg
+rm inst*
+feh drake-ohhh-3428440137.gif
+rm drake-ohhh-3428440137.gif
+clear
+ls
+mpv hackerthon.mp4 
+rm hackerthon.mp4
+rm gurren-laggan.gif
+clear
+ls
+rm fkkk-paywalls-master.zip
+unrar Factorio-SteamRIP.com.rar
+ls
+fastfetch 
+clear
+clear
+z nim
+z projects work
+z ..
+z webProjects/
+note
+ytsurf don toliver
+cat ~/.ssh/id_ed25519.pub 
+clear
+ssh root@143.110.178.63
+bluetui 
+clear
+sudo pacman -Syyu
+paru -Syyu
+gophertube
+zi ytsurf
+ytsurf no comment
+clear
+z ytsurf
+clear
+z do
+vim .
+vim .
+ytsurf backbencher
+ytsurf --download backbencher
+z down
+clear
+ls
+mpv "TOXIC LYRIKALI - BACKBENCHER (Official Video) [RPIykhz53-E].mp4" 
+clear
+bluetui 
+clear
+ytsurf don toliver
+pnpm run dev
+vim 
+clear
+ls
+clear
+bluetui 
+vim .
+clar
+clear
+mysql -u root -p
+nu
+clear
+nu
+nu
+nu
+cd ../../virtual_doctor_backend/
+clear
+scp .env root@143.110.178.63:/root/<\n>
+z do
+z downl
+ls
+mpv "Count Dankula - ＂Oh no, what happened？ Oh no, how terrible! That's just awful, how terrible oh no!＂ [gPQFF0oqsto].mp4" 
+ssh root@143.110.178.63<\n>
+clear
+ls
+zathura CV.pdf 
+sudo pacman -Syyu
+clear
+paru -S zoom
+clear
+yt-dlp https://www.instagram.com/p/DMuyTi0usyk/
+fzf
+mpv "Video by gothamchess [DMuyTi0usyk].mp4" 
+mpv "Video by visnwave [DKPXTz2oYvr].mp4" 
+ffmpeg -i "Video by gothamchess [DMuyTi0usyk].mp4"  -vf "fps=24" -c:v libx264 -preset fast -crf 23 -c:a copy output.mp4
+sudo pacman -Syyu
+z ../Music/
+clear
+mpv "Kanye West - BULLY V1 [HvQ9oJuQTEk].mp3" 
+bluetui 
+ls
+clear
+bluetui 
+clear
+sudo pacman -Rdd niri
+niri
+clear
+sudo pacman -S niri
+clear
+niri
+clear
+vim .
+which niri
+niri -h
+niri -c
+vim .
+niri -c
+stow . --adopt
+niri -c
+niri --config ~/.config/niri/config.kdl
+niri -c
+niri -h
+niri validate
+niri
+bluetui 
+vim .
+sudo pacman -R niri
+clear

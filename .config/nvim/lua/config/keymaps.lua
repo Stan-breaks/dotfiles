@@ -40,3 +40,6 @@ keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>")
 
 --foldimportToggle
 keymap.set("n", "<leader>i", ":FoldImportsToggle<CR>")
+
+--exit insert mode
+keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true })
