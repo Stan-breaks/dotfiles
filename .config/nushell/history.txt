@@ -799,3 +799,215 @@ bluetui
 vim .
 sudo pacman -R niri
 clear
+hyprctl clients
+clear
+vim .
+hyprctl monitors all
+sudo pacman -Syyu
+nmcli
+clear
+hyprctl clients
+signal-desktop 
+clear
+fastfetch 
+vim 
+clear
+waybar
+vim .
+clear
+clear
+vim .
+mpv "Kanye West - BULLY V1 [HvQ9oJuQTEk].mp3" 
+ls
+mpv "MAFIA (from an Alternate Universe) [bwOaqXe5630].mp3" 
+clear
+hyprctl clients
+clear
+sudo pacman -Syyu
+clear
+htop
+clear
+z ytsurf
+clear
+./ytsurf.sh dumbo
+clear
+./ytsurf.sh dumbo
+./ytsurf.sh dumbo --download
+./ytsurf.sh --download dumbo
+./ytsurf.sh dumbo
+clear
+sudo pacman -Syyu
+clear
+vim .
+clear
+sudo cpupower frequency-set -g powersave
+clear
+kvantummanager 
+dolphin -h
+dolphin --help-all
+wallbash.sh 
+clear
+kvantumpreview 
+kvantummanager 
+vim .
+dolphin
+kvantummanager 
+dolphin
+vim .
+bluetui 
+vim .
+./ytsurf.sh dumbo
+clear
+./ytsurf.sh dumbo
+./ytsurf.sh kadi
+z ytsurf
+clear
+./ytsurf.sh kadi
+clear
+./ytsurf.sh kadi
+./ytsurf.sh dumbo
+clear
+sudo pacman -Syyu
+sudo cpupower frequency-set -g powersave
+htop
+clear
+ssh root@143.110.178.63<\n>
+clear
+git pull
+vim .
+yt-dlp -F https://www.youtube.com/watch?v=U0C1UrO91B8&list=RDU0C1UrO91B8&start_radio=1
+clear
+./ytsurf.sh dumbo
+yt-dlp -F https://www.youtube.com/watch?v=U0C1UrO91B8| .
+yt-dlp -F https://www.youtube.com/watch?v=U0C1UrO91B8
+vim .
+yt-dlp -j --list-formats https://www.youtube.com/watch?v=U0C1UrO91B8
+yt-dlp -j --list-formats https://www.youtube.com/watch?v=U0C1UrO91B8 \<\n>    | from json \<\n>    | get formats \<\n>    | select format_id format note<\n>
+clear
+./ytsurf.sh dumbo
+yt-dlp -j --list-formats https://www.youtube.com/watch?v=U0C1UrO91B8
+yt-dlp -j --list-formats https://www.youtube.com/watch?v=U0C1UrO91B8 .
+clear
+bluetui 
+clear
+vim .
+clear
+venv
+overlay use .venv/bin/activate.nu
+clear
+vim .
+sudo cpupower frequency-set -g powersave
+sudo pacman -Syyu
+ls ~/usb/
+clear
+ssh terminal.shop
+z dot
+vim .
+sudo pacman -Syyu
+clear
+sudo pacman -S rg
+sudo pacman -S ripgrep
+rg hello
+rg b2b
+fd auth
+clear
+rg auth
+clear
+sudo pacman -S gh
+sudo pacman -S github-cli
+cler
+clear
+tldr --update
+tldr gh
+gh issue list
+gh auth login
+gh issue list
+gh repo view
+gh pr status
+tldr gh
+clear
+sudo pacman -S thunar
+thunar
+sudo pacman -S tumbler ffmpegthumbnailer<\n>
+thunar
+sudo pacman -S xdg-utils<\n>
+xdg-mime query filetype myfile.pdf<\n>
+z boo
+xdg-mime query filetype calisthenics.pdf<\n>
+ls /usr/share/applications | grep zathura<\n>
+xdg-mime default org.pwmt.zathura.desktop application/pdf
+clear
+z dow
+xdg-mime query filetype Copilot_20250620_051106.png
+ls /usr/share/applications | grep feh<\n>ls ~/.local/share/applications | grep feh<\n>
+xdg-mime default feh.desktop image/jpeg<\n>xdg-mime default feh.desktop image/jpg<\n>xdg-mime default feh.desktop image/png<\n>xdg-mime default feh.desktop image/gif<\n>xdg-mime default feh.desktop image/webp<\n>
+ps
+clear
+killall mplayer<\n>
+xdg-mime default mpv.desktop audio/mpeg<\n>xdg-mime default mpv.desktop audio/ogg<\n>
+clear
+tiope
+xdg-mime default mpv.desktop audio/mpeg    # MP3<\n>xdg-mime default mpv.desktop audio/ogg<\n>xdg-mime default mpv.desktop audio/flac<\n>xdg-mime default mpv.desktop audio/wav<\n>
+xdg-mime default mpv.desktop video/mp4<\n>xdg-mime default mpv.desktop video/x-matroska   # MKV<\n>xdg-mime default mpv.desktop video/webm<\n>xdg-mime default mpv.desktop video/avi<\n>
+z vid
+mpv 2025-08-08_14-12-04.mkv 
+sudo cpupower frequency-set -g performance
+sudo cpupower frequency-set -g powersave
+clear
+clear
+nimble init vibeConnect
+ls
+z vibe
+z vibeConnect/
+ls
+clear
+cd ..
+rm -rf vibeConnect/
+clear
+nimble init vibeConnect
+clear
+z bash
+ls
+sudo -E nvim /usr/local/bin/nimble
+sudo nvim -E /usr/local/bin/nimble
+sudo -E nvim /usr/local/bin/nimble
+sudo --help
+EDITOR=nvim sudo -e /usr/local/bin/nimble<\n>
+sudo -e nvim /usr/local/bin/nimble<\n>
+sudo /usr/bin/nvim /usr/local/bin/nimble<\n>
+clear
+z dot
+cleaf
+vim .
+sudo-legacy -E nvim /usr/local/bin/nimble
+clear
+bluetui 
+systemctl status bluetooth<\n>
+clear
+reboot
+clear
+hyprctl clients
+clear
+sudo pacman -Rdd dolphin
+clear
+hyprctl clients
+xdg-mime query default x-scheme-handler/terminal<\n>
+ls /usr/share/applications/*terminal*.desktop<\n>
+ls /usr/share/applications/terminal*.desktop<\n>
+ls /usr/share/applications/
+ls /usr/share/applications/gh*
+bash
+clear
+bash
+vim .
+clear
+sudo pacman -S gvfs
+vim .
+clear
+xdg-mime default ghostty.desktop x-scheme-handler/terminal<\n>
+ls  ~/.local/share/applications/
+rm  ~/.local/share/applications/wine-protocol-rockstar.desktop
+sudo cpupower frequency-set -g powersave
+clear
+vim ~/.librewolf/oi28la3r.default-default/chrome/
+clear

@@ -31,6 +31,7 @@ $env.PROMPT_MULTILINE_INDICATOR = "::: "
 $env.config.buffer_editor = "nvim"
 $env.config.edit_mode = 'vi'
 
+alias sudo-legacy = sudo
 alias sudo = sudo-rs
 
 source ~/dotfiles/.config/nushell/weather.nu
