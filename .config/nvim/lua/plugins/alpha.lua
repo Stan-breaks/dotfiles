@@ -30,9 +30,6 @@ local config = function()
 
   -- Absolutely unhinged menu options
   dashboard.section.buttons.val = {
-    dashboard.button("f", "🔥 Find Files (skill issue if you can't)", "<cmd>lua require('fzf-lua').files()<CR>"),
-    dashboard.button("g", "🚀 Live Grep (grep or get rekt)", "<cmd>lua require('fzf-lua').live_grep()<CR>"),
-    dashboard.button("c", "⚙️  Config (tweak till it breaks)", "<cmd>edit $MYVIMRC<CR>"),
     dashboard.button("l", "📦 Lazy (package manager supremacy)", "<cmd>Lazy<CR>"),
     dashboard.button("m", "🔧 Mason (LSP goes brrr)", "<cmd>Mason<CR>"),
     dashboard.button("q", "🚪 Quit (touch grass maybe?)", "<cmd>qa<CR>"),
