@@ -1011,3 +1011,450 @@ sudo cpupower frequency-set -g powersave
 clear
 vim ~/.librewolf/oi28la3r.default-default/chrome/
 clear
+vim .
+vim
+lazygit 
+vim .
+clear
+z ba
+nimble init vibeConnect
+cd vibeConnect/
+ls
+ls .git
+sudo-legacy -E nvim /usr/local/bin/nimble
+cd ..
+rm -rf vibeConnect/
+clear
+nimble init vibeConnect
+rm -rf vibeConnect/
+clear
+z web
+clear
+nimble init vibeConnect
+z vibeConnect/
+clear
+git add .
+git commit -m "init"
+clear
+git remote add origin git@github.com:Midmass/vibeConnect.git
+git push -u origin main
+clear
+just watch 
+bun install
+just watch 
+clear
+onefetch
+vim 
+clear
+sudo pacman -Syyu
+clear
+bluetui 
+systemctl status bluetooth<\n>
+sudo systemctl restart bluetooth<\n>
+bluetui 
+journalctl -u bluetooth -e<\n>
+bluetoothctl list<\n>
+bluetoothctl power on<\n>
+sudo cpupower frequency-set -g powersave
+lsusb | grep -i bluetooth<\n>
+rfkill list<\n>
+lspci -nnk | grep -iA3 bluetooth<\n>
+dmesg | grep -i bluetooth<\n>dmesg | grep -i hci<\n>
+sudo systemctl restart bluetooth<\n>bluetoothctl list<\n>
+lsusb<\n>
+lspci -nnk | grep -iA3 network<\n>
+paru -S rtl8761b-firmware
+sudo systemctl restart bluetooth<\n>bluetoothctl list<\n>
+sudo systemctl stop bluetooth<\n>bluetoothctl list<\n>
+systemctl status bluetooth<\n>
+sudo systemctl stop bluetooth<\n>
+sudo systemctl status bluetooth<\n>
+sudo modprobe -r rtw88_8822ce<\n>sudo modprobe rtw88_8822ce<\n>sudo systemctl restart bluetooth<\n>
+sudo systemctl restart bluetooth<\n>bluetoothctl list<\n>
+lsusb -t<\n>
+sudo systemctl enable bluetooth-reset.service<\n>
+sudo systemctl enable bluetooth.service<\n>sudo systemctl restart bluetooth.service<\n>
+sudo modprobe -r btusb rtw88_8822ce<\n>sudo modprobe rtw88_8822ce btusb<\n>
+lsusb<\n>
+paru -R rtl8761b-firmware
+clear
+sudo pacman -S linux-firmware<\n>sudo reboot<\n>
+sudo cpupower frequency-set -g powersave
+bluetui 
+clewar
+clear
+z dot
+clear
+vim .
+clear
+lazygit 
+clear
+z afy
+clear
+ls
+z bac
+clear
+vim .
+git pull
+git config pull.rebase true
+git pull
+vim .
+git rebase --skip
+clear
+vim .
+clear
+use-venv
+clea
+clear
+overlay use .venv/bin/activate.nu
+clear
+sudo systemctl enable bluetooth.service<\n>sudo systemctl restart bluetooth.service<\n>
+bluetui 
+lsmod
+sudo modprobe -r btusb 
+modprobe -r btusb 
+sudo systemctl status bluetooth.service<\n>
+bluetui 
+sudo systemctl stop bluetooth.service<\n>
+sudo systemctl status bluetooth.service<\n>
+systemctl cat bluetooth.service | rg Restart=<\n>
+systemctl list-dependencies --reverse bluetooth.service<\n>
+sudo systemctl stop bluetooth.service<\n>sudo systemctl disable bluetooth.service<\n>sudo systemctl mask bluetooth.service<\n>
+sudo systemctl status bluetooth.service<\n>
+sudo systemctl disable dbus-org.bluez.service<\n>
+systemctl status bluetooth.service<\n>
+sudo systemctl unmask bluetooth.service<\n>
+systemctl status bluetooth.service<\n>
+sudo systemctl enable bluetooth.service<\n>
+sudo systemctl restart bluetooth.service<\n>
+systemctl status bluetooth.service<\n>
+bluetui 
+sudo systemctl enable --now bluetooth.service
+systemctl status bluetooth.service<\n>
+vim /etc/systemd/system/bluetooth-disable-before-sleep.service
+sudo-legacy -E nvim /etc/systemd/system/bluetooth-disable-before-sleep.service
+/usr/bin/bluetoothctl power off
+/usr/bin/bluetoothctl power on
+sudo pacman -S bluez-utils
+ls /sys/class/bluetooth/
+lsmod
+sudo modprobe btusb 
+lsmod
+sudo modprobe btrtl
+sudo modprobe btintel
+bluetoothctl power on<\n>
+bluetoothctl scan on
+systemctl status bluetooth.service<\n>
+rfkill list
+lsusb | rg bluetooth
+lspci -nnk | grep -iA3 network
+dmesg | grep -i -E 'blue|firmware|hci'
+sudo dmesg | grep -i -E 'blue|firmware|hci'
+# Unload Realtek WiFi/BT driver<\n>sudo modprobe -r rtw88_8822ce btusb btrtl btbcm btintel bluetooth<\n><\n># Reload them<\n>sudo modprobe rtw88_8822ce<\n>sudo modprobe btusb<\n>
+rfkill list
+bluetoothctl list<\n>
+bluetoothctl scan on
+bluetoothctl list<\n>
+cat bluetooth.service<\n>
+cat systemctl bluetooth.service<\n>
+systemctl cat bluetooth.service<\n>
+cat /sys/class/bluetooth/
+ls /sys/class/bluetooth/
+bluetoothctl list<\n>
+sudo cpupower frequency-set -g powersave
+sudo pacman -Syyu
+clear
+flow_state 
+clear
+vim .
+clear
+clear
+z flow
+z proje rustprojects
+z proje 
+cd ..
+z rustProject/
+clear
+z flow_state/
+clear
+vim .
+clear
+sudo cpupower frequency-set -g powersave
+clear
+vim .
+overlay use .venv/bin/activate.nu
+clear
+clear
+vim
+vim .
+vim 
+vim
+day
+clear
+note
+clear
+htop
+vim .
+vim
+vim 
+ytsurf meditation guide
+ytsurf goodful meditations
+clear
+clear
+clear
+clear
+z yt
+clear
+./ytsurf.sh dumbo
+gophertube 
+clear
+./loader.sh
+sudo chmod +x loader.sh
+./loader.sh
+./ytsurf.sh dumbo
+./ytsurf.sh chris
+./ytsurf.sh help me lose my mind
+./ytsurf.sh miami
+./ytsurf.sh town
+vim .
+sudo chmod +x script.sh
+clear
+./script.sh &
+./script.sh
+./script.sh &
+./script.sh "Updating system" sudo pacman -Syu<\n>
+clear
+./ytsurf.sh miami
+./script.sh "Updating system" xh https://github.com/Jacksaur/Gorgeous-GRUB/blob/main/Images/SpaceIsolation.jpg<\n>
+clear
+./script.sh "Downloading image" xh https://raw.githubusercontent.com/Jacksaur/Gorgeous-GRUB/refs/heads/main/Images/SpaceIsolation.jpg
+ls
+clear
+./script.sh "Downloading image" xh https://raw.githubusercontent.com/Jacksaur/Gorgeous-GRUB/refs/heads/main/Images/SpaceIsolation.jpg
+ls
+clear
+./script.sh
+z goph
+z ..
+ls
+z .
+z ..
+ls
+z ..
+ls
+z projects/goProjects/
+ls
+z GopherTube/
+clear
+vim
+clear
+./ytsurf.sh loose change
+./ytsurf.sh bleed
+./ytsurf.sh memories
+./ytsurf.sh no more
+clear
+spinner
+clear
+./ytsurf.sh vim
+clear
+./ytsurf.sh memories
+vim .
+gh release create
+zi ytsurf
+vim .
+updpkgsums
+ls
+makepkg --printsrcinfo > .SRCINFO<\n>
+vim .
+makepkg --printsrcinfo | save .SRCINFO
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+clear
+git add .
+lazygit 
+paru -Syyu
+sudo cpupower frequency-set -g performance
+paru -Syyu
+clear
+paru -Syyu
+ytsurf goodful meditations
+clear
+ytsurf just dance
+ytsurf just dance party of 2
+clear
+clear
+z yt
+clear
+clear
+z bash
+vim .
+ls
+plugin list 
+plugi 
+clear
+cargo install nu_plugin_highlight
+clear
+which nu_plugin_highlight
+plugin add /home/stan/.cargo/bin/nu_plugin_highlight
+clear
+# Highlight a Markdown file by guessing the type from the pipeline metadata<\n>open README.md | highlight<\n><\n># Highlight a TOML file by its file extension<\n>open Cargo.toml -r | echo $in | highlight toml<\n><\n># Highlight a Rust file by programming language name<\n>open src/main.rs | echo $in | highlight Rust<\n><\n># Highlight a bash script by inferring the language (the file should start with a shebang)<\n>open example.sh | echo $in | highlight<\n><\n># Highlight a TOML file with a different theme<\n>open Cargo.toml -r | highlight -t ansi<\n><\n># List all available themes<\n>highlight --list-themes
+highlight 
+nu-highlight 
+clear
+plugin list
+plugin use highlight
+clear
+plugi 
+clear
+cat day.sh 
+bat day.sh 
+clear
+plugin list 
+highlight 
+highlight  string
+clear
+open launchGTAV.sh | highlight 
+open record.sh | highlight 
+clear
+highlight  --list-themes 
+highlight --theme gruvbox-dark
+highlight --theme gruvbox (Dark)
+highlight --theme gruvbox(Dark)
+highlight  --help 
+open book.sh
+open launchGTAV.sh | highlight 
+open record.sh | highlight -t gruvbox-dark
+clear
+vim .
+ls | sort-by name
+ls | sort-by size
+ls
+clear
+ls | reverse
+ls | where size ?70kb
+ls | where size > 70kb
+ls | where size > 70b
+clear
+ls | where type == Directory
+ls | where type != Directory
+ls | where size == 122B | open $in | highlight --theme gruvbox-dark
+ls | where size == 122B | open $in ~ | highlight --theme gruvbox-dark
+ls | where size == 122B |get name |open $in ~ | highlight --theme gruvbox-dark
+ls | where size == 122B |get name |open $in | highlight --theme gruvbox-dark
+ls | where size == 122B |get name
+ls | where size == 122B |get name |open $in | highlight --theme gruvbox-dark
+ls | where size == 122B |get name |cat $in
+ls | where size == 122B |get name |open ...$in | highlight --theme gruvbox-dark
+clear
+htop
+clear
+ps | where status == Running
+ps | where cpu > 0.0
+ps | where cpu > 0.0 and status == Running
+clear
+help ls
+cd ..
+ls -f 
+z ba
+clear
+help ls
+help
+help -f filesize
+clear
+help -f filesize
+clear
+help glob
+glob *.sh
+fd *.sh
+help fd
+clear
+tldr fd
+fd "*.sh"
+fd ".sh"
+clear
+curl -s https://api.github.com/repos/nushell/nushell/contributors | jq -c '.[] | {login,contributions}'
+http get https://api.github.com/repos/nushell/nushell/contributors | select login contributions
+clear
+"hello"|save out.txt|open out.txt|highlight -t gruvbox-dark 
+ls
+rm out.txt
+clear
+4 > 10
+echo "Hello, World"
+clear
+"Hello, World" == (echo "Hello, World")
+40; 50; 60
+[[framework, language]; [Django, Python] [Laravel, PHP]]
+[{name: 'Robert' age: 34 position: 'Designer'}<\n> {name: 'Margaret' age: 30 position: 'Software Developer'}<\n> {name: 'Natalie' age: 50 position: 'Accountant'}<\n>] | select name position
+ls | rofi $in
+ls | rofi ...$in
+ls |get name|rofi ...$in
+tldr rofi
+ls |get name|rofi -dmenu
+ls |get name
+ls |get name|each 
+ls |get name|each {elt}
+ls |get name|each {elt.item}
+ls |get name|each {|elt| $"elt.item"}
+ls |get name|each {|elt| $"(elt.item)"}
+ls |get name|each {|elt| $"(elt)"}
+ls |get name|each { |elt| $"(elt)" }
+ls |get name|each { |elt| elt }
+ls |get name|each { elt }
+ls | get name | str join (char nl) | rofi -dmenu<\n>
+ls | get name | str join (char nl) 
+ls | get name | str camel-case
+ls | get name | str join 
+ls | get name | str join (char nl) 
+ls | get name | str join (char nl) | rofi -dmenu<\n>
+clear
+book
+tldr rofi
+vim
+book
+z books
+ls
+clear
+vim .
+bash
+htop
+z dot
+book
+nu --commands book
+nu -c
+nu -c "fastfetch "
+htop
+nu -c "book"
+nu -e "book"
+ghostty +show-face 
+fd 
+clear
+sudo chmod +x book.sh
+./book.sh
+sudo mv book.sh /usr/local/bin/book
+vim .
+nu
+nu
+which nu
+sudo-legacy -E nvim /usr/local/bin/book 
+z bash
+cd ..
+mkdir nuScripts
+cd nuScripts/
+vim book
+./book
+ls
+sudo chmod +x book
+./book
+vim book
+./book
+sudo mv book /usr/local/bin/book
+clear
+gh repo new 
+git init
+sudo cp /usr/local/bin/book book
+ls
+git remote add origin git@github.com:Stan-breaks/nuScripts.git
+git add .
+git commit -m "bookscript"
+git push -u origin main
+clear
