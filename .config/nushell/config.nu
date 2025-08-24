@@ -38,4 +38,3 @@ source ~/dotfiles/.config/nushell/weather.nu
 source ~/.cache/carapace/init.nu
 source ~/dotfiles/.config/nushell/vim.nu
 source ~/.zoxide.nu
-source ~/dotfiles/.config/nushell/book.nu

@@ -1458,3 +1458,412 @@ git add .
 git commit -m "bookscript"
 git push -u origin main
 clear
+vim .
+z bo
+clear
+ls
+rm Cover_Letter_Microsoft_Stanley_Mwendwa.pdf
+mv lilianResume.pdf ~/Documents/lillianResume.pdf
+clear
+onefetch
+z nu
+onefetch
+vim book
+clear
+z nu
+onefetch
+opencode 
+clear
+z ba
+onefetch
+z flo
+onefetch
+clear
+vim .
+book
+clear
+book
+clear
+bluetui
+sudo pacman -Syyu
+bluetui
+sudo cpupower frequency-set -g powersave
+reboot
+clear
+vim .
+overlay use .venv/bin/activate.nu
+clear
+clear
+sudo pacman -Syyu
+weather
+clear
+sudo cpupower frequency-set -g powersave
+clea
+clear
+vim .
+tiope
+toipe
+clea
+vim .
+clear
+gh pr new 
+vim
+vim .
+sudo pacman -S aerc
+clear
+aerc 
+tldr --update
+tldr aerc
+aerc -h
+aerc -c
+aerc -C
+aerc -A
+aerc -a
+sudo pacman -Rdd aerc
+fastfetch 
+tiope
+toipe
+clear
+sudo pacman -S aerc
+aerc 
+clea
+clear
+z ~/.config
+vim .
+aerc 
+sudo pacman -Rdd aerc
+clear
+vim
+clear
+weather
+http get https://api.github.com/repos/nushell/nushell/contributors 
+clear
+sudo pacman -Syyu
+sudo pacman -S aerc
+z ~/.config
+vim .
+aerc 
+python main.py 
+overlay use .venv/bin/activate.nu
+python main.py 
+wiki
+wiki-tui 
+ls
+vim .
+wiki-tui 
+wiki-tui  -h
+wiki-tui  --config-path wiki-tui/config.toml
+wiki-tui  -h
+cargo update 
+cargo install cargo-update<\n>
+cargo install-update -a<\n>
+sudo pacman -Rdd wiki-tui
+cargo install wiki-tui
+sudo pacman -S wiki-tui
+wiki-tui 
+wiki-tui  --config-path wiki-tui/config.toml
+ls wiki-tui/
+sudo cpupower frequency-set -g powersave
+clear
+aerc
+wiki-tui
+clear
+aerc
+clear
+pacman -Qi wiki-tui<\n>
+wiki-tui "rust programming language"<\n>
+http get https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=rust&format=json<\n>
+clear
+http get https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=rust&format=json<\n>
+clear
+pacman -Qi wiki-tui | grep Version<\n>
+RUST_LOG=debug wiki-tui "rust" 2>&1 | tee wiki-tui.log<\n>
+RUST_LOG=debug ^wiki-tui "rust"<\n>
+ls
+rm yazi
+clear
+ls
+rm dolphinrc fish
+clear
+ls
+mangohud 
+clear
+wiki-tui -l english
+wiki-tui -h
+wiki-tui --cache-dir
+ls wiki-tui --cache-dir
+wiki-tui --cache-dir | ls ...$in
+wiki-tui --cache-dir | ls $in
+wiki-tui --cache-dir | ls $in |open ...$in | highlight 
+wiki-tui --cache-dir | ls $in|get name |open ...$in | highlight 
+http get "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=hello&format=json"<\n>
+http get "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&srsearch=hello&srlimit=10&srqiprofile=engine_autoselect&srwhat=text&srinfo=rewrittenquery|suggestion|totalhits&srenablerewrites=false&srsort=relevance" --user-agent ""<\n>
+http get "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&list=search&srsearch=hello&srlimit=10&srqiprofile=engine_autoselect&srwhat=text&srinfo=rewrittenquery|suggestion|totalhits&srenablerewrites=false&srsort=relevance" <\n>
+clear
+wiki-tui -v
+wiki-tui --v
+wiki-tui --version
+fastfetch 
+wiki-tui --cache-dir | ls $in|get name |open ...$in | highlight 
+clar
+clear
+ytsurf just dance party of 2
+clear
+z yt
+sudo-legacy -E nvim /usr/local/bin/book 
+z bo
+chafa calisthenics.pdf
+pdftoppm -png -singlefile calisthenics.pdf preview<\n>chafa preview.png<\n>
+clear
+z bo
+pdftoppm -png -singlefile calisthenics.pdf preview<\n>chafa preview.png<\n>
+ls
+rm preview.png
+clear
+book
+clear
+book
+ls /tmp/*png
+ls | where name =~ '/tmp/*png$'
+ls | where name =~ '\.png$'
+rm `Crafting Interpreters Robert Nystrom.pdf.png`
+ls
+rm `Crafting Interpreters Robert Nystrom.pdf.png`
+ls
+rm `Crafting Interpreters Robert Nystrom.png`
+rm `Crafting Interpreters Robert Nystrom.ppm`
+clear
+book
+ls
+chafa `Crafting Interpreters Robert Nystrom.png`
+clear
+rm `Crafting Interpreters Robert Nystrom.png`
+clear
+book
+ls
+rm `Crafting Interpreters Robert Nystrom.png`
+clear
+ls /tmp/| where name =~ '\.png$'
+ls /tmp/ | where name =~ '\.png$'
+ls /tmp/ | where name =~ '\.log$'
+ls /tmp/ | where name =~ '\.txt$'
+ls /tmp.
+ls /tmp/
+ls /tmp/ | where name =~ '\.eml$'
+touch /tmp/eg.txt
+ls /tmp/ | where name =~ '\.txt$'
+rm /tmp/eg.txt
+clear
+book
+ls /tmp/ | where name =~ '\.png$'
+rm `/tmp/Crafting Interpreters Robert Nystrom.png.png`
+clear
+book
+lobster --rofi
+lobster --rofi -i
+sudo-legacy -E nvim /usr/bin/lobster 
+book
+ls /tmp/ | where name =~ '\.png$'
+clear
+book
+help path
+path exists `Crafting Interpreters Robert Nystrom.pdf`
+path `Crafting Interpreters Robert Nystrom.pdf`
+path exists calisthenics.pdf
+`Crafting Interpreters Robert Nystrom.pdf` | path exists
+path exists calisthenics.pdf
+path exists
+pwd| path exists
+claer
+clear
+book
+/tmp/calisthenics.png | path exists
+pwd
+"/tmp/calisthenics.png" | path exists
+"/tmp/calisthenics.pn" | path exists
+book
+clear
+book
+--help
+help
+help if
+book
+clear
+book
+clear
+clear
+book
+clear
+rofi -h
+book
+tiope
+toipe
+help char
+char --list
+clear
+book
+clear
+vim aerc/aerc.conf
+clear
+sudo pacman -Syyu
+clear
+sudo pacman -Syyu
+clear
+sudo pacman -Syyu
+clear
+sudo-legacy -E nvim /usr/local/bin/jerry 
+clear
+help char
+char --list
+book
+sudo pacman -Syyu
+clear
+clear
+sudo pacman -Syyu
+book
+clear
+book
+clear
+z nu
+clear
+sudo cp /usr/local/bin/book book
+clear
+ls
+mv book book.nu
+clear
+vim book.nu
+sudo rm /usr/local/bin/book
+sudo ln -s book.nu /usr/local/bin/book
+clear
+book
+ls
+clear
+book
+cat /usr/local/bin/book 
+sudo ln -s book.nu /usr/local/bin/book
+sudo rm /usr/local/bin/book
+sudo ln -s /home/stan/nuScripts/book.nu /usr/local/bin/book
+book
+clear
+sudo-legacy -E nvim /usr/local/bin/book 
+bluetui
+^book 
+clear
+sudo pacman -Syyu
+clear
+vim book.nu
+clear
+nu
+z nu
+sudo pacman -Syyu
+./ytsurf.sh --rofi
+ls
+./ytsurf.sh --rofi dumbo
+clear
+./ytsurf.sh --rofi dumbo
+jq . ~/.cache/ytsurf/history.json
+jq .title ~/.cache/ytsurf/history.json
+jq '[].title' ~/.cache/ytsurf/history.json
+jq '[title]' ~/.cache/ytsurf/history.json
+jq 'title' ~/.cache/ytsurf/history.json
+jq '.title' ~/.cache/ytsurf/history.json
+clea
+clear
+sudo pacman -Syyu
+aerc
+wiki-tui 
+weather
+sudo cpupower frequency-set -g powersave
+sudo pacman -Syyu
+paru -S bongocat
+bongocat --watch-config
+paru -Rdd bongocat
+clear
+clear
+clear
+clear
+vim
+clear
+sudo pacman -Syyu
+clear
+jq -r '.title' ~/.cache/ytsurf/history.json
+jq -r '[].title' ~/.cache/ytsurf/history.json
+jq -r 'title' ~/.cache/ytsurf/history.json
+jq -r '.title' ~/.cache/ytsurf/history.json
+jq . ~/.cache/ytsurf/history.json
+jq ."title" ~/.cache/ytsurf/history.json
+jq -r ."title" ~/.cache/ytsurf/history.json
+jq -r "title" ~/.cache/ytsurf/history.json
+tldr jq
+jq '[]' ~/.cache/ytsurf/history.json
+cat ~/.cache/ytsurf/history.json | jq '[]'
+cat ~/.cache/ytsurf/history.json | jq '.[]'
+jq '.[]' ~/.cache/ytsurf/history.json
+tldr jq
+jq '.[title]' ~/.cache/ytsurf/history.json
+cat ~/.cache/ytsurf/history.json | jq '.[title]'
+jq '.["title"]' ~/.cache/ytsurf/history.json
+jq '.[]' ~/.cache/ytsurf/history.json
+jq '.["title"]' ~/.cache/ytsurf/history.json
+clear
+jq '.[].title' ~/.cache/ytsurf/history.json<\n>
+cat ~/.cache/ytsurf/history.json 
+jq -c '.[]' ~/.cache/ytsurf/history.json | while read -r item; do<\n>    title=$(jq -r '.title' <<< "$item")<\n>    id=$(jq -r '.id' <<< "$item")<\n>    echo "▶ $title ($id)"<\n>done<\n>
+vim loop.sh
+which sh
+clear
+sudo chmod +x loop.sh
+./loop.sh
+clear
+rm loop.sh
+clear
+./ytsurf.sh --rofi dumbo
+clear
+./ytsurf.sh --rofi dumbo
+clear
+./ytsurf.sh --rofi dumbo
+clear
+./ytsurf.sh --rofi dumbo
+./loop.sh
+sudo chmod +x loop.sh
+./loop.sh
+clear
+tldr jq
+jq -h
+./loop.sh
+clear
+./loop.sh
+clear
+./loop.sh
+./ytsurf.sh --rofi dumbo
+^ls
+clear
+ls
+clear
+./loop.sh
+./ytsurf.sh --rofi dumbo
+clear
+./ytsurf.sh --rofi dumbo
+clear
+./loop.sh "Downloading" curl https://api.github.com/repos/nushell/nushell/contributors 
+clear
+vim .
+./ytsurf.sh rihanna
+./ytsurf.sh man
+clear
+gh release create 
+zi ytsurf
+clear
+vim .
+updpkgsums
+makepkg --printsrcinfo | save .SRCINFO
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+clear
+lazygit 
+clear
+paru -Syyu
+clear
+ytsurf --rofi
+clea
+clear
+z dot
