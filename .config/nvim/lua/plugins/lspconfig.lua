@@ -21,9 +21,7 @@ local config = function()
     update_in_insert = false,
     severity_sort = true,
   })
-
-  local capabilities = vim.lsp.protocol.make_client_capabilities()
-  capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
+  local capabilities = require('blink.cmp').get_lsp_capabilities()
 
   -- lua
   lspconfig.lua_ls.setup({
@@ -167,6 +165,7 @@ local config = function()
   lspconfig.templ.setup({
     capabilities = capabilities,
     on_attach = on_attach,
+    filetypes = { "templ" },
   })
 
   --htmx
