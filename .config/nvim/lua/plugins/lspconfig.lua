@@ -1,7 +1,5 @@
 ---@diagnostic disable: missing-fields
 
-local on_attach = require("util.lsp").on_attach
-
 local config = function()
   require("neoconf").setup({})
 
@@ -21,12 +19,12 @@ local config = function()
     update_in_insert = false,
     severity_sort = true,
   })
-  local capabilities = require('blink.cmp').get_lsp_capabilities()
+  local capabilities = vim.lsp.protocol.make_client_capabilities()
+  capabilities = vim.tbl_deep_extend("force", capabilities, require('blink.cmp').get_lsp_capabilities())
 
   -- lua
   lspconfig.lua_ls.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
     settings = { -- custom settings for lua
       Lua = {
         diagnostics = {
@@ -45,49 +43,22 @@ local config = function()
   --rust
   lspconfig.rust_analyzer.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "rust", },
-    settings = {
-      rust = {
-        analyzer = {
-          cargo = true,
-          clippy = true,
-        },
-        completion = {
-          workspace = {
-            crates = true,
-            dependencies = true,
-          },
-        },
-      },
-    },
   })
 
   -- json
   lspconfig.jsonls.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "json", "jsonc" },
   })
 
   -- python
   lspconfig.pyright.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = {
-      "python",
-    }
   })
 
   -- typescript
   lspconfig.ts_ls.setup({
-    on_attach = on_attach,
     capabilities = capabilities,
     filetypes = {
-      "typescript",
-      "typescriptreact",
-      "javascriptreact",
-      "javascript",
       "templ",
     },
     root_dir = lspconfig.util.root_pattern("package.json", "tsconfig.json", ".git"),
@@ -96,37 +67,16 @@ local config = function()
   -- bash
   lspconfig.bashls.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "sh", "aliasrc" },
-  })
-
-  -- typescriptreact, javascriptreact, css, sass, scss, less, svelte, vue
-  lspconfig.emmet_ls.setup({
-    capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = {
-      "typescriptreact",
-      "javascriptreact",
-      "css",
-      "sass",
-      "scss",
-      "less",
-      "svelte",
-      "vue",
-    },
   })
 
   -- docker
   lspconfig.dockerls.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "docker" }
   })
 
   -- C/C++
   lspconfig.clangd.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
     cmd = {
       "clangd",
       "--offset-encoding=utf-16",
@@ -136,15 +86,11 @@ local config = function()
   --php
   lspconfig.intelephense.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "php" },
   })
 
   --go
   lspconfig.gopls.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "go", "gomod", "gotmpl", "gowork" },
     settings = {
       gopls = {
         analyses = {
@@ -157,116 +103,12 @@ local config = function()
   --zig
   lspconfig.zls.setup({
     capabilities = capabilities,
-    on_attach = on_attach,
     filetypes = { "zig" },
   })
 
-  --templ
-  lspconfig.templ.setup({
-    capabilities = capabilities,
-    on_attach = on_attach,
-    filetypes = { "templ" },
-  })
-
-  --htmx
+   --htmx
   lspconfig.htmx.setup({
-    on_attach = on_attach,
     capabilities = capabilities,
-    filetypes = { "html", "templ" },
-  })
-
-  --html
-  lspconfig.html.setup({
-    on_attach = on_attach,
-    capabilities = capabilities,
-    filetypes = { "html", "templ" },
-  })
-
-  --tailwind
-  lspconfig.tailwindcss.setup({
-    filetypes = { "templ", "html" }
-  })
-
-
-
-  local luacheck = require("efmls-configs.linters.luacheck")
-  local stylua = require("efmls-configs.formatters.stylua")
-  local flake8 = {
-    lintCommand = "flake8 --ignore=E501 --stdin-display-name ${INPUT} -",
-    lintStdin = true,
-    lintFormats = { "%f:%l:%c: %m" },
-  }
-  local black = require("efmls-configs.formatters.black")
-  local eslint = require("efmls-configs.linters.eslint_d")
-  local prettier_d = require("efmls-configs.formatters.prettier_d")
-  local fixjson = require("efmls-configs.formatters.fixjson")
-  local shellcheck = require("efmls-configs.linters.shellcheck")
-  local shfmt = require("efmls-configs.formatters.shfmt")
-  local hadolint = require("efmls-configs.linters.hadolint")
-  local cpplint = require("efmls-configs.linters.cpplint")
-  local clangformat = require("efmls-configs.formatters.clang_format")
-  local rustfmt = require("efmls-configs.formatters.rustfmt")
-  local golangci_lint = require("efmls-configs.linters.golangci_lint")
-  local gofumpt = require("efmls-configs.formatters.gofumpt")
-  local google_java_format = require("efmls-configs.formatters.google_java_format")
-
-  -- configure efm server
-  lspconfig.efm.setup({
-    filetypes = {
-      "lua",
-      "python",
-      "json",
-      "jsonc",
-      "sh",
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "svelte",
-      "vue",
-      "markdown",
-      "docker",
-      "html",
-      "css",
-      "c",
-      "cpp",
-      "rust",
-      "go",
-      "java",
-      "zig",
-    },
-    init_options = {
-      documentFormatting = true,
-      documentRangeFormatting = true,
-      hover = true,
-      documentSymbol = true,
-      codeAction = true,
-      completion = true,
-    },
-    settings = {
-      languages = {
-        lua = { luacheck, stylua },
-        python = { flake8, black },
-        typescript = { eslint, prettier_d },
-        json = { eslint, fixjson },
-        jsonc = { eslint, fixjson },
-        sh = { shellcheck, shfmt },
-        javascript = { eslint, prettier_d },
-        javascriptreact = { eslint, prettier_d },
-        typescriptreact = { eslint, prettier_d },
-        svelte = { eslint, prettier_d },
-        vue = { eslint, prettier_d },
-        markdown = { prettier_d },
-        docker = { hadolint, prettier_d },
-        html = { prettier_d },
-        css = { prettier_d },
-        c = { clangformat, cpplint },
-        cpp = { clangformat, cpplint },
-        rust = { rustfmt },
-        go = { golangci_lint, gofumpt },
-        java = { google_java_format },
-      },
-    },
   })
 end
 
@@ -277,9 +119,5 @@ return {
   dependencies = {
     "windwp/nvim-autopairs",
     "williamboman/mason.nvim",
-    "creativenull/efmls-configs-nvim",
-    "hrsh7th/nvim-cmp",
-    "hrsh7th/cmp-buffer",
-    "hrsh7th/cmp-nvim-lsp",
   },
 }

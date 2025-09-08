@@ -18,29 +18,31 @@ keymap.set("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opts) -- Navigate Up
 keymap.set("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opts) -- Navigate Right
 
 -- widow Management
-keymap.set("n", "<leader>sv", ":vsplit<CR>", opts)          -- Split vertically
-keymap.set("n", "<leader>sh", ":split<CR>", opts)           -- Split Horizontally
-keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>", opts) -- Toggle Minimize
+keymap.set("n", "<leader>sv", ":vsplit<CR>", opts) -- Split vertically
+keymap.set("n", "<leader>sh", ":split<CR>", opts)  -- Split Horizontally
 
 --comments
-vim.api.nvim_set_keymap("n", "<C-_>", "gcc", { noremap = false })
-vim.api.nvim_set_keymap("v", "<C-_>", "gcc", { noremap = false })
+keymap.set("n", "<C-_>", "gcc", { noremap = false }) --comment block normal
+keymap.set("v", "<C-_>", "gcc", { noremap = false }) --comment block visual
 
 --noice
-keymap.set("n", "<leader>uh", ":NoiceHistory<CR>")
-keymap.set("n", "<leader>un", ":NoiceDismiss<CR>")
-
---gitBlame
-keymap.set("n", "<leader>bl", ":BlameToggle<CR>")
+keymap.set("n", "<leader>uh", ":NoiceHistory<CR>") -- Notification History
+keymap.set("n", "<leader>un", ":NoiceDismiss<CR>") -- Notification Dismiss
 
 --fzf
-keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>")
-keymap.set("n", "<leader>fg", ":lua require('fzf-lua').live_grep()<CR>")
-keymap.set("n", "<leader>fq", ":lua require('fzf-lua').quickfix()<CR>")
-keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>")
+keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>")     -- Find files
+keymap.set("n", "<leader>fg", ":lua require('fzf-lua').live_grep()<CR>") -- Live grep
+keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>")   -- Find buffers
 
 --foldimportToggle
-keymap.set("n", "<leader>i", ":FoldImportsToggle<CR>")
+keymap.set("n", "<leader>i", ":FoldImportsToggle<CR>") -- Fold imports toggle
 
 --exit insert mode
 keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true })
+
+--Lspsaga
+keymap.set("n", "<leader>gD", "<cmd>Lspsaga goto_definition<CR>", opts) -- go to definition
+keymap.set("n", "S", "<cmd>Lspsaga show_line_diagnostics<CR>", opts)    -- show line diagnostics
+keymap.set("n", "<leader>fe", "<cmd>Lspsaga finder<CR>", opts)          -- find errors
+keymap.set("n", "<leader>ca", "<cmd>Lspsaga code_action<CR>", opts)     -- see available code actions
+keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>", opts)                -- show documentation for what is under cursor

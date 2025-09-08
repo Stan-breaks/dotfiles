@@ -20,42 +20,12 @@ local config = function()
       "pyright",
       "ts_ls",
       "bashls",
-      "emmet_ls",
       "dockerls",
       "clangd",
       "intelephense",
       "gopls",
       "jdtls",
       "zls",
-      "htmx",
-      "tailwindcss",
-      "templ",
-      "html",
-    },
-  })
-
-  -- Ensure formatters and linters are installed
-  require("mason-null-ls").setup({
-    automatic_installation = true,
-    ensure_installed = {
-      -- Formatters
-      "stylua",
-      "black",
-      "prettier",
-      "fixjson",
-      "shfmt",
-      "clang-format",
-      "gofumpt",
-      "google-java-format",
-
-      -- Linters
-      "luacheck",
-      "flake8",
-      "eslint_d",
-      "shellcheck",
-      "hadolint",
-      "cpplint",
-      "golangci-lint",
     },
   })
 end
