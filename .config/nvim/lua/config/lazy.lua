@@ -31,5 +31,4 @@ vim.o.background = "dark"
 vim.cmd([[colorscheme gruvbox]])
 vim.lsp.set_log_level("warn")
 
-require("config.lazygit")
 require("config.noice")
