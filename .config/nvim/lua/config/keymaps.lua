@@ -1,6 +1,5 @@
 local keymap = vim.keymap
 
-
 local opts = { noremap = true, silent = true }
 
 --Directory Navigation
@@ -22,8 +21,8 @@ keymap.set("n", "<leader>uh", ":NoiceHistory<CR>", opts) -- Notification History
 keymap.set("n", "<leader>un", ":NoiceDismiss<CR>", opts) -- Notification Dismiss
 
 --fzf
-keymap.set("n", "<leader>ff", require('fzf-lua').files, opts)   -- Find files
-keymap.set("n", "<leader>fb", require('fzf-lua').buffer, opts) -- Find buffers
+keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>", opts)   -- Find files
+keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffer()<CR>", opts) -- Find buffers
 
 --foldimportToggle
 keymap.set("n", "<leader>i", ":FoldImportsToggle<CR>", opts) -- Fold imports toggle
@@ -34,6 +33,7 @@ keymap.set("i", "jj", "<Esc>", opts)
 --Lsp
 keymap.set("n", "<leader>lf", vim.lsp.buf.format, opts)     --formating file
 keymap.set("n", "<leader>gD", vim.lsp.buf.definition, opts) -- go to definition
+keymap.set("n","D",vim.diagnostic.open_float,opts)
 keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts) -- see available code actions
 keymap.set("n", "K", vim.lsp.buf.hover, opts)              -- show documentation for what is under cursor
 
