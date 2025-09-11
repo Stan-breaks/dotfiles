@@ -13,6 +13,8 @@ opt.relativenumber = true
 opt.number = true
 opt.signcolumn = "yes"
 opt.cmdheight = 1
+opt.winborder = "rounded"
+
 
 -- Behavior --------------------------------------
 opt.swapfile = false
