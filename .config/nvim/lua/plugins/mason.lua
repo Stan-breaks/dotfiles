@@ -35,8 +35,6 @@ return {
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
-    "jay-babu/mason-null-ls.nvim",
-    "nvimtools/none-ls.nvim",
   },
   config = config,
 }

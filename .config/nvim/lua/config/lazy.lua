@@ -14,6 +14,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   end
 end
 vim.opt.rtp:prepend(lazypath)
+vim.cmd(":hi statusline guibg=NONE")
 
 require("config.globals")
 require("config.options")
@@ -28,7 +29,7 @@ require("lazy").setup({
   checker = { enabled = false },
 })
 vim.o.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd("colorscheme gruvbox")
 vim.lsp.set_log_level("warn")
 
 require("config.noice")

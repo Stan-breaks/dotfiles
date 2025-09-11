@@ -1,7 +1,6 @@
 ---@diagnostic disable: missing-fields
 
 local config = function()
-  require("neoconf").setup({})
 
   local lspconfig = require("lspconfig")
 

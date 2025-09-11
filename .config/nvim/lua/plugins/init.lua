@@ -1,40 +1,4 @@
 return {
-  --vim tmux
-  {
-    "christoomey/vim-tmux-navigator",
-    cmd = {
-      "TmuxNavigateLeft",
-      "TmuxNavigateDown",
-      "TmuxNavigateUp",
-      "TmuxNavigateRight",
-      "TmuxNavigatePrevious",
-      "TmuxNavigatorProcessList",
-    },
-    keys = {
-      { "<c-h>",  "<cmd><C-U>TmuxNavigateLeft<cr>" },
-      { "<c-j>",  "<cmd><C-U>TmuxNavigateDown<cr>" },
-      { "<c-k>",  "<cmd><C-U>TmuxNavigateUp<cr>" },
-      { "<c-l>",  "<cmd><C-U>TmuxNavigateRight<cr>" },
-      { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
-    },
-    event = "VeryLazy"
-  },
-  --which key
-  {
-    "folke/which-key.nvim",
-    event = "VeryLazy",
-    opts = {
-    },
-    keys = {
-      {
-        "<leader>?",
-        function()
-          require("which-key").show({ global = false })
-        end,
-        desc = "Buffer Local Keymaps (which-key)",
-      },
-    },
-  },
   -- gitsigns
   {
     "lewis6991/gitsigns.nvim",
@@ -68,7 +32,15 @@ return {
     "ibhagwan/fzf-lua",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     lazy = true,
-    opts = {}
+    opts = {
+    winopts = {
+    height = 0.3,          -- 30% of screen
+    width = 0.5,           -- 50% of screen
+    preview = {
+      hidden = 'hidden',   -- completely disable preview window
+    },
+  }
+    }
   },
   --oil
   {
@@ -103,38 +75,6 @@ return {
       },
     }
   },
-  --lspsaga
-  {
-    "nvimdev/lspsaga.nvim",
-    dependencies = {
-      "nvim-treesitter/nvim-treesitter",
-      "nvim-tree/nvim-web-devicons",
-    },
-    config = function()
-      require("lspsaga").setup({})
-    end,
-    event = "LspAttach",
-  },
-  --lazydev
-  {
-    "folke/lazydev.nvim",
-    ft = "lua", -- only load on lua files
-    opts = {
-      library = {
-        { path = "${3rd}/luv/library", words = { "vim%.uv" } },
-      },
-    },
-  },
-  --neoconf
-  {
-    "folke/neoconf.nvim",
-    cmd = "Neoconf"
-  },
-  --comment
-  {
-    "numToStr/Comment.nvim",
-    event = "VeryLazy",
-  },
   -- harpoon
   {
     "ThePrimeagen/harpoon",
@@ -147,32 +87,35 @@ return {
     },
     event = "VeryLazy"
   },
-  --indent
-  {
-    "lukas-reineke/indent-blankline.nvim",
-    main = "ibl",
-    lazy = false,
-    opts = {},
-  },
-  --highlight yank
-  { "machakann/vim-highlightedyank", lazy = false },
   --gruvbox theme
   {
     "ellisonleao/gruvbox.nvim",
     priority = 1000,
     config = true,
     opts = ...
-  }, {
-  "LunarVim/bigfile.nvim",
-  event = "BufReadPre",
-  opts = {}
-}, {
+  }, 
+  --fold-imports
+  {
   "dmtrKovalenko/fold-imports.nvim",
   opts = {},
   event = "BufRead"
-},
-  {
-    'stevearc/conform.nvim',
-    opts = {},
-  },
+ },
+--autotag
+{
+  "windwp/nvim-ts-autotag",
+  event = "VeryLazy",
+  config = function()
+  require("nvim-ts-autotag").setup({
+    filetypes = {
+      "html",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "htmx",
+      "templ",
+    },
+  })
+end
+}
 }

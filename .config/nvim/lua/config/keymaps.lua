@@ -17,32 +17,26 @@ keymap.set("t", "<C-j>", [[<Cmd>wincmd j<CR>]], opts) -- Navigate Down
 keymap.set("t", "<C-k>", [[<Cmd>wincmd k<CR>]], opts) -- Navigate Up
 keymap.set("t", "<C-l>", [[<Cmd>wincmd l<CR>]], opts) -- Navigate Right
 
--- widow Management
-keymap.set("n", "<leader>sv", ":vsplit<CR>", opts) -- Split vertically
-keymap.set("n", "<leader>sh", ":split<CR>", opts)  -- Split Horizontally
-
---comments
-keymap.set("n", "<C-_>", "gcc", { noremap = false }) --comment block normal
-keymap.set("v", "<C-_>", "gcc", { noremap = false }) --comment block visual
-
 --noice
-keymap.set("n", "<leader>uh", ":NoiceHistory<CR>") -- Notification History
-keymap.set("n", "<leader>un", ":NoiceDismiss<CR>") -- Notification Dismiss
+keymap.set("n", "<leader>uh", ":NoiceHistory<CR>", opts) -- Notification History
+keymap.set("n", "<leader>un", ":NoiceDismiss<CR>", opts) -- Notification Dismiss
 
 --fzf
-keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>")     -- Find files
-keymap.set("n", "<leader>fg", ":lua require('fzf-lua').live_grep()<CR>") -- Live grep
-keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>")   -- Find buffers
+keymap.set("n", "<leader>ff", require('fzf-lua').files, opts)   -- Find files
+keymap.set("n", "<leader>fb", require('fzf-lua').buffer, opts) -- Find buffers
 
 --foldimportToggle
-keymap.set("n", "<leader>i", ":FoldImportsToggle<CR>") -- Fold imports toggle
+keymap.set("n", "<leader>i", ":FoldImportsToggle<CR>", opts) -- Fold imports toggle
 
 --exit insert mode
-keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true })
+keymap.set("i", "jj", "<Esc>", opts)
 
---Lspsaga
-keymap.set("n", "<leader>gD", "<cmd>Lspsaga goto_definition<CR>", opts) -- go to definition
-keymap.set("n", "S", "<cmd>Lspsaga show_line_diagnostics<CR>", opts)    -- show line diagnostics
-keymap.set("n", "<leader>fe", "<cmd>Lspsaga finder<CR>", opts)          -- find errors
-keymap.set("n", "<leader>ca", "<cmd>Lspsaga code_action<CR>", opts)     -- see available code actions
-keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>", opts)                -- show documentation for what is under cursor
+--Lsp
+keymap.set("n", "<leader>lf", vim.lsp.buf.format, opts)     --formating file
+keymap.set("n", "<leader>gD", vim.lsp.buf.definition, opts) -- go to definition
+keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts) -- see available code actions
+keymap.set("n", "K", vim.lsp.buf.hover, opts)              -- show documentation for what is under cursor
+
+--common keymaps
+keymap.set("n", "<leader>w", ":write<CR>", opts)
+keymap.set("n", "<leader>q", ":quit<CR>", opts)

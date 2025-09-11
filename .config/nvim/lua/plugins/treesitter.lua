@@ -1,3 +1,4 @@
+---@diagnostic disable: missing-fields
 local config = function()
   require("nvim-treesitter.configs").setup({
     ensure_installed = {
