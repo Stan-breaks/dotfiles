@@ -229,7 +229,7 @@ element alternate.active {
 // │                   Icon and Text                         │
 // ╰─────────────────────────────────────────────────────────╯
 element-icon {
-    size:                        180px;
+    size:                        240px;
     background-color:            transparent;
     cursor:                      inherit;
     margin:                      0em 0em 0.5em 0em;
