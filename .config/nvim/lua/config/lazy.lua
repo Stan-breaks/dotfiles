@@ -14,7 +14,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   end
 end
 vim.opt.rtp:prepend(lazypath)
-vim.cmd(":hi statusline guibg=NONE")
 
 require("config.globals")
 require("config.options")
@@ -25,11 +24,15 @@ require("lazy").setup({
   spec = {
     { import = "plugins" },
   },
-  install = { colorscheme = { "gruvbox" } },
   checker = { enabled = false },
 })
 vim.o.background = "dark"
-vim.cmd("colorscheme gruvbox")
-vim.lsp.set_log_level("warn")
+vim.cmd.colorscheme("gruvbox")
+vim.api.nvim_set_hl(0,"Normal",{bg = "none"})
+vim.api.nvim_set_hl(0,"statusline",{bg = "none"})
+vim.api.nvim_set_hl(0,"NormalNC",{bg = "none"})
+vim.api.nvim_set_hl(0,"EndOfBuffer",{bg = "none"})
+vim.api.nvim_set_hl(0,"NormalFloat",{bg = "none"})
+vim.api.nvim_set_hl(0,"NoicePopupNormal",{bg = "none"})
 
 require("config.noice")
