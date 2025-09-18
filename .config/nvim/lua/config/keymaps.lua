@@ -22,7 +22,7 @@ keymap.set("n", "<leader>un", ":NoiceDismiss<CR>", opts) -- Notification Dismiss
 
 --fzf
 keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>", opts)   -- Find files
-keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffer()<CR>", opts) -- Find buffers
+keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>", opts) -- Find buffers
 
 --foldimportToggle
 keymap.set("n", "<leader>i", ":FoldImportsToggle<CR>", opts) -- Fold imports toggle
