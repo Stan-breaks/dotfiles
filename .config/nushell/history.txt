@@ -1867,3 +1867,1829 @@ ytsurf --rofi
 clea
 clear
 z dot
+vim .
+clear
+paru -Sy wshowkeys-mao-git
+wshowkeys -a bottom -F 'Sans Bold 30' -s '#B5B520ff' -f  '#ecd29cff' -b '#201B1488' -l 60
+clear
+paru -Rd wshowkeys-mao-git
+clear
+z vid
+clear
+ls
+ffmpeg -i 2025-08-25_02-33-44.mkv  -t 52 -filter:v "setpts=0.5*PTS" -an fast.mkv<\n>
+mpv fast.mkv 
+clear
+clea
+clear
+bluetui
+z y
+clear
+sudo chmod +x fetch.sh
+./fetch.sh https://www.youtube.com/watch?v=vQJKtTXkpCI
+clear
+z bac
+clear
+z dow
+clear
+unrar Factorio-SteamRIP.com.rar
+unrar x  Factorio-SteamRIP.com.rar
+unrar xe  Factorio-SteamRIP.com.rar
+unrar e  Factorio-SteamRIP.com.rar
+ls 
+ls | where name =~ 'Facto'
+mkdir ~/Games/Factorio
+unrar e  Factorio-SteamRIP.com.rar ~/Games/Factorio/
+rm *.png
+ls
+rm *.ogg
+ls
+rm *.lua
+ls
+rm *.exe
+ls
+rm *.cfg
+rm *.html
+rm *.frag
+rm *.psh
+ls
+rm *.msi
+rm *.metal
+ls
+rm *.vsh
+rm *.vert
+ls
+rm *.ini *.css
+ls
+rm *.dl *rne *dat
+ls
+rm *.dll *rne *dat
+ls
+rm *zip
+ls
+rm *cso
+ls
+rm *json
+ls
+rm *js
+ls
+rm *txt
+ls
+rm *ttf
+ls
+rm *xml *ico *pdb
+ls
+rm doubt-press-x.mp4
+clear
+ls
+rm 'Brent Faiyaz - LOOSE CHANGE [Official Video] [hJJVmyBzLd0].mp3'
+rm *odg
+rm blue-lock-episode-11-exclusive-preview-images-itoshi-rin-v0-wzttp6xtn96a1.webp
+rm *.url
+rm `DALL·E 2025-03-31 18.28.37 - A minimalistic digital game night gate pass with a clean and elegant design. The pass features only essential text_ _KAKEMU'S GAME NIGHT_ at the top i.webp`
+rm _CommonRedist/
+rm -rf _CommonRedist/
+rm archlinux-2025.07.01-x86_64.iso.torrent
+rm `Capital Budgeting Basics for information system (3).docx`
+rm cacert.pem
+rm courseplanner.pdf
+rm config.seb
+rm Deepseek.pem
+rm factorio.icns
+rm `group 1 Survey Questions.docx`
+rm `Microsoft cover letter_2023-12-30T15_13_38.6738935Z.docx`
+rm `Mobile App Development Agreement.pdf`
+rm `Microsoft cover letter_2023-12-30T15_13_38.6738935Z_2024-12-14T19_21_34.1514533Z.docx`
+mv How_does_Shazam_work_Coding_Geek.pdf ~/books/How_does_Shazam_work.pdf
+clear
+ls
+rm *week
+rm week*
+rm `Week 1 notes(1).docx` `Week 1 notes.docx` `Week 2 notes.docx`
+ls
+rm `Student Survey Response (Word) (1).docx`
+rm `Student Survey Response (Word).docx`
+clear
+ls
+rm -rf Spotube/
+rm Tana_Jumia_Test_Cases.xlsx
+rm V1.0.0.tar.gz
+ls
+rm `MEMO -FINAL INSTALMENT.pdf`
+mv *mp3 ~/Music/*
+mv *mp3 ~/Music/
+ls
+mv *mp4 ~/Videos/
+ls
+ls ~/Pictures/
+mv *jpg ~/Pictures/images/
+ls
+rm `Full stack engineer-1.pdf`
+clear
+ls
+rm `BSC-SEPT 2017 INTAKE TO DATE (1).docx.pdf`
+rm `CSC421- Project-Marwa.docx`
+rm `Crafting Interpreters Robert Nystrom-1.pdf`
+rm `Crafting Interpreters Robert Nystrom.pdf`
+ls
+rm *part *webm
+mkdir ~/Audio
+mv *wav ~/Audio/
+ls
+mpv 1.gif 1.gif 
+mpv 2.gif 
+clear
+ls
+mkdir ~/Pictures/gifs
+mv *gif ~/Pictures/gifs/
+mv *JPG ~/Pictures/images/
+clear
+ls
+rm `GOPHERS DOC.docx`
+rm `ASSIGNMENT THREE FOR GRADING updated.docx`
+rm Cover_letter.pdf
+rm Cover_Letter_Microsoft_Stanley_Mwendwa.pdf
+ls
+rm `CAREER LAUNCH HUB.docx`
+rm coverletter.pdf
+clear
+ls
+feh 67tvtyew1sae1.jpeg
+rm 67tvtyew1sae1.jpeg
+mv *mkv ~/Videos/
+rm TempleOS.ISO
+mv *docx ~/Documents/
+ls
+mv *pdf ~/Documents/
+ls
+clear
+z ga
+clear
+cd Factorio/
+ls
+ls *exe
+proton factorio.exe
+clear
+wine factorio.exe 
+z dow
+unrar x Factorio-SteamRIP.com.rar ~/Games/Factorio/
+z ga
+cd Factorio/
+ls
+ls Factorio/
+mv Factorio/ ~/Games/Factorio_1/
+z ..
+ls
+cd Factorio_1/
+ls
+cd bin/
+ls
+z x64/
+ls
+z ga
+ls
+rm Factorio/
+rm -rf Factorio/
+mv Factorio_1/ Factorio/
+ls
+clear
+wine factorio.exe 
+clear
+z x
+zi x
+z ga
+z Factorio/
+z bin/
+z x64/
+ls
+proton factorio.exe
+clear
+sudo cpupower frequency-set -g performance
+clear
+z config
+ls
+proton run factorio.exe
+cat ~/.local/share/proton-pfx/0/version<\n>
+rm -rf ~/.local/share/proton-pfx/0<\n>STEAM_COMPAT_DATA_PATH=~/.local/share/proton-pfx/factorio \<\n>proton run ./factorio.exe<\n>
+rm -rf ~/.local/share/proton-pfx/0
+env.STEAM_COMPAT_DATA_PATH=~/.local/share/proton-pfx/factorio
+rm -rf ~/.local/share/proton-pfx/0<\n>with-env { <\n>    STEAM_COMPAT_DATA_PATH: "~/.local/share/proton-pfx/factorio" <\n>    STEAM_COMPAT_CLIENT_INSTALL_PATH: "~/.local/share/Steam"<\n>} {<\n>    proton run ./factorio.exe<\n>}<\n>
+proton run factorio.exe
+clear
+clear
+paru -Syyu
+clear
+aerc
+z Doc
+z ~/Documents/
+clear
+ls
+rm assignment.docx
+rm Assignment1.docx
+rm assig.docx
+rm assignment2.odt
+rm AnyDesk/
+clear
+ls
+zathura "Stanley Mwendwa Cert.pdf" 
+clear
+z fa
+proton run bin/x64/factorio.exe
+bluetui
+proton run bin/x64/factorio.exe
+bluetui
+clear
+clear
+vim .
+clear
+proton run bin/x64/factorio.exe
+z mus
+mpv *
+clear
+z gam
+ls
+z dow
+ls
+rm Factorio-SteamRIP.com.rar
+ls
+clear
+fastfetch 
+ls
+z ..
+ls
+ls Pictures/
+ls Music/
+clear
+z ga
+proton run bin/x64/factorio.exe
+ls
+cd Factorio/
+clear
+proton run bin/x64/factorio.exe
+ea
+clear
+z fac
+clear
+proton run bin/x64/factorio.exe
+paru -R gophertube 
+sudo pacman -Syyu
+clear
+proton run bin/x64/factorio.exe
+clear
+proton run bin/x64/factorio.exe
+clear
+z down
+clear
+ls
+aria2c -h
+clear
+speedtest 
+aria2c -x 16 -s 16 -k 1M 
+aria2c -c -x 16 -s 16 -k 1M https://datanodes.to/h7k53h6q37fc/Subnautica-SteamRIP.com.rar
+ls
+ls download
+cat download 
+clear
+aria2c -c -x 16 -s 16 -k 1M https://file-eu-par-3.gofile.io/download/web/dbc64584-5533-4a74-a984-71ab2ca20b8d/Subnautica-SteamRIP.com.rar
+ls
+ca 81bd6a66-65d3-4a59-a65b-fa1b50da79ed
+cat 81bd6a66-65d3-4a59-a65b-fa1b50da79ed
+aria2c -c -x 16 -s 16 -k 1M https://file-eu-par-3.gofile.io/download/web/dbc64584-5533-4a74-a984-71ab2ca20b8d/Subnautica-SteamRIP.com.rar
+aria2c https://file-eu-par-3.gofile.io/download/web/dbc64584-5533-4a74-a984-71ab2ca20b8d/Subnautica-SteamRIP.com.rar
+aria2c -c -x 16 -s 16 -k 1M https://file-eu-par-3.gofile.io/download/web/dbc64584-5533-4a74-a984-71ab2ca20b8d/Subnautica-SteamRIP.com.rar
+ls
+rm 81bd6a66-65d3-4a59-a65b-fa1b50da79ed
+ls
+rm 81bd6a66-65d3-4a59-a65b-fa1b50da79ed.1
+rm download
+clear
+ls
+aerc
+clea
+clear
+ls
+unrar x Subnautica-SteamRIP.com.rar ~/Games/Factorio/
+ls
+z game
+z fa
+ls
+ls bin
+cd ..
+ls
+rm rf Subnautica/ _CommonRedist/
+rm -rf Subnautica/ _CommonRedist/
+ls
+clear
+ls
+cd Factorio/
+ls
+rm -rf Subnautica/ _CommonRedist/
+ls
+cd ..
+ls
+unrar x Subnautica-SteamRIP.com.rar ~/Games/
+clear
+x fa
+z fa
+proton run bin/x64/factorio.exe
+z ..
+z Subnautica/
+ls
+proton run UnityCrashHandler64.exe
+ls
+ls Subnautica_Data/
+ls _OST/
+ls MonoBleedingEdge/
+ls MonoBleedingEdge/EmbedRuntime/
+ls MonoBleedingEdge/etc/
+ls MonoBleedingEdge/etc/mono/
+ls
+clear
+ls
+z Factorio/
+ls bin/x64/
+z .
+z ..
+ls
+rm -rf  _CommonRedist/
+rm Read_Me_Instructions.txt
+rm `STEAMRIP » Free Pre-installed Steam Games.url`
+clear
+cd GTA_San_Andreas/
+clear
+ls
+proton gta-sa.exe
+clear
+z usb
+z ~/usb/
+ls
+z ga
+ls
+cd `GRID 2/`
+ls
+proton run grid2.exe
+proton run grid2_avx.exe
+ls
+proton run grid2.exe
+htop
+clear
+z ../Subnautica/
+proton run UnityCrashHandler64.exe
+ls
+cd ..
+cd GTA_San_Andreas/
+clear
+proton run gta-sa.exe
+wine gta-sa.exe 
+z gri
+clear
+wine grid2.exe 
+sudo pacman -S steam
+clear
+htop
+clear
+wine grid2.exe 
+wine grid2_avx.exe 
+proton grid2.exe 
+which proton 
+sudo pacman -S protonfixes
+z down
+aria2c -c -x 16 -s 16 -k 1M http://fs20.megadb.xyz:8080/d/47nkbuaoy5vxygoid7w6vcyeeeejcqyfbc6vy2feey47yjl6gq6atk6w3fcr5sths5eeyy2c/NFS-Most-Wanted-2005-SteamRIP.com.rar
+unrar x NFS-Most-Wanted-2005-SteamRIP.com.rar ~/Games/
+clear
+htop
+clear
+z gam
+cd `Need For Speed Most Wanted Black Edition/`
+ls
+proton run speed.exe
+wine speed.exe 
+gamescope -f -w 1920 -h 1080 -- wine speed.exe 
+gamescope -b --xwayland -f -w 1920 -h 1080 -- wine speed.exe<\n>
+gamescope -f -w 1920 -h 1080 -- wine speed.exe 
+winecfg<\n>
+fastfetch 
+winecfg<\n>
+wine speed.exe 
+winecfg<\n>
+clear
+gamescope --xwayland -f -w 1280 -h 720 -W 1920 -H 1080 -- wine speed.exe<\n>
+gamescope -f -w 1280 -h 720 -W 1920 -H 1080 -- wine speed.exe<\n>
+gamescope -f -w 1280 -h 720 -W 1920 -H 1080 --backend=x11 -- wine speed.exe<\n>
+gamescope -h
+gamescope --help
+clear
+gamescope -f -- wine speed.exe<\n>
+sudo pacman -S libdecor<\n>
+gamescope --help
+gamescope -f -- wine speed.exe<\n>
+sudo pacman -S gamescope
+gamescope -f -- wine speed.exe<\n>
+gamescope --xwayland-count 1 -f -- wine speed.exe<\n>
+gamescope --backend=x11 -f -- wine speed.exe<\n>
+gamescope --help
+gamescope --backend=sdl -f -- wine speed.exe
+gamescope --backend=sdl -f -w 1280 -h 720 -W 1920 -H 1080 -- wine speed.exe<\n>
+clear
+gamescope --backend=sdl -f -w 1280 -h 720 -W 1920 -H 1080 -- wine speed.exe<\n>
+clear
+z ne
+clear
+wine speed.exe 
+clear
+wine control joy.cpl<\n>
+sudo pacman -S oversteer
+ls /dev/input/by-id/ | grep Logitech<\n>
+jstest /dev/input/js0<\n>
+clear
+bluetui
+clear
+z yt
+./ytsurf.sh --rofi dumbo
+vim ~/.config/ytsurf/config
+./ytsurf.sh --rofi miami
+clear
+ls | dmenu<\n>
+clear
+z nimbl
+z pr
+z nimblestack/
+clear
+vim 
+z rus
+ls
+git clone https://github.com/ThePrimeagen/htmx-lsp.git
+z htmx-lsp/
+clear
+bluetui
+rg start
+rg start_lsp
+bluetui
+carapace --h
+carapace -h
+sudo pacman -S kdeconnect
+z down
+ls
+rm Subnautica-SteamRIP.com.rar
+ls
+rm NFS-Most-Wanted-2005-SteamRIP.com.rar
+clear
+feh Screenshot_20250831_182108_X.jpg
+clear
+ls
+feh Screenshot_20250831_182108_X.jpg
+clear
+z rus
+clear
+cargo init alpine_lsp
+z alpine_lsp/
+clear
+sudo pacman -Syyu
+lobster -i -t
+lobster -i -t --rofi
+lobster -i -t
+clear
+z vi
+zi video
+ls
+mpv "Count Dankula - ＂Oh no, what happened？ Oh no, how terrible! That's just awful, how terrible oh no!＂ [gPQFF0oqsto].mp4" 
+clea
+clear
+z htmx
+clear
+vim 
+z mus
+clear
+clear
+clear
+paru -Syyu
+z nimblestack/
+z nimblest
+clear
+vim 
+z dot
+clear
+vim  .
+clear
+lazygit 
+git push
+clear
+z do
+clear
+vim .
+clear
+cargo run . -f 
+cargo run --help
+cargo run -- --help
+pwd
+ls
+ls views/auth.templ
+cargo run -- -f /home/stan/projects/webProjects/nimblestack/views/auth.templ
+cargo run -- -f /home/stan/projects/webProjects/nimblestack/views/auth.templ --level INFO
+clear
+vim
+clear
+vim 
+clear
+vim .
+clear
+vim .
+clear
+vim .
+vim .
+vim .
+vim .
+paru -Syyu
+clear
+sudo pacman -Syyu
+clear
+vim 
+clear
+vim
+clear
+vim
+vim 
+vim 
+vim
+z bah
+z bash
+vim .
+z bash
+vim .
+z ..
+ls
+z artAuction/
+ls
+vim .
+cd ..
+clear
+vim crowd_source/
+vim
+vim crowd_source/
+vim
+z doc
+z ~
+clear
+z Documents/
+clear
+zathura Resume2.0.pdf 
+clear
+zls
+z proj
+cd ..
+ls
+vim zig
+vim zigProjects/
+clear
+clear
+vim 
+vim
+vim .
+clear
+sudo pacman -Syyu
+clear
+ytsurf
+ytsurf --history
+ytsurf writing the htmx lsp
+mpv ~"/Downloads/Building an LSP Server in Zig ｜ Loris Cro [JcKenqWBfqo].mp4" 
+mpv ~/Downloads/"Building an LSP Server in Zig ｜ Loris Cro [JcKenqWBfqo].mp4" 
+mpv "Downloads/Building an LSP Server in Zig ｜ Loris Cro [JcKenqWBfqo].mp4" 
+ytsurf writing the htmx lsp
+sudo pacman -Syyu
+clear
+vim
+clear
+ls
+z vide
+ls
+z down
+clear
+ls
+mpv "LSP Explained (in 5 Minutes) [LaS32vctfOY].mp4"
+hx
+mpv "Building an LSP Server in Zig ｜ Loris Cro [JcKenqWBfqo].mp4" 
+clear
+ls
+vim .
+clear
+vim .
+vim 
+vim
+vim .
+vim 
+vim
+clear
+bluetui
+clear
+z mu
+mpv *
+sudo pacman -S telegram-desktop
+z bac
+clear
+git pull
+bluetui
+vim 
+clear
+sudo pacman -Syyu
+clear
+sudo pacman -R telegram-desktop
+z ~
+z .config
+vim .
+z dot
+vim .
+lobster -i
+lobster -i f1
+paru -S  davinci-resolve-beta 
+z dow
+clear
+ls
+unrar x Hollow-Knight-Silksong-SteamRIP.com.rar  ~/Games/
+unrar x Hollow-Knight-Silksong-SteamRIP.com.rar ~/Games/
+unrar x Hollow-Knight-Silksong-SteamRIP.com.rar ~/Games/silksong/
+z gam
+clear
+ls
+rm Read_Me_Instructions.txt
+clear
+ls
+rm -rf _CommonRedist/
+ls
+rm `STEAMRIP  » Free Pre-installed Steam Games.url`
+clear
+ls
+z silksong/
+ls
+z `Hollow Knight Silksong/`
+clear
+ls
+proton run `Hollow Knight Silksong.exe`
+clear
+lsblk
+z back
+clear
+vim .
+overlay use .venv/bin/activate.nu
+clear
+paru -R windsurf opencode cursor-bin
+paru -R windsurf opencode-bin
+overlay use .venv/bin/activate.nu
+paru -R firebase-tools 
+lsblk
+clear
+ls
+lsblk
+ls usb/
+mount /dev/sdb ~/usb
+clear
+clear
+clear
+clear
+overlay use .venv/bin/activate.nu
+clear
+z ../virtual_doctor_frontend/
+ls
+z app
+ls
+clear
+z back
+overlay use .venv/bin/activate.nu
+clear
+git pull
+clear
+npm run dev
+npm install
+mysql -u root -p
+sudo systemctl start mysqld
+mysql -u root -p
+clear
+python main.py 
+git pull
+npm run dev
+clear
+vim .
+rg auth
+rg api/v1/auth
+rg api/v12/auth
+rg api/v2/auth
+rg v2
+rg api
+clear
+rg api/v1
+vim .
+clear
+npm run dev
+clear
+z music
+git pull
+clear
+vim
+python main.py 
+clear
+sudo pacman -Syuu
+mysql -u root -p
+clear
+mysql -u root -p
+python main.py 
+npm run dev
+git pull
+npm run dev
+git pull
+mpv *
+vim .env
+python main.py 
+npm run dev
+z yt
+clear
+z dot
+vim .
+./ytsurf.sh miami
+curl -fsSL https://raw.github.com/rcmdnk/sentaku/install/install.sh| sh
+sentaku --help
+sentaku -h
+ls | sentaku -s $'\n'
+ls | sentaku  $'\n'
+bash
+clear
+vim .
+clear
+vim .
+vim .
+./ytsurf.sh --sentaku miami
+clear
+./ytsurf.sh --sentaku miami
+command -v sentaku
+bash
+./ytsurf.sh --sentaku miami
+clear
+./ytsurf.sh --sentaku miami
+vim 
+./ytsurf.sh --sentaku miami
+clear
+./ytsurf.sh --sentaku miami
+zi yt
+clear
+vim .
+updpkgsums
+ls
+clear
+gh release create 
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+lazygit 
+clear
+clear
+ls
+clear
+z fron
+z app/
+overlay use .venv/bin/activate.nu
+sudo pacman -Syyu
+sudo pacman -R zoom
+sudo pacman -Syyu
+paru -Syyu
+ytsurf --sentaku kpop demon hunters
+python main.py 
+npm run dev
+ytsurf familia
+bluetui
+clear
+paru -Syyu
+ytsurf familia
+ytsurf --sentaku familia
+clea
+clear
+bluetui
+clear
+clear
+python main.py 
+clear
+overlay use .venv/bin/activate.nu
+clear
+clear
+z fron
+clear
+pwd
+z yt
+pwd
+ls
+z back
+clear
+z back
+z bash
+ls
+pwd
+clear
+zi yt
+pwd
+clear
+ytsurf familia
+ear
+clear
+lobster -i f1
+speedtest 
+clear
+lobster -i kpop
+lobster -i kpop
+ls ~/usb/
+clear
+mount /dev/sdb ~/usb
+lsblk
+sudo mount /dev/sdb3 ~/usb
+clear
+z usb
+lsblk
+clear
+umount ~/usb/
+sudo umount ~/usb/
+clear
+lsblk
+sudo mount /dev/sdb ~/usb
+htop
+sudo mount /dev/sdb3 ~/usb
+lsblk
+z /run/media/stan/Strathclyde/
+ls
+z series
+ls
+z series/
+ls
+mpv "$R1VSSTU.mp4" 
+z media
+z /run/media/stan/Azgard/
+ls
+mv Cyber/ ~/Documents/Cyber/
+ls
+z `Graduation 2024/`
+ls
+z ../Movies/
+ls
+z 'Hercules (2014) [1080p]/'
+ls
+z ..
+ls
+z `Iron Man 2 (2010) DVDRip XviD-MAXSPEED/`
+ls
+z ..
+z -h
+ls help
+ls --help
+ls -a **/*
+z `All Time/`
+ls
+mpv The.Matrix.1999.1080p.BrRip.x264.YIFY.mp4 
+z ~
+clear
+vim
+overlay use .venv/bin/activate.nu
+clear
+z fron
+clear
+cd app/
+clear
+cd ..
+clear
+git pull
+npm install
+cd app
+clear
+npm install
+clear
+git pull
+clear
+python main.py 
+rg celery
+clear
+celery
+celery status
+uvicorn app.main:app --reload
+clear
+tail -5 main.py
+python main.py 
+clear
+pip install requirements.txt 
+pip install -r requirements.txt 
+clear
+python main.py 
+sudo systemctl start mysqld
+python main.py 
+sudo systemctl status mysqld
+python main.py 
+pip uninstall meilisearch
+clear
+z meilisearch/
+podman compose -d
+podman compose up -d
+z mu
+mpv *
+ytsurf --sentaku
+vim script.py
+overlay use .venv/bin/activate.nu
+python -m venv .venv --prompt .
+overlay use .venv/bin/activate.nu
+ls
+rm script.py
+rm -rf .venv/
+clear
+podman -h
+which podman-compose
+clear
+lsblk
+sudo cfdisk /dev/sdc
+lsblk
+sudo cfdisk /dev/sdc
+lsblk
+sudo mkfs.ext4 -L USB /dev/sdc1
+sudo cfdisk /dev/sdc
+sudo umount /run/media/stan/ARCH_202507/
+sudo mkfs.ext4 -L USB /dev/sdc1
+lsblk
+sudo mount /dev/sdc ~/usb
+sudo mount /dev/sdc1 ~/usb
+clear
+lsblk
+lsblk -f
+sudo mkfs.ext4 -L USB /dev/sdc1
+lsblk -f
+sudo mount /dev/sdc1 ~/usb
+ls ~/usb/
+cd ~/usb/
+ls
+mkdir -p movies
+mkdir  movies
+sudo mkdir  movies
+ls
+lsblk
+mv `/run/media/stan/Azgard/Movies/All Time/`* movies/*
+mv `/run/media/stan/Azgard/Movies/All Time/` movies/*
+z movies/
+ls
+ls *
+sudo ls '*/'
+clear
+ls
+ls '*/'
+sudo ls '*/'
+sudo mv `/run/media/stan/Azgard/Movies/All Time/` movies/*
+ls
+clear
+ls movies/
+ls 'movies/*/'
+sudo mv 'movies/*/' movies/
+sudo mv 'movies/*/' Movies/
+ls
+ls --du 
+cd Movies/
+sudo chmod 777 Movies/
+ls Movies/
+lsblk
+z usb
+ls
+lsblk
+z /run/media/stan/USB/
+ls
+sudo rm movies/
+sudo rm -rf movies/
+clear
+lsblk
+ls
+clear
+lsblk
+umount /run/media/stan/Azgard 
+lsblk
+umount /run/media/stan/Strathclyde 
+lsblk
+cfdisk /dev/sdb 
+clear
+ls
+lsblk
+lsblk -f
+clear
+cfdisk /dev/sdb 
+sudo pacman -Rdd lutris
+sudo cfdisk /dev/sdb 
+lsblk -f
+sudo mkfs.ext4 -L MOFO /dev/sdb1
+sudo chmod 777 /run/media/stan/MOFO/
+htop
+clear
+sudo chmod 777 /run/media/stan/MOFO/
+lsblk -f
+lsblk 
+sudo cfdisk /dev/sdb
+sudo pacman -Syyu
+clear
+ls
+vim .
+zi ytsurf.sh
+zi yt
+clear
+zi ytsu
+zi yt
+clear
+gh release create
+zi yt
+updpkgsums
+vim .
+updpkgsums
+ls
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+lazygit 
+clear
+z back
+clear
+python script.py 
+vim
+clear
+sudo pacman -S podman-compose
+clear
+cd meilisearch/
+clear
+podman-compose up
+vim .
+podman-compose h
+podman-compose -h
+clear
+podman-compose up
+podman-compose -h
+vim .
+podman-compose up
+sudo mkdir -p /var/lib/meilisearch<\n>sudo chown (whoami) /var/lib/meilisearch<\n>
+podman-compose up
+lsmod | where name == tun<\n>
+lsmod 
+clear
+sudo podman-compose up
+vim .
+clear
+lsmod | rg trun
+lsmod | rg tun
+sudo modprobe tun<\n>
+lsmod | rg tap
+python main.py 
+z ..
+clear
+python main.py 
+clear
+ssh root@143.110.178.63<\n>
+ssh root@143.110.178.63
+sudo pacman -Syyu passt
+podman -h
+podman -h | rg string
+podman -h | rg user
+podman -h | rg add
+clear
+at /etc/subuid
+cat /etc/subuid
+podman build 
+podman build docker-compose.yml 
+podman build .
+podman compose .
+podman-compose up
+sudo podman-compose up<\n>
+cat docker-compose.yml 
+bat docker-compose.yml 
+sudo pacman -Syyu bat
+clear
+bat docker-compose.yml 
+vim .
+tan/projects/work/afyasoko/virtual_doctor_backend/meilisearch
+python main.py 
+podman ps
+vim .
+pip install meilisearch
+python main.py 
+clear
+clear
+npm run dev
+z ..
+clear
+git pull
+z  -
+celery -A celery_config worker --loglevel=info
+z ..
+celery -A celery_config worker --loglevel=info
+overlay use .venv/bin/activate.nu
+clear
+python main.py 
+npm run dev
+podman-compose up<\n>
+celery -A celery_config worker --loglevel=info
+sudo pacman -Syyu 
+vim .
+vim
+clear
+vim 
+vim 
+vim
+vim 
+clear
+clear
+sudo pacman -S helix
+clear
+helix
+clear
+vim
+vim .config/nvim/lua/config/options.lua
+vim 
+vim
+clear
+hyprctl clients
+clear
+vim
+clear
+vim 
+vim
+vim .
+cava
+clea
+clear
+htop
+clearf
+clear
+vim
+vim
+clear
+vim 
+vim .
+clear
+spicetify -h
+spicetify config
+spicetify config current_theme Onepunch
+spicetify config color_scheme Dark
+spicetify apply
+spicetify restore backup apply
+clear
+htop
+spicetify config
+spicetify config custom_apps lyrics-plus -
+spicetify config custom_apps lyrics-plus-
+spicetify apply
+sudo pacman -S sass
+clear
+spicetify -h
+spicetify path
+spicetify path all
+ls .config/ | where name == "Spicetify"
+ls .config/ | where name == "spicetify"
+ls .config/ | where name == "nvim"
+ls .config/
+ls .config/ | where name == ".config/nvim"
+z ~/.config/spicetify/
+ls
+z Themes/
+ls
+git clone https://github.com/Skaytacium/Gruvify<\n>cd Gruvify
+clear
+ls
+sudo pacman -S sass
+sass user.sass user.css
+ls
+cat user.css 
+spicetify config current_theme Gruvify<\n>spicetify apply
+clear
+z dot
+clear
+git status
+clear
+clear
+celery -A celery_config worker --loglevel=info
+clear
+overlay use .venv/bin/activate.nu
+clear
+overlay use .venv/bin/activate.nu
+clear
+python main.py 
+clear
+z fron
+z app/
+clear
+sudo systemctl status mysqld
+sudo systemctl start mysqld
+clear
+clear
+mysql -u root -p
+clear
+vim
+overlay use .venv/bin/activate.nu
+vim .
+vim
+vim .config/nvim/lua/config/lazy.lua
+vim
+clear
+vim
+sudo pacman -Syyu
+vim .
+paru -Syyu
+sudo pacman -Syyu
+clear
+sudo 
+mysql -u root -p
+sudo 
+paru -Syyu
+clear
+sudo -l<\n>
+whoami<\n>groups<\n>
+clear
+sudo -l<\n>
+clear
+su
+clear
+sudo -l<\n>
+paru -Syyu
+clear
+vim
+vim
+clear
+vim .
+clear
+vim .
+helix
+clear
+sudo pacman -Syyu
+ls uploads/prescriptions/
+ls uploads/prescriptions/images/
+ls uploads/prescriptions/docs
+ls uploads/prescriptions/text
+clear
+python main.py 
+celery -A celery_config worker --loglevel=info
+vim 
+clear
+python main.py 
+paru -Syyu
+vim .
+npm run dev
+podman-compose up<\n>
+clear
+clear
+z yt
+clear
+vim .
+gh release create 
+lazygit 
+gh release create 
+vim .
+gh release create 
+clear
+zi yt
+clear
+vim .
+updpkgsums
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+lazygit 
+pa
+paru -Syyu
+lobster -i -t
+paru -Syy
+paru -Syyu
+overlay use .venv/bin/activate.nu
+clear
+git pull
+clear
+clear
+vi
+vim 
+vim .
+note
+back
+clear
+note
+clear
+day
+flow_state 
+clear
+note
+back
+clear
+celery -A celery_config worker --loglevel=info
+python main.py 
+vim .
+gh pr new 
+vim .
+note
+back
+clear
+clear | cowsay | lolcat
+fortune | cowsay
+fortune | cowsay | lolcat
+clear|fortune | cowsay | lolcat
+clear | fortune | cowsay | lolcat
+sl
+clear | fortune | cowsay | lolcat
+paru -Syyu
+clear
+npm run dev
+sudo pacman -Syyu
+cargo install wiki-tui
+paru -S kanash
+kanash
+clear
+speedtest 
+paru -Syyu
+vim
+clear
+clear
+z yt
+clear
+./ytsurf.sh miami
+vim .
+clear
+git rebase origin 
+vim .
+gh release create 
+clear
+zi ytsurf.sh
+zi ytsu
+vim .
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+updpkgsums
+lazygit 
+python main.py 
+z fro
+clea
+clear
+cd app/
+clear
+vim .
+rg upload
+vim 
+clear
+sudo pacman -Syyu
+z yt
+vim .
+clear
+gh release create 
+zi yt
+vim .
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+clear
+updpkgsums
+lazygit 
+z yt
+clear
+./ytsurf.sh miami
+lcear
+clear
+paru -Syyu
+clear
+sudo pacman -S termusic
+z mu
+termusic 
+vim .
+podman-compose up<\n>
+celery -A celery_config worker --loglevel=info
+vim
+paru -Syyu
+vim
+wiki-tui 
+htop
+clear
+fastfetch 
+z down
+ls
+mv Hacking.The.Art.of.Exploitation.2nd.Edition.pdf ~/books/Hacking.The.Art.of.Exploitation.2nd.Edition.pdf
+ls
+feh G0kgeoCXQAAZjs7.png
+z ~
+z .librewolf/
+ls
+clear
+z dot
+clear
+sudo pacman -S waydroid
+waydroid init
+sudo waydroid init
+clear
+sudo waydroid init -s GAPPS
+clear
+sudo waydroid init
+clear
+sudo systemctl status waydroid-container.service
+waydroid session start
+sudo systemctl enable --now waydroid-container
+waydroid session start
+sudo systemctl status waydroid-container.service
+waydroid session start
+sudo waydroid session start
+waydroid log
+clear
+waydroid session start
+waydroid show-full-ui
+waydroid session start
+waydroid log
+clear
+ls /dev/binder /dev/ashmem /dev/binderfs<\n>
+sudo modprobe binder_linux<\n>sudo modprobe ashmem_linux<\n>
+modprobe binder-linux devices=binder,hwbinder,vndbinder<\n>
+clear
+waydroid session start
+vim /usr/lib/waydroid/data/scripts/waydroid-net.sh
+clear
+sudo waydroid session start
+sudo systemctl start waydroid-container<\n>
+waydroid session start<\n>
+waydroid init
+sudo systemctl disable --now waydroid-container<\n>
+sudo waydroid session stop 2>/dev/null<\n>sudo rm -rf /var/lib/waydroid<\n>rm -rf ~/.local/share/waydroid<\n>rm -rf ~/.config/waydroid<\n>
+sudo rm -rf /var/lib/waydroid<\n>rm -rf ~/.local/share/waydroid<\n>rm -rf ~/.config/waydroid<\n>
+sudo pacman -Rdd waydroid
+pacman -Ss ^nushell
+pacman -Ss ^waydroid
+pacman -Qe | wl -l
+pacman -Qe | wc -l
+clear
+pacman -Ql nushell
+pacman -Qdt
+pacman -Qqdt
+pacman -Qqdt | sudo pacman -Rns-
+pacman -Qqdt | sudo pacman -Rns -
+pacman -Qqdt | sudo pacman -Rns 
+pacman -Qqdt | sudo pacman -Rns - 
+sudo pacman -Rns (pacman -Qqdt)
+pacman -Qqdt | into string | sudo pacman -Rns (input)
+bash
+clear
+bash
+clear
+pacman -Qqdt
+clear
+paru -Qqdt
+paru -Qd
+pacman -Qd
+pacman -Qu
+sudo pacman -Syu tzdata
+clear
+pacman -Scc
+sudo pacman -Scc
+clear
+sudo-legacy -E nvim /etc/pacman.conf 
+sudo pacman -Syu
+clear
+sudo-legacy -E nvim /etc/pacman.conf 
+z ~
+ls yay
+rm -rf yay/
+sudo rm -rf yay/
+clear
+ls
+paru -S paccache-hook 
+ls
+clear
+fastfetch 
+sudo systemctl enable paccache-hook
+sudo systemctl enable paccache-hookm
+sudo systemctl enable paccache
+clear
+aerc
+clear
+z gam
+clear
+lls
+ls
+z `Need For Speed Most Wanted Black Edition/`
+ls
+proton run speed.exe
+proton-ge run speed.exe
+mkdir ~/.config/protonfixes
+z ~/.config/protonfixes/
+vim config.ini
+z need
+proton-ge run speed.exe
+wine speed.exe 
+proton-ge run speed.exe
+wine speed.exe 
+sudo pacman -Syyu
+paru -Syyu
+clear
+wine speed.exe 
+clear
+clear
+sudo pacman -Syyu
+sudo pacman -Rns eza
+clear
+fastfetch 
+celery -A celery_config worker --loglevel=info
+ckear
+overlay use .venv/bin/activate.nu
+overlay use .venv/bin/activate.nu
+python main.py 
+sudo systemctl start mysqld
+clear
+python main.py 
+celery -A celery_config worker --loglevel=info
+python main.py 
+pwd
+z dow
+pwd
+feh *
+celery -A celery_config worker --loglevel=info
+npm run dev
+podman-compose up<\n>
+note
+mysql -u root -p
+python main.py 
+mysql -u root -p
+pacman -Ss ^thunderbird
+sudo pacman -S thunderbird
+hyprctl clients
+vim 
+aerc
+clear
+mysql -u root -p
+celery -A celery_config worker --loglevel=info
+python main.py 
+celery -A celery_config worker --loglevel=info
+z front
+clear
+z app/
+rg upload
+npm run dev
+vim 
+rg ai_task
+rg pharmacy_task
+vim
+cd ..
+lazygit 
+clear
+vim 
+npm run dev
+python main.py 
+podman-compose up<\n>
+clear
+z ~
+z pr
+ls
+cd ..
+ls
+z she
+ls
+z lobster/
+ls
+./lobster.sh --rofi
+./lobster.sh --rofi f1
+./lobster.sh --rofi -i f1
+z yt
+./ytsurf.sh miami
+./lobster.sh --rofi -V
+sudo pacman -Syyu
+./lobster.sh --rofi f1
+./lobster.sh --rofi -t
+lobster -i -t
+lobster -i
+vim
+sudo pacman -Syyu
++-----------------------+
+++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+clear
+clear
+vim
+vim
+which pass
+tldr pass
+pass
+pass init
+gpg --gen-key
+pass init B910B30BE13C27157DE5457B6F98BD7182DEEF0F
+pass git init
+pass insert stanmwendwa@gmail
+pass insert stanleymwendwa@gmail
+pass
+pass insert gmail/stanleymwendwa
+pass
+pass insert gmail/standopest
+pass show gmail/stanleymwendwa 
+clear
+vim
+tldr curl
+curl "https://www.youtube.com/results?search_query=miami&sp=EgIQAQ%253D%253D&hl=en&gl=US"
+xh "https://www.youtube.com/results?search_query=miami&sp=EgIQAQ%253D%253D&hl=en&gl=US"
+clear
+./ytsurf.sh miami
+lazygit 
+clear
+ls
+lazygit 
+sudo pacman -Syyu
+clear
+sudo pacman -Syyu
+ghostty +list-themes 
+clear
+vim
+sha256sum stan
+ls
+echo "stan"
+echo "stan" | sha256sum 
+echo "stan" | sha256sum | cut -d' ' -f2
+echo "stan" | sha256sum | cut -d' ' -f1
+echo "stan" | sha256sum | cut -d' ' -f3
+clear
+./ytsurf.sh miami
+vim .
+vim 
+./ytsurf.sh miami
+clear
+fastfetch 
+ls
+ps
+clear
+hyprctl clients
+vim .
+clear
+sudo pacman -Syyu
+lobster -i -t
+lobster -i f1
+vim 
+clear
+clear
+pass show gmail/standopest 
+clear
+paru -Syyu
+./ytsurf.sh miami
+clear
+./ytsurf.sh miami
+./ytsurf.sh --rofi miami
+clear
+./ytsurf.sh  miami
+clear
+./ytsurf.sh  miami
+./ytsurf.sh dumbo
+./ytsurf.sh --rofi dumbo
+./ytsurf.sh --rofi --history
+./ytsurf.sh --history
+Paru -Ss ytsurf
+paru -Ss ytsurf
+paru -Si ytsurf
+ls ~/.cache/ytsurf/history.json
+open ~/.cache/ytsurf/history.json
+open ~/.cache/ytsurf/0f95937029ace1f453cfab4e06cad49adebc41f428df4ff76bc0d4b82be0a7a8.json
+ls ~/.cache/ytsurf
+cat ~/.cache/ytsurf/history.json
+./ytsurf.sh dumbo
+open ~/.cache/ytsurf/history.json
+./ytsurf.sh --history
+./ytsurf.sh dumbo
+./ytsurf.sh --history
+open ~/.cache/ytsurf/history.json
+./ytsurf.sh dumbo
+./ytsurf.sh --history
+./ytsurf.sh dumbo
+./ytsurf.sh --history
+open ~/.cache/ytsurf/history.json
+./ytsurf.sh --history
+./ytsurf.sh dumbo
+clear
+nu ytsurf.sh 
+vim .
+z `Games/Need For Speed Most Wanted Black Edition/`
+wine speed.exe 
+clear
+z `Games/Need For Speed Most Wanted Black Edition/`
+wine speed.exe 
+paru -Ss kotofetch
+paru -S kotofetch
+kotofetch
+clear
+z ~
+clear
+fastfetch 
+kotofetch
+paru -Syyu
+kotofetch
+paru -Syyu
+pacman -Ss ^obsidi
+kotofetch
+sudo pacman -S obsidian
+paru -Syyu
+vim 
+note
+note
+vim
+note
+back
+vim
+clear
+vim 
+note
+clear
+day
+clear
+clear
+./ytsurf.sh --history
+clear
+clear
+./ytsurf.sh -e
+./ytsurf.sh --rofi dumbo
+clear
+syncplay https://www.youtube.com/watch?v=CDyGtyng8iY
+clear
+syncplay --help
+vim ~/.config/syncplay.ini
+syncplay https://www.youtube.com/watch?v=CDyGtyng8iY
+syncplay --no_gui https://www.youtube.com/watch?v=CDyGtyng8iY
+syncplay --no-gui https://www.youtube.com/watch?v=CDyGtyng8iY
+clear
+syncplay
+git pull
+vim
+ls
+lazygit 
+./lobster.sh --rofi -t
+./lobster.sh -h
+./lobster.sh -u
+lobster -u
+vim 
+./ytsurf.sh -u
+clear
+./ytsurf.sh -u
+echo $env.LAST_EXIT_CODE
+./ytsurf.sh -u
+sudo ./ytsurf.sh -u
+clear
+./ytsurf.sh -u
+zi yt
+vim .
+paru -Sl lobster
+paru -Sl lobster-git
+paru -Ss lobster
+pacman -Ss lobster
+paru -Si lobster
+./ytsurf.sh --syncplay more than a womna
+z yt
+./ytsurf.sh --syncplay more than a woman
+vim ~/.config/syncplay.ini
+lobster --syncplay -i f1
+lobster --json -i f1
+lobster --syncplay -i f1
+lobster --syncplay -i t
+lobster --syncplay -i -t
+lobster --syncplay -i  the unforgivable
+ls
+z ~/.local/share/bin/
+echo $env.SHELL
+z ~/.config/hyde/
+ghostty +list-themes 
+clear
+ls
+cd themes
+clear
+ls
+ps
+clear
+weather
+clear
+z `Graphite Mono/`
+clear
+ln -s wallpapers/gojo.png wall.set
+ls
+ghostty -e paru -Syyu
+clear
+ls
+clear
+ls
+clear
+z con
+ls
+bash
+mufetch
+[{name: 'Robert' age: 34 position: 'Designer'}<\n> {name: 'Margaret' age: 30 position: 'Software Developer'}<\n> {name: 'Natalie' age: 50 position: 'Accountant'}<\n>] | select name position
+sepai
+senpai
+silicon
+clear
+byobu 
+byobu -h
+systemupdate.sh 
+systemupdate.sh up
+htop
+clear
+ghostty -e "fastfetch<\n>    paru -Syyu<\n>    read -n 1 -p 'Press any key to continue...'"
+fastfetch 
+clear
+read
+ghostty -e "fastfetch<\n>    paru -Syyu<\n>    read -n 1 -p 'Press any key to continue...'"
+ghostty -e "fastfetch"
+ghostty -e "fastfetch read -n 1 -p 'Press any key to continue...'"
+ghostty -e "read -n 1 -p 'Press any key to continue...'"
+ghostty -e "bash -c 'read -n 1 -p "Press any key to continue..."'<\n>"
+ghostty -e "bash -c 'read -n 1 -p \"Press any key to continue...\"'"
+bash -c 'read -n 1 -p "Press any key to continue..."'
+ghostty -e "systemupdate.sh"
+ghostty -e "systemupdate.sh up"
+tan/.local/share/bin
+rg wallbash
+rg wallbashSp
+rg wallbashsp
+rg wallbashdisc
+rg wallbashdi
+vim
+vim
+clear
+vim
+vim 
+ghostty +list-themes 
+fastfetch 
+starship config
+vim ~/.config/starship.toml
+vim 
+vim 
+ls

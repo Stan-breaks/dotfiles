@@ -1,6 +1,8 @@
+
+# gruvbox-dark colorscheme for ghostty
 gtk-titlebar = false
 font-family = JetBrains Mono Nerd Font Mono
-theme = Gruvbox Dark Hard
+theme = Black Metal (Dark Funeral)
 font-size = 11.0
 background-opacity = 1
 confirm-close-surface = false 

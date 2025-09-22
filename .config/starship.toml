@@ -1,10 +1,10 @@
 [character] 
-success_symbol = "[❯](bold #689d6a)"  # Gruvbox yellow
-error_symbol = "[❯](bold #cc241d)"    # Gruvbox deep red
+success_symbol = "[❯](bold #a6a6a6)"  # light graphite gray
+error_symbol   = "[❯](bold #d75f5f)"  # muted graphite red
 
 [directory]
 format = "[$path]($style) "
-style = "bold #689d6a"  # Gruvbox green
+style = "bold #b0b0b0"  # medium graphite gray
 truncation_length = 3
 truncate_to_repo = true
 truncation_symbol = ""
@@ -12,24 +12,24 @@ truncation_symbol = ""
 [git_branch]
 format = "on [$symbol$branch]($style) "
 symbol = " "  # Nerd Font Git icon
-style = "bold #b16286"  # Gruvbox dark purple
+style = "bold #808080"  # dark graphite gray
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
-style = "bold #cc241d"  # Gruvbox deep red
+style = "bold #d75f5f"  # muted graphite red
 
 [cmd_duration]
 format = "\t[$duration]($style) "
-style = "bold #fabd2f"  # Gruvbox yellow
+style = "bold #c0c0c0"  # soft graphite highlight
 min_time = 5
 show_milliseconds = false
 
 [package]
 format = "[$symbol$version]($style) "
 symbol = "📦 "
-style = "bold #d3869b"  # Gruvbox purple
+style = "bold #9e9e9e"  # neutral graphite
 
-# Remove unneeded modules for a cleaner look
+# Clean look: unnecessary modules disabled
 [aws]
 disabled = true
 
