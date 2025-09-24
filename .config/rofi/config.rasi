@@ -1,44 +1,36 @@
-// ╭─────────────────────────────────────────────────────────╮
-// │                 Gruvbox Retro Dark Hard Theme           │
-// │                   Optimized for Jerry                   │
-// ╰─────────────────────────────────────────────────────────╯
 
 // ╭─────────────────────────────────────────────────────────╮
-// │                  Gruvbox Color Palette                  │
-// │              Authentic Retro Terminal Colors            │
+// │                 Graphite Mono Theme                     │
+// │            Minimal grayscale with subtle red            │
 // ╰─────────────────────────────────────────────────────────╯
+
 * {
-    // Gruvbox dark hard base colors
-    main-bg:                    #1d2021;  // dark0_hard
-    main-fg:                    #fbf1c7;  // light0
-    
-    // Gruvbox accent colors
-    primary-accent:             #fb4934;  // bright_red
-    secondary-accent:           #b8bb26;  // bright_green
-    tertiary-accent:            #fabd2f;  // bright_yellow
-    quaternary-accent:          #83a598;  // bright_blue
-    
-    // Additional gruvbox colors
-    orange-accent:              #fe8019;  // bright_orange
-    purple-accent:              #d3869b;  // bright_purple
-    aqua-accent:                #8ec07c;  // bright_aqua
-    
-    // Selection and interaction colors
-    selected-bg:                #fb4934;  // bright_red
-    selected-fg:                #1d2021;  // dark0_hard
-    hover-bg:                   #3c3836;  // dark2
-    
-    // Border and separator colors
-    border-color:               #504945;  // dark4
-    separator-color:            #665c54;  // dark4
-    
+    // Graphite mono base colors
+    main-bg:                    #1c1c1c;  // dark graphite
+    main-fg:                    #d0d0d0;  // light graphite
+
+    // Graphite accents
+    primary-accent:             #d75f5f;  // muted red (errors)
+    secondary-accent:           #a6a6a6;  // medium gray
+    tertiary-accent:            #bcbcbc;  // lighter gray
+    quaternary-accent:          #808080;  // dark gray
+
+    // Selection and interaction
+    selected-bg:                #a6a6a6;
+    selected-fg:                #1c1c1c;
+    hover-bg:                   #2a2a2a;
+
+    // Borders and separators
+    border-color:               #5a5a5a;
+    separator-color:            #444444;
+
     // Background variations
-    dark-bg:                    #282828;  // dark0
-    darker-bg:                  #32302f;  // dark1
-    
+    dark-bg:                    #1e1e1e;
+    darker-bg:                  #262626;
+
     // Transparency values
-    bg-transparency:            rgba(29, 32, 33, 0.95);
-    overlay-transparency:       rgba(29, 32, 33, 0.9);
+    bg-transparency:            rgba(28, 28, 28, 0.95);
+    overlay-transparency:       rgba(28, 28, 28, 0.9);
 }
 
 // ╭─────────────────────────────────────────────────────────╮
@@ -55,8 +47,8 @@ window {
     width:                       75%;
     height:                      65%;
     border:                      2px solid;
-    border-color:                @orange-accent;
-    border-radius:               0px;  // Sharp corners for retro feel
+    border-color:                @secondary-accent;
+    border-radius:               0px;
     padding:                     0em;
 }
 
@@ -81,7 +73,7 @@ inputbar {
     background-color:            @darker-bg;
     border:                      1px solid;
     border-color:                @secondary-accent;
-    border-radius:               0px;  // Sharp corners
+    border-radius:               0px;
     text-color:                  @main-fg;
     margin:                      0em 0em 1em 0em;
     children:                    [ "prompt", "entry" ];
@@ -90,14 +82,14 @@ inputbar {
 prompt {
     enabled:                     true;
     background-color:            transparent;
-    text-color:                  @orange-accent;
+    text-color:                  @tertiary-accent;
     font:                        "JetBrains Mono Bold 12";
 }
 
 entry {
     enabled:                     true;
     placeholder:                 "Search applications...";
-    placeholder-color:           #928374;  // gray
+    placeholder-color:           #707070;
     background-color:            transparent;
     text-color:                  @main-fg;
     font:                        "JetBrains Mono 12";
@@ -114,7 +106,7 @@ message {
     border:                      1px solid;
     border-color:                @quaternary-accent;
     border-radius:               0px;
-    background-color:            rgba(131, 165, 152, 0.1);
+    background-color:            rgba(128, 128, 128, 0.1);
 }
 
 textbox {
@@ -158,26 +150,26 @@ element {
     margin:                      0em;
     cursor:                      pointer;
     background-color:            transparent;
-    border-radius:               0px;  // Sharp corners for retro
+    border-radius:               0px;
     text-color:                  @main-fg;
 }
 
 element normal.normal {
-    background-color:            rgba(60, 56, 54, 0.6);  // dark2 with transparency
+    background-color:            rgba(40, 40, 40, 0.6);
     text-color:                  @main-fg;
     border:                      1px solid;
     border-color:                transparent;
 }
 
 element normal.urgent {
-    background-color:            rgba(251, 73, 52, 0.2);  // bright_red with transparency
+    background-color:            rgba(215, 95, 95, 0.2);
     text-color:                  @primary-accent;
     border:                      1px solid;
     border-color:                @primary-accent;
 }
 
 element normal.active {
-    background-color:            rgba(184, 187, 38, 0.2);  // bright_green with transparency
+    background-color:            rgba(166, 166, 166, 0.2);
     text-color:                  @secondary-accent;
     border:                      1px solid;
     border-color:                @secondary-accent;
@@ -187,53 +179,53 @@ element selected.normal {
     background-color:            @selected-bg;
     text-color:                  @selected-fg;
     border:                      2px solid;
-    border-color:                @orange-accent;
+    border-color:                @tertiary-accent;
 }
 
 element selected.urgent {
     background-color:            @primary-accent;
     text-color:                  @main-bg;
     border:                      2px solid;
-    border-color:                @orange-accent;
+    border-color:                @tertiary-accent;
 }
 
 element selected.active {
     background-color:            @secondary-accent;
     text-color:                  @main-bg;
     border:                      2px solid;
-    border-color:                @orange-accent;
+    border-color:                @tertiary-accent;
 }
 
 element alternate.normal {
-    background-color:            rgba(40, 40, 40, 0.4);  // dark0 with transparency
+    background-color:            rgba(30, 30, 30, 0.4);
     text-color:                  @main-fg;
     border:                      1px solid;
     border-color:                transparent;
 }
 
 element alternate.urgent {
-    background-color:            rgba(251, 73, 52, 0.15);
+    background-color:            rgba(215, 95, 95, 0.15);
     text-color:                  @primary-accent;
     border:                      1px solid;
-    border-color:                rgba(251, 73, 52, 0.3);
+    border-color:                rgba(215, 95, 95, 0.3);
 }
 
 element alternate.active {
-    background-color:            rgba(184, 187, 38, 0.15);
+    background-color:            rgba(166, 166, 166, 0.15);
     text-color:                  @secondary-accent;
     border:                      1px solid;
-    border-color:                rgba(184, 187, 38, 0.3);
+    border-color:                rgba(166, 166, 166, 0.3);
 }
 
 // ╭─────────────────────────────────────────────────────────╮
 // │                   Icon and Text                         │
 // ╰─────────────────────────────────────────────────────────╯
 element-icon {
-    size:                        240px;
+    size:                        230px;
     background-color:            transparent;
     cursor:                      inherit;
     margin:                      0em 0em 0.5em 0em;
-    border-radius:               0px;  // Sharp corners
+    border-radius:               0px;
 }
 
 element-text {
@@ -255,11 +247,11 @@ element-text {
 scrollbar {
     width:                       6px;
     border:                      0px;
-    handle-color:                @orange-accent;
+    handle-color:                @secondary-accent;
     handle-width:                6px;
     padding:                     0em;
     margin:                      0em 0em 0em 0.5em;
-    border-radius:               0px;  // Sharp corners
+    border-radius:               0px;
 }
 
 // ╭─────────────────────────────────────────────────────────╮
@@ -270,7 +262,7 @@ error-message {
     border:                      2px solid;
     border-color:                @primary-accent;
     border-radius:               0px;
-    background-color:            rgba(251, 73, 52, 0.1);
+    background-color:            rgba(215, 95, 95, 0.1);
     text-color:                  @primary-accent;
 }
 
