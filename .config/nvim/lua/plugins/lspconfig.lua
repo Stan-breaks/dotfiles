@@ -1,7 +1,6 @@
 ---@diagnostic disable: missing-fields
 
 local config = function()
-
   local lspconfig = require("lspconfig")
 
   vim.diagnostic.config({
@@ -105,9 +104,20 @@ local config = function()
     filetypes = { "zig" },
   })
 
-   --htmx
+  --htmx
   lspconfig.htmx.setup({
     capabilities = capabilities,
+  })
+  --dart
+  lspconfig["dartls"].setup({
+    capabilities = capabilities,
+    settings = {
+      dart = {
+        analysisExcludedFolders = {
+          vim.fn.expand("$HOME/.local/.cache")
+        }
+      }
+    }
   })
 end
 

@@ -96,7 +96,7 @@ return {
   },
   ]]
   {
-    "binarylinuxx/graphite-nvim",
+    "Stan-breaks/graphite-nvim",
     priority = 1000, -- Load first
   },
   --fold-imports
