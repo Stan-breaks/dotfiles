@@ -22,6 +22,8 @@ keymap.set("n", "<leader>un", ":NoiceDismiss<CR>", opts) -- Notification Dismiss
 
 --fzf
 keymap.set("n", "<leader>ff", ":lua require('fzf-lua').files()<CR>", opts)   -- Find files
+keymap.set("n", "<leader>rg",":lua require('fzf-lua').grep()<CR>",opts) -- grep
+keymap.set("n", "<leader>fg",":lua require('fzf-lua').grep_curbuf()<CR>",opts) -- grep in current buffer
 keymap.set("n", "<leader>fb", ":lua require('fzf-lua').buffers()<CR>", opts) -- Find buffers
 
 --foldimportToggle

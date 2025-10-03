@@ -17,7 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("config.globals")
 require("config.options")
-require("config.keymaps")
 require("config.autocmds")
 
 require("lazy").setup({
@@ -36,4 +35,5 @@ vim.api.nvim_set_hl(0,"EndOfBuffer",{bg = "none"})
 vim.api.nvim_set_hl(0,"NormalFloat",{bg = "none"})
 vim.api.nvim_set_hl(0,"NoicePopupNormal",{bg = "none"})
 
+require("config.keymaps")
 require("config.noice")
