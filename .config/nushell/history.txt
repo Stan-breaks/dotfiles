@@ -3693,3 +3693,1117 @@ vim ~/.config/starship.toml
 vim 
 vim 
 ls
+vim
+clear
+fastfetch 
+clear
+fastfetch 
+fastfetch 
+clear
+fastfetch 
+lazygit 
+vim .gitignore
+clear
+vim 
+clear
+vim
+paru -Syyu
+clear
+clear
+clear
+cava
+clear
+vim
+clear
+cmatrix 
+clear
+vim
+clear
+vim
+vim
+clear
+z ..
+ls
+z nvimprojects/
+ls
+git clone git@github.com:Stan-breaks/graphite-nvim.git
+z graphite-nvim/
+vim 
+vim
+vim
+clear
+vim 
+clear
+vim 
+./ytsurf.sh more than a woman
+vim .
+./ytsurf.sh more than a woman
+mpv ~"/Downloads/Aaliyah - More Than A Woman (Original Video) [xgYUj_pAD-w].mp4" 
+mpv ~"/Downloads/Aaliyah - More Than A Woman (Original Video) [xgYUj_pAD-w].mp4"
+mpv ~/Downloads/"Aaliyah - More Than A Woman (Original Video) [xgYUj_pAD-w].mp4" 
+mpv ~"/Downloads/[A]ddiction 重编曲翻唱【cover _ 阿萨Aza_勺Shaun】(MP3_160K).mp3" 
+z dow
+mpv "Aaliyah - More Than A Woman (Original Video) [xgYUj_pAD-w].mp4" 
+z bi
+vim 
+vim
+clear
+z yt
+./ytsurf.sh --rofi more than a woman
+vim
+./ytsurf.sh --rofi more than a woman
+clear
+./ytsurf.sh --rofi more than a woman
+vim
+./ytsurf.sh --rofi more than a woman
+lobster --rofi
+lobster --rofi -i
+./ytsurf.sh more than a woman
+./ytsurf.sh --rofi more than a woman
+clear
+./ytsurf.sh --rofi more than a woman
+vim
+./ytsurf.sh --rofi more than a woman
+clear
+jq '.[].title' ~/.cache/ytsurf/history.json<\n>
+jq '.[]' ~/.cache/ytsurf/history.json<\n>
+jq -c '.[]' ~/.cache/ytsurf/history.json<\n>
+jq '.[]' ~/.cache/ytsurf/history.json<\n>
+./ytsurf.sh --rofi more than a woman
+clear
+./ytsurf.sh --rofi more than a woman
+jq '.[]' ~/.cache/ytsurf/0f95937029ace1f453cfab4e06cad49adebc41f428df4ff76bc0d4b82be0a7a8.json 
+cat ~/.cache/ytsurf/0f95937029ace1f453cfab4e06cad49adebc41f428df4ff76bc0d4b82be0a7a8.json 
+./ytsurf.sh --rofi more than a woman
+ls -la "$TMPDIR/applications/"
+./ytsurf.sh --rofi more than a woman
+clear
+./ytsurf.sh --rofi more than a woman
+z ~
+cat .local/share/applications/ytsurf 
+ls .local/share/applications/ytsurf 
+ls .local/share/applications/lobster
+update-desktop-database 
+./ytsurf.sh --rofi more than a woman
+cat .local/share/applications
+ls .local/share/applications
+./ytsurf.sh --rofi more than a woman
+rm .local/share/applications
+rm .local/share/applications/ytsurf
+ls
+ls .local/share/applications
+clear
+ls .local/share/applications
+ls ~/.local/share/applications
+./ytsurf.sh --rofi more than a woman
+clear
+./ytsurf.sh --rofi more than a woman
+clear
+./ytsurf.sh --rofi more than a woman
+clear
+./ytsurf.sh --rofi more than a woman
+vim
+clear
+vim 
+./ytsurf.sh --rofi -h
+./ytsurf.sh --rofi --history
+clear
+./ytsurf.sh -h
+clear
+clear
+zi yt
+clear
+zi yt
+gh release create 
+zi yt
+vim
+updpkgsums
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+lazygit 
+z yt
+vim 
+vim
+onefetch
+gh release view
+vim 
+clear
+note
+back
+clear
+weather
+kotofetch
+note
+sudo pacman -Syyu
+vim
+clear
+clear
+spicetify config current_theme Dreary
+spicetify config color_scheme Mono
+spicetify apply
+spicetify restore backup apply
+z proj
+clear
+ls
+mkdir -p phoneApps
+mkdir phoneApps
+z phoneApps/
+clear
+npx create-expo-app stanbreaks-app
+z stanbreaks-app/
+clear
+vim
+vim
+z stan
+clear
+vim 
+clear
+vim
+npx expo start
+clear
+clear
+cd ..
+paru -S flutter
+sudo usermod -a -G flutter $env.USER
+clear
+flutter -h
+clear
+flutter create firstApp
+flutter create firstapp
+z firstapp/
+clear
+flutter run
+tan/dotfiles
+clear
+ls ~/.local/share/hyprland/
+which flutter
+ls
+z gra
+vim 
+clear
+vim
+z dot
+clear
+vim
+sudo pacman -Syyu
+clear
+clear
+clear
+overlay use .venv/bin/activate.nu
+z ..
+clear
+overlay use .venv/bin/activate.nu
+clear
+z fron
+clear
+z app/
+clear
+npm run dev
+clear
+z ..
+git pull
+sudo pacman -Syyu
+lazygit 
+clear
+z app/
+overlay use .venv/bin/activate.nu
+clear
+overlay use .venv/bin/activate.nu
+overlay use .venv/bin/activate.nu
+z meilisearch/
+python main.py 
+npm run dev
+podman-compose up<\n>
+celery -A celery_config worker --loglevel=info
+vim 
+clear
+z projects/nvimprojects/
+ls
+git clone git@github.com:Stan-breaks/nvim-lspconfig.git
+which dart-ls
+which  dartls
+dart 
+z nvim-lspconfig/
+dartls
+which typescript-language-server
+typescript-language-server
+clear
+vim
+flutter run
+clear
+vim .
+vim
+flutter
+flutter analyze 
+flutter pub
+flutter pub test
+flutter pub get
+flutter analyze 
+vim
+clear
+z ..
+z nvim-lspconfig/
+vim .
+clear
+htop
+vim
+clear
+clear
+vim a
+flutter run
+clear
+git init
+clear
+vim 
+z ..
+ls
+rm stanbreaks-app/
+rm -rf stanbreaks-app/
+clear
+z ..
+clear
+ls
+mv phoneApps/ FlutterProjects/
+z FlutterProjects/
+clear
+flutter create transit_daily
+clear
+z transit_daily/
+clear
+git init
+git remote add origin git@github.com:Stan-breaks/TransitDaily.git
+git add .
+lazygit 
+clear
+flutter run
+clear
+clear
+wget https://github.com/StanleyMasinde/twitter/releases/latest/download/twitter-linux-x64.tar.gz && tar -xzf twitter-linux-x64.tar.gz && rm twitter-linux-x64.tar.gz<\n>sudo mv twitter /usr/local/bin/<\n>sudo chmod +x /usr/local/bin/twitter
+bash
+clear
+twitter config --init
+chmod 600 ~/.config/twitter_cli/config.toml 
+twitter config --init
+twitter config --edit
+let-env EDITOR = "nvim"<\n>
+$env.EDITOR = "nvim"<\n>$env.VISUAL = "nvim"<\n>
+twitter config --edit
+twitter config --show
+twitter config --edit
+twitter config --show
+fortune | twitter tweet
+twitter config --edit
+twitter config --validate
+vim
+twitter config --edit
+fortune | twitter tweet
+twitter tweet good evening
+twitter tweet "good evening"
+twitter tweet --body "good evening"
+twitter config --edit
+fortune | twitter tweet
+twitter config --edit
+clear
+vim 
+vim
+sudo pacman -Syyu
+paru -Syyu
+vim
+paru -Syyu
+clear
+pass generate facebook
+aerc
+clear
+git pull
+lazygit 
+vim meilisearch/docker-compose.yml
+lazygit 
+z for
+z fro
+git pull
+clear
+lazygit 
+git pull
+clear
+rg sma
+rg sms
+chromium --app=https://web.whatsapp.com
+librewolf --ssb https://web.whatsapp.com<\n>
+librewolf -h
+librewolf --kiosk
+chromium --app=https://web.whatsapp.com
+hyprctl clients
+vim 
+z down
+zathura  "PVT-L51D9YRZ-Company Registration Certificate.pdf" 
+sudo pacman -Syyu
+zathura  "PVT-L51D9YRZ-Company Registration Certificate.pdf" 
+clear
+clear
+./ytsurf.sh
+zi yt
+clear
+./ytsurf.sh icarus
+./ytsurf.sh icarus fana
+vim 
+clear
+overlay use .venv/bin/activate.nu
+clear
+rg sms
+clear
+fzf -h
+fzf
+vim 
+vim 
+clear
+clear
+vim
+vim
+ytsurf prodsb
+ytsurf --limit 20 prodsb
+ytsurf -h
+ytsurf --limit 20 prodsb
+ytsurf 90201 prodsb
+vim 
+ytsurf prodsb crush
+ytsurf -V
+ytsurf -v
+ytsurf --version
+z for
+wine speed.exe 
+clear
+sudo pacman -Syyu
+sudo pacman -R flutter
+sudo pacman -R flutter-bin 
+sudo pacman -S flutter-bin 
+clear
+sudo pacman -S onionshare
+sudo pacman -S tor
+sudo pacman -S torbrowser-launcher
+clear
+sudo pacman -S nyx
+clear
+nyx
+clear
+vim 
+clear
+./ytsurf.sh -V
+./ytsurf.sh --rofi -V
+./ytsurf.sh --limit 7 mia
+./ytsurf.sh --limit 15 mia
+./ytsurf.sh -e
+./ytsurf.sh --limit 15 mia
+clear
+vim
+zi yt
+clear
+ls
+rm ytsurf-2.0.0.tar.gz
+vim PKGBUILD
+zi yt
+gh release create 
+clear
+vim
+ls
+vim 
+gh release create 
+zi yt
+vim PKGBUILD
+updpkgsums
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+lazygit 
+clear
+sudo pacman -S nix
+z yt
+vim
+vim flake.nix
+nix flake update
+ls
+nix run
+mkdir ~/.config/nix<\n>vim ~/.config/nix/nix.conf
+mkdir ~/.config/nix
+vim ~/.config/nix/nix.conf
+clear
+ls ~/.config/nix/
+touch~/.config/nix/nix.conf
+touch ~/.config/nix/nix.conf
+vim ~/.config/nix/nix.conf
+ls ~/.config/nix/
+z ../.config/nix/
+vim
+clear
+nix flake update
+sudo mkdir -m 0755 /nix<\n>sudo chown root:root /nix<\n>
+ls /nix/
+nix flake update
+sudo nix flake update
+nix flake update
+sudo systemctl status nix
+sudo systemctl status nix-daemon
+sudo systemctl start nix-daemon
+sudo systemctl status nix-daemon
+nix flake update
+nix run
+vim
+nix run
+clear
+zi yt
+vim
+sudo pacman -S homebrew
+iv
+clear
+vim
+clear
+vim PKGBUILD
+paru -Syyu
+ytsurf --version
+clear
+note
+back
+rg admin
+rg admin_email
+clear
+rg order@
+rg Order@
+rg @afyasoko.com
+vim .env
+flow_state 
+sudo pacman -Syyu
+clear
+vim
+clear
+ytsurf towa  x atash
+clear
+z lobster/
+z lobster
+clear
+ls
+lobster --continue
+lobster -i f1
+lobster --continue
+sudo pacman -Syyu
+vim
+clear
+sudo cpupower frequency-set -g powersave
+sudo pacman -S sway
+clea
+clear
+vim 
+vim 
+ytsurf --copy-url towa x atash
+./ytsurf --copy-url towa x atash
+./ytsurf.sh --copy-url towa x atash
+./ytsurf.sh --copy-url bunda
+vim
+gh release create 
+vim
+lazygit 
+clear
+zi yt
+vim
+updpkgsums
+vim
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+clear
+lazygit 
+clear
+pacman -S tui-journal
+sudo pacman -S tui-journal
+tui-journal
+tjournal
+clear
+note
+paru -Syyu
+lobster peace maker
+z flo
+vim
+z yt
+vim
+z flo
+vim
+git tag v1.0.2<\n>git push origin v1.0.2<\n>
+vim
+git push origin --delete v1.0.2<\n>
+git tag v1.0.2<\n>git push origin v1.0.2<\n>
+git tag -d v1.0.2<\n>
+git tag v1.0.2<\n>git push origin v1.0.2<\n>
+vim
+git push origin --delete v1.0.2<\n>
+git tag -d v1.0.2<\n>
+git tag v1.0.2<\n>git push origin v1.0.2<\n>
+vim
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+cargo build --release 
+ls
+./target/release/flow_state
+vim
+rustup target list
+rustup target list | fd windows
+tldr fd
+rustup target list | rg windows
+cargo install cross --git https://github.com/cross-rs/cross<\n>
+vim build.sh
+./build.sh
+chmod +x build.sh
+./build.sh
+rustup target add x86_64-pc-windows-gnu
+./build.sh
+vim build.sh
+sudo pacman -S mingw-w64-gcc<\n>
+vim build.sh
+./build.sh
+rustup target add x86_64-apple-darwin
+./build.sh
+vim build.sh
+sudo pacman -Rdd mingw-w64-gcc<\n>
+vim
+git push origin --delete v1.0.3<\n>
+git tag -d v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+vim
+git push origin --delete v1.0.3<\n>
+git tag -d v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+lazygit 
+git push origin --delete v1.0.3<\n>
+git tag -d v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+lazygit 
+clear
+sudo pacman -Syyu
+vim
+git push origin --delete v1.0.3<\n>
+git tag -d v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+vim
+git push origin --delete v1.0.3<\n>
+git tag -d v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+vim
+git tag -d v1.0.3<\n>
+git push origin --delete v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+sudo pacman -R nltk-data
+vim
+git push origin --delete v1.0.3<\n>
+git tag -d v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+vim
+git tag -d v1.0.3<\n>
+git push origin --delete v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+vim
+git push origin --delete v1.0.3<\n>
+git tag -d v1.0.3<\n>
+git tag v1.0.3<\n>git push origin v1.0.3<\n>
+vim
+sudo cpupower frequency-set -g powersave
+clear
+fastfetch 
+clear
+z ytsurf
+clear
+flow_state 
+z flow_state/
+z flow_state
+vim
+clear
+vim
+clear
+z dot
+clear
+clear
+z music
+vim
+vim
+ytsurt someordinary gamer
+ytsurf someordinary gamer
+paru -Syyu
+ytsurf someordinary gamer discord
+ytsurf --sentaku
+cle3ar
+clear
+ytsurf --history
+clear
+vim
+vim
+flutter run
+pacman -Ss ^proton-ge
+vim /etc/pacman.conf
+paru -Ss chao
+paru -Ss chaotic
+flow_state 
+z rust
+ls
+git clone git@github.com:Stan-breaks/termusic.git
+cd termusic/
+clear
+vim
+clear
+flutter run
+clear
+flutter pub add http:
+flutter pub outdated
+flutter pub upgrade --major-versions
+flutter pub outdated
+z go
+zi go
+clear
+mkdir transit_daily 
+z transit_daily/
+go mod init
+go mod init transit_daily
+go run .
+z nim
+clear
+vim
+vim main.go
+cd ..
+rm transit_daily/
+rm -rf transit_daily/
+clear
+nimble init transit_daily
+z transit_daily/
+clear
+sqlc generate
+termusic 
+clear
+ytsurf --rofi angethegreat 
+sudo pacman -Syu
+vim 
+rm .git/
+rm -rf .git/
+git init]
+git init
+clear
+git remote add origin git@github.com:Stan-breaks/transit_daily_backend.git
+git add .
+git commit -m "init"
+git push -u origin main
+clear
+termusic 
+sudo pacman -Syyu
+clear
+vim
+z nimbl
+vim
+z -
+clear
+openssl rand -base64 32
+clear
+vim
+flutter pub get
+vim
+go run
+ls
+flutter run
+sqlite3 sqlite.db 
+clear
+flutter pub add flutter_secure_storage:
+flutter pub outdated
+clear
+flutter pub get
+clear
+flutter run
+flutter clean<\n>flutter pub get<\n>
+flutter run
+flutter pub outdated
+dart pub upgrade 
+flutter run
+flutter pub remove flutter_secure_storage 
+clear
+flutter pub add hive:
+flutter run
+flutter pub add hive_flutter:
+flutter run
+vim
+clear
+note
+back
+clear
+overlay use .venv/bin/activate.nu
+go run .
+vim 
+clear
+vim
+which youtube
+which youtube-dl
+youtube-dl
+yt-dl
+vim 
+ls /usr/local/bin/youtube-dl
+ls ~/.local/bin/
+ls ~/.local/bin/youtube-dl
+youtube-dl
+ls -l  ~/.local/bin/youtube-dl
+ls /usr/bin/yt-dlp
+youtube-dl --version<\n>
+bash
+clear
+yt-dlp --version
+mpv -v "https://www.youtube.com/watch?v=dQw4w9WgXcQ"<\n>
+mpv -v "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 2>&1 | grep Running<\n>
+bash
+clar
+clear
+mpv -v "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+ls -l  ~/.local/bin/youtube-dl
+which yt-dlp 
+sudo ln -s /usr/bin/yt-dlp /usr/local/bin/youtube-dl
+youtube-dl --version<\n>
+clear
+sudo pacman -R youtube-dl
+paru -R youtube-dl
+clear
+mpv -v "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+mpv -v "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 2>&1 | grep [ytdl_hook] Starting subprocess:<\n>
+bash
+clear
+sudo ln -s /usr/bin/yt-dlp /usr/local/bin/youtube-dl
+paru -Syyu
+paru -Syu
+vim -e Lazy
+vim 
+paru -Syu
+vim
+sudo systemctl start mysqld
+clear
+mysql -u root -p
+clear
+paru -Syyu
+clear
+note
+back
+note
+back
+note
+back
+note
+back
+not
+note
+clear
+clear
+clear
+flutter
+sudo-legacy -E nvim /etc/pacman.conf 
+paru -Syyu
+clear
+curl -s https://api.github.com/repos/nushell/nushell/contributors | jq -c '.[] | {login,contributions}'
+paru -Syyu
+mpv -v "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 2>&1 | grep [ytdl_hook] Starting subprocess:<\n>
+bash
+clear
+sudo cpupower frequency-set -g powersave
+sudo pacman -S winboat
+paru -S winboat
+clear
+paru -Syu
+which niri
+sudo pacman -S niri
+clear
+flutter run
+clear
+clear
+vim 
+vim ~/.config/niri/config.kdl
+vim
+stow . --adopt
+ls ~/.config/niri
+ls -l ~/.config/niri
+ls -ls ~/.config/niri
+ls -la ~/.config/niri
+ls -a ~/.config/niri
+ls -l ~/.config/niri
+ls -l ~/.config/niri/config.kdl
+clear
+rofi
+rofi -show drun
+vim
+ls
+clear
+librewolf 
+clear
+tmux attach-session main
+clear
+niri validate
+clear
+fastfetch 
+clear
+vim
+vim
+swwwallpaper.sh 
+niri validate
+rofii
+rofi -show drun
+pkill -x rofi || $HOME/.local/share/bin/cliphist.sh
+bash
+clear
+niri validate
+swwwallpaper.sh 
+clear
+z bin
+swwwallpaper.sh 
+vim
+rofilaunch.sh 
+vim
+clear
+cliphist 
+clear
+swwwallpaper.sh 
+z bin
+ls
+vim
+clear
+niri validate
+niri -h
+niri completions
+niri completions nu
+niri completions nushell
+clear
+niri completions nushell > ~/.config/nushell/completions/niri.nu<\n>
+niri completions nushell | .save --force ~/.config/nushell/completions/niri.nu<\n>
+niri completions nushell | save --force ~/.config/nushell/completions/niri.nu<\n>
+ls .config/nushell/
+niri completions nushell | save --force ~/dotfiles/.config/nushell/completions/niri.nu<\n>
+makepkg --printsrcinfo | save --force .SRCINFO<\n>
+niri completions nushell | save --force ~/dotfiles/.config/nushell/completions/niri.nu<\n>
+ls ~/dotfiles/.config/nushell/
+mkdir ~/dotfiles/.config/nushell/completions
+niri completions nushell | save --force ~/dotfiles/.config/nushell/completions/niri.nu<\n>
+vim
+clar
+cleawr
+clear
+clear
+niri msg list-windows<\n>
+clear
+niri msg list-windows<\n>
+niri msg windows 
+niri validate
+niri msg windows 
+clear
+niri msg windows 
+niri
+niri msg windows 
+niri validate
+hypr
+hyprland 
+clear
+clear
+nu
+vim
+ls
+clear
+ls
+clear
+ls
+vim
+clear
+vim
+clear
+vim
+clear
+ytsurf -v
+ytsurf -V
+sudo pacman -Syyu
+bluetui
+vim
+sudo nano /etc/default/cpupower
+sudo-legacy -E nvim /etc/default/cpupower 
+cpupower frequency-info | grep "current policy"
+sudo cpupower frequency-set -g powersave
+sudo pacman -S zed
+vim
+clear
+sudo pacman -S rofi-emoji
+rofi -modi emoji -show emoji<\n>
+clear
+rofi -modi emoji -show emoji -kb-secondary-copy "" -kb-custom-1 Ctrl+c
+z she
+ls
+zi shel
+z ..
+ls
+z bashScripts/
+z ~/.local/share/bin/
+vim
+chmod +x emoji.sh 
+emoji
+.emoji.sh
+./emoji.sh
+tan/bashScripts
+clear
+nu
+./emoji.sh
+vim emoji.sh
+vim
+clear
+sudo pacman -R rofi-emoji
+clear
+sudo pacman -S rofimoji
+rofimoji 
+clear
+sudo pacman -R rofimoji
+sudo pacman -S rofi-emoji
+clear
+rofi -modi emoji -show emoji -kb-secondary-copy "" -kb-custom-1 Ctrl+c
+sudo pacman -R emote
+clear
+z dot
+./emoji.sh
+vim
+./emoji.sh
+z ba
+./emoji.sh
+z ba
+./emoji.sh
+z ba
+./emoji.sh
+rofi -modi emoji -show emoji -emoji-format '{emoji}'
+vim
+z nu
+vim
+book
+tan/nuScripts
+book
+clear
+book
+pkill -x rofi || $HOME/.local/share/bin/cliphist.sh
+book
+ytsurf --rofi
+rofi -modi emoji -show emoji -theme ~/.config/rofi/emoji-picker.rasi<\n>
+rofi -modi emoji -show emoji -theme ~/.config/rofi/emoji.rasi
+rofi -modi emoji -show emoji -theme ~/.config/rofi/clipboard.rasi
+rofi -modi emoji -show emoji -theme ~/.config/rofi/global.rasi
+rofi -modi emoji -show emoji -theme ~/.config/rofi/quickapps.rasi
+book
+cat $env.HOME
+ls $env.HOME
+clear
+book
+ls ~/.config/rofi
+ls ~/.config/rofi/assets/
+ls ~/.config/rofi/styles/
+book
+ls ~/.config/rofi/steam/gamelauncher_1.rasi
+book
+ls ~/.config/rofi/steam/
+book
+z dot
+book
+vim
+cleawr
+clear
+z bashScripts/
+z ba
+emoji
+./emoji.sh
+clear
+sudo ln -s ~/bashScripts/emoji.sh /usr/local/bin/emoji
+emoji
+vim
+sudo pacman -S wtype
+clear
+time
+vim
+z nu
+vim
+z dot
+vim
+clewar
+z nushe
+clear
+z nu
+vim
+nu time.nu 
+date 
+date -h
+date now
+date to-timezone
+date list-timezone 
+date list-timezone | where timezone starts-with canada
+date list-timezone | where timezone starts-with Canada
+date to-timezone Canada/Eastern
+date -h
+date to-timezone Canada/Eastern
+date now | date to-timezone Canada/Eastern
+vim
+nu time.nu 
+vim
+nu time.nu 
+string(date now | date to-timezone Canada/Eastern)
+nu time.nu 
+date -h
+string(date now | date to-timezone Canada/Eastern) | date humanize 
+date now | date to-timezone Canada/Eastern | date humanize 
+date humanize 
+date now |date humanize 
+date -h
+nu time.nu 
+weather
+nu time.nu 
+clear
+sudo ln -s ~/nuScripts/time.nu /usr/local/bin/time
+clear
+time
+sudo ln -s ~/nuScripts/time.nu /usr/local/bin/time
+clear
+time
+sudo chmod+x /usr/local/bin/time
+sudo chmod +x /usr/local/bin/time
+time
+clear
+weather
+time
+lazygit 
+vim time.nu
+clear
+time
+clear
+time
+lobster peace maker
+lobster peacemaker
+lobster -i peacemaker
+lobster -i -rofi peacemaker
+lobster -i --rofi peacemaker
+lobster peacemaker
+time
+bpytop 
+clear
+clear
+time
+clear
+time
+weather
+clear
+ls
+ls | where name == 'book'
+ls | where name == 'book.nu'
+ls | where size > 241B
+cleawr
+book
+clear
+vim 
+pwd
+z dot
+pws
+pwd
+z yt
+pwd
+clear
+z ba
+zi ba
+clear
+z dot
+clear
+vim
+vim .
+clear
+vim
+paru -Ss ^proton
+sudo-legacy -E nvim /etc/pacman.d/mirrorlist 
+vim
+sudo-legacy -E nvim /etc/pacman.d/mirrorlist.pacnew 
+clear
+ping aur.archlinux.org
+clear
