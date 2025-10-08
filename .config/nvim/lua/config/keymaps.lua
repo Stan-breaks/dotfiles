@@ -43,7 +43,6 @@ keymap.set("n", "K", vim.lsp.buf.hover, opts)                -- show documentati
 keymap.set("n", "<leader>a", ":lua require('harpoon.mark').add_file()<CR>", opts)
 keymap.set("n", "<C-e>", ":lua require('harpoon.ui').toggle_quick_menu()<CR>", opts)
 keymap.set("n", "<M-a>", ":lua require('harpoon.ui').nav_next()<CR>", opts) -- navigates to next mark
-keymap.set("n", "<M-z>", "lua require('harpoon.ui').nav_prev()<CR>", opts) -- navigates to previous mark
 
 --common keymaps
 keymap.set("n", "<leader>w", ":write<CR>", opts)
