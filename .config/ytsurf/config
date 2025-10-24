@@ -1,0 +1,12 @@
+#limit=10
+#audio_only=false
+#use_rofi=false
+#use_sentaku=false
+#download_mode=false
+#history_mode=false
+#format_selection=false
+#download_dir="$HOME/Downloads"
+#max_history_entries=20
+#notify=true
+#editor="nvim"
+#player="mpv"
