@@ -1,0 +1,118 @@
+# UI Settings
+set selection-clipboard clipboard
+set font "JetBrains Mono Nerd Font Mono 11"
+
+# Background and foreground
+set default-bg "#1c1c1c"      # graphite dark background
+set default-fg "#d0d0d0"      # graphite light foreground
+
+# Recoloring (dark mode)
+set recolor true
+set recolor-lightcolor "#1c1c1c"
+set recolor-darkcolor "#d0d0d0"
+set recolor-reverse-video true
+set recolor-keephue true
+
+# Status bar
+set statusbar-fg "#d0d0d0"
+set statusbar-bg "#262626"
+set statusbar-h-padding 10
+set statusbar-v-padding 5
+
+# Input bar
+set inputbar-bg "#262626"
+set inputbar-fg "#d0d0d0"
+
+# Notification colors
+set notification-error-bg "#d75f5f"  # graphite muted red
+set notification-error-fg "#d0d0d0"
+set notification-warning-bg "#a6a6a6"
+set notification-warning-fg "#1c1c1c"
+set notification-bg "#808080"
+set notification-fg "#1c1c1c"
+
+# Completion menu
+set completion-bg "#262626"
+set completion-fg "#d0d0d0"
+set completion-group-bg "#3a3a3a"
+set completion-group-fg "#bcbcbc"
+set completion-highlight-bg "#5a5a5a"
+set completion-highlight-fg "#e4e4e4"
+
+# Index mode
+set index-bg "#1c1c1c"
+set index-fg "#d0d0d0"
+set index-active-bg "#3a3a3a"
+set index-active-fg "#e4e4e4"
+
+# Highlight colors
+set highlight-color "#a6a6a6"
+set highlight-active-color "#c0c0c0"
+
+# Rendering options
+set smooth-scroll true
+set scroll-step 50
+set scroll-hstep 50
+set scroll-wrap false
+set advance-pages-per-row false
+set continuous-hist-save true
+
+# Zoom and fit
+set zoom-min 10
+set zoom-max 1000
+set zoom-step 10
+set fit-width true
+set adjust-open "best-fit"
+
+# Page settings
+set page-padding 5
+set pages-per-row 1
+set first-page-column 1
+
+# Window settings
+set window-title-basename true
+set statusbar-basename true
+set statusbar-home-tilde true
+
+# Key bindings (Graphite Mono friendly)
+map r recolor
+map p print
+map i zoom in
+map o zoom out
+map R rotate
+map K zoom in
+map J zoom out
+map h scroll left
+map j scroll down
+map k scroll up
+map l scroll right
+map <C-d> scroll half-down
+map <C-u> scroll half-up
+map <C-f> scroll full-down
+map <C-b> scroll full-up
+map gg goto top
+map G goto bottom
+map <Space> scroll full-down
+map <S-Space> scroll full-up
+map <BackSpace> scroll full-up
+map n search forward
+map N search backward
+map <Escape> abort
+map q quit
+map <C-q> quit
+
+# Toggle settings
+map <F1> toggle_statusbar
+map <F2> toggle_inputbar
+map <F3> focus_inputbar ":set pages-per-row "
+map <F4> focus_inputbar ":set first-page-column "
+map <F5> focus_inputbar ":set zoom "
+
+# Additional helpful bindings
+map = zoom 100
+map + zoom in
+map - zoom out
+map <C-=> zoom in
+map <C--> zoom out
+map <C-0> zoom 100
+
