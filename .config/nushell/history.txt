@@ -6065,3 +6065,5 @@ clear
 ls .config/
 z .config
 yazi
+rm -rf .config/waybar/modules/
+clear
