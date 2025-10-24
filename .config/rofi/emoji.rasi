@@ -1,0 +1,49 @@
+* {
+    font: "Inter 12";
+    background: #1f1d2e;   /* graphite base */
+    foreground: #e0e0e0;   /* light grey text */
+    accent: #5c5c5c;       /* subtle selection */
+    border: #2a2838;
+    spacing: 6px;
+}
+
+window {
+    width: 30%;
+    border: 1px;
+    border-color: @border;
+    padding: 8px;
+    background-color: @background;
+}
+
+mainbox {
+    spacing: @spacing;
+    children: [inputbar, listview];
+}
+
+inputbar {
+    padding: 6px;
+    border: 0 0 1px 0;
+    border-color: @border;
+    background-color: @background;
+    text-color: @foreground;
+}
+
+listview {
+    columns: 1;
+    lines: 10;
+    fixed-height: false;
+    spacing: 4px;
+    scrollbar: false;
+}
+
+element {
+    padding: 6px;
+    text-color: @foreground;
+    background-color: transparent;
+}
+
+element selected {
+    background-color: @accent;
+    text-color: @foreground;
+    border-radius: 4px;
+}
