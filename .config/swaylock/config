@@ -1,0 +1,57 @@
+daemonize
+show-failed-attempts
+clock
+screenshot
+
+# --- Effects ---
+effect-blur=15x15
+effect-vignette=1:1
+color=1a1a1a80   # translucent graphite background
+
+# --- Fonts & layout ---
+font="Inter"
+indicator
+indicator-radius=200
+indicator-thickness=20
+
+# --- Core colors (graphite monochrome) ---
+line-color=1a1a1a
+ring-color=2a2a2a
+inside-color=1a1a1a
+key-hl-color=4a4a4a
+separator-color=00000000
+text-color=d0d0d0
+text-caps-lock-color=""
+
+# --- Verification (typing password) ---
+line-ver-color=4a4a4a
+ring-ver-color=4a4a4a
+inside-ver-color=1a1a1a
+text-ver-color=d0d0d0
+
+# --- Wrong password ---
+ring-wrong-color=5a5a5a
+text-wrong-color=5a5a5a
+inside-wrong-color=1a1a1a
+line-wrong-color=1a1a1a
+
+# --- Clear state ---
+inside-clear-color=1a1a1a
+text-clear-color=d0d0d0
+ring-clear-color=3a3a3a
+line-clear-color=1a1a1a
+
+# --- Backspace highlight ---
+bs-hl-color=5a5a5a
+
+# --- Timing ---
+grace=2
+grace-no-mouse
+grace-no-touch
+fade-in=0.3
+ignore-empty-password
+
+# --- Clock ---
+datestr=%a, %B %e
+timestr=%I:%M %p
+
