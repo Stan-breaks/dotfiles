@@ -1,0 +1,11 @@
+# gruvbox-dark colorscheme for ghostty
+gtk-titlebar = false
+font-family = JetBrainsMono Nerd Font
+theme = Black Metal (Dark Funeral)
+font-size = 11.0
+background-opacity = 0.9
+confirm-close-surface = false 
+window-padding-x = 10
+window-padding-y = 10
+mouse-hide-while-typing = true
+command = "/usr/bin/nu"
