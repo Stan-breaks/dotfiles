@@ -62,6 +62,12 @@ local config = function()
   -- bash
   vim.lsp.config("bashls", {
     capabilities = capabilities,
+    settings = {
+      bashIde = {
+        shellcheckPath = "shellcheck", -- ensure bashls knows where to find it
+        includeAllWorkspaceSymbols = true,
+      },
+    },
   })
 
   -- docker
