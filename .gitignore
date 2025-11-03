@@ -10,3 +10,7 @@ lazy-lock.json
 logs
 *data
 history.txt
+accounts.conf 
+dconf
+systemd
+pulse
