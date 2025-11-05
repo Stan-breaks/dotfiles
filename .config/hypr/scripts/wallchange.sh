@@ -50,7 +50,7 @@ main() {
   setup_cleanup
   create_entries
   wallpaper=$(pick_wallpaper)
-  pkill -x swaybg ; swaybg -i $wallpaper -m fill &
+  [ -z "$wallpaper" ] || pkill -x swaybg ; swaybg -i "$wallpaper" -m fill &
 }
 
 main "$@"
