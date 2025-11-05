@@ -1,125 +1,66 @@
+configuration {
+    modi:                        "drun";
+    show-icons:                  true;
+    drun-display-format:         "{name}";
+    font:                        "JetBrainsMono Nerd Font 10";
+  }
 
-// ╭─────────────────────────────────────────────────────────╮
-// │                 Graphite Mono Theme                     │
-// │            Minimal grayscale with subtle red            │
-// ╰─────────────────────────────────────────────────────────╯
+@theme "~/.config/rofi/theme.rasi"
 
-* {
-    // Graphite mono base colors
-    main-bg:                    #1c1c1c;  // dark graphite
-    main-fg:                    #d0d0d0;  // light graphite
 
-    // Graphite accents
-    primary-accent:             #d75f5f;  // muted red (errors)
-    secondary-accent:           #a6a6a6;  // medium gray
-    tertiary-accent:            #bcbcbc;  // lighter gray
-    quaternary-accent:          #808080;  // dark gray
-
-    // Selection and interaction
-    selected-bg:                #a6a6a6;
-    selected-fg:                #1c1c1c;
-    hover-bg:                   #2a2a2a;
-
-    // Borders and separators
-    border-color:               #5a5a5a;
-    separator-color:            #444444;
-
-    // Background variations
-    dark-bg:                    #1e1e1e;
-    darker-bg:                  #262626;
-
-    // Transparency values
-    bg-transparency:            rgba(28, 28, 28, 0.95);
-    overlay-transparency:       rgba(28, 28, 28, 0.9);
-}
-
-// ╭─────────────────────────────────────────────────────────╮
-// │                      Main Window                        │
-// ╰─────────────────────────────────────────────────────────╯
 window {
     transparency:                "real";
     fullscreen:                  false;
     enabled:                     true;
     cursor:                      "default";
-    background-color:            @bg-transparency;
     location:                    center;
     anchor:                      center;
     width:                       75%;
     height:                      65%;
     border:                      2px solid;
-    border-color:                @secondary-accent;
-    border-radius:               0px;
+    background-color:            @main-bg;
+    border-color:                @main-fg;
+    border-radius:               10px;
     padding:                     0em;
 }
 
-// ╭─────────────────────────────────────────────────────────╮
-// │                    Layout Structure                     │
-// ╰─────────────────────────────────────────────────────────╯
+
 mainbox {
     orientation:                 vertical;
     spacing:                     0em;
     padding:                     1.2em;
     background-color:            transparent;
-    children:                    [ "inputbar", "message", "listview" ];
+    children:                    [ "inputbar", "listview" ];
 }
 
-// ╭─────────────────────────────────────────────────────────╮
-// │                      Input Bar                          │
-// ╰─────────────────────────────────────────────────────────╯
+
 inputbar {
     enabled:                     true;
     spacing:                     0.8em;
     padding:                     0.8em 1em;
-    background-color:            @darker-bg;
+    background-color:            @main-bg;
     border:                      1px solid;
-    border-color:                @secondary-accent;
-    border-radius:               0px;
+    border-color:                @main-fg;
+    border-radius:               10px;
     text-color:                  @main-fg;
     margin:                      0em 0em 1em 0em;
-    children:                    [ "prompt", "entry" ];
+    children:                    ["entry" ];
 }
 
-prompt {
-    enabled:                     true;
-    background-color:            transparent;
-    text-color:                  @tertiary-accent;
-    font:                        "JetBrains Mono Bold 12";
-}
-
-entry {
-    enabled:                     true;
-    placeholder:                 "Search applications...";
-    placeholder-color:           #707070;
-    background-color:            transparent;
-    text-color:                  @main-fg;
-    font:                        "JetBrains Mono 12";
-    cursor:                      text;
-}
-
-// ╭─────────────────────────────────────────────────────────╮
-// │                      Message Box                        │
-// ╰─────────────────────────────────────────────────────────╯
-message {
-    enabled:                     true;
-    margin:                      0em 0em 1em 0em;
-    padding:                     0.8em;
-    border:                      1px solid;
-    border-color:                @quaternary-accent;
-    border-radius:               0px;
-    background-color:            rgba(128, 128, 128, 0.1);
+entry{
+  background-color: @main-bg;
+  text-color: @main-fg;
 }
 
 textbox {
-    background-color:            transparent;
-    text-color:                  @quaternary-accent;
+    background-color:            @main-bg;
+    text-color:                  @main-fg;
     font:                        "JetBrains Mono 10";
     vertical-align:              0.5;
     horizontal-align:            0.0;
 }
 
-// ╭─────────────────────────────────────────────────────────╮
-// │                      List View                          │
-// ╰─────────────────────────────────────────────────────────╯
+
 listview {
     enabled:                     true;
     columns:                     4;
@@ -139,9 +80,7 @@ listview {
     flow:                        horizontal;
 }
 
-// ╭─────────────────────────────────────────────────────────╮
-// │                  Application Elements                   │
-// ╰─────────────────────────────────────────────────────────╯
+
 element {
     enabled:                     true;
     orientation:                 vertical;
@@ -154,72 +93,11 @@ element {
     text-color:                  @main-fg;
 }
 
-element normal.normal {
-    background-color:            rgba(40, 40, 40, 0.6);
-    text-color:                  @main-fg;
-    border:                      1px solid;
-    border-color:                transparent;
-}
-
-element normal.urgent {
-    background-color:            rgba(215, 95, 95, 0.2);
-    text-color:                  @primary-accent;
-    border:                      1px solid;
-    border-color:                @primary-accent;
-}
-
-element normal.active {
-    background-color:            rgba(166, 166, 166, 0.2);
-    text-color:                  @secondary-accent;
-    border:                      1px solid;
-    border-color:                @secondary-accent;
-}
-
 element selected.normal {
-    background-color:            @selected-bg;
-    text-color:                  @selected-fg;
-    border:                      2px solid;
-    border-color:                @tertiary-accent;
+    background-color:            @select-bg;
+    text-color:                  @select-fg;
 }
 
-element selected.urgent {
-    background-color:            @primary-accent;
-    text-color:                  @main-bg;
-    border:                      2px solid;
-    border-color:                @tertiary-accent;
-}
-
-element selected.active {
-    background-color:            @secondary-accent;
-    text-color:                  @main-bg;
-    border:                      2px solid;
-    border-color:                @tertiary-accent;
-}
-
-element alternate.normal {
-    background-color:            rgba(30, 30, 30, 0.4);
-    text-color:                  @main-fg;
-    border:                      1px solid;
-    border-color:                transparent;
-}
-
-element alternate.urgent {
-    background-color:            rgba(215, 95, 95, 0.15);
-    text-color:                  @primary-accent;
-    border:                      1px solid;
-    border-color:                rgba(215, 95, 95, 0.3);
-}
-
-element alternate.active {
-    background-color:            rgba(166, 166, 166, 0.15);
-    text-color:                  @secondary-accent;
-    border:                      1px solid;
-    border-color:                rgba(166, 166, 166, 0.3);
-}
-
-// ╭─────────────────────────────────────────────────────────╮
-// │                   Icon and Text                         │
-// ╰─────────────────────────────────────────────────────────╯
 element-icon {
     size:                        230px;
     background-color:            transparent;
@@ -241,53 +119,4 @@ element-text {
     padding:                     0em;
 }
 
-// ╭─────────────────────────────────────────────────────────╮
-// │                     Scrollbar                           │
-// ╰─────────────────────────────────────────────────────────╯
-scrollbar {
-    width:                       6px;
-    border:                      0px;
-    handle-color:                @secondary-accent;
-    handle-width:                6px;
-    padding:                     0em;
-    margin:                      0em 0em 0em 0.5em;
-    border-radius:               0px;
-}
 
-// ╭─────────────────────────────────────────────────────────╮
-// │                      Error States                       │
-// ╰─────────────────────────────────────────────────────────╯
-error-message {
-    padding:                     1em;
-    border:                      2px solid;
-    border-color:                @primary-accent;
-    border-radius:               0px;
-    background-color:            rgba(215, 95, 95, 0.1);
-    text-color:                  @primary-accent;
-}
-
-// ╭─────────────────────────────────────────────────────────╮
-// │                    Configuration                        │
-// ╰─────────────────────────────────────────────────────────╯
-configuration {
-    modi:                        "drun";
-    show-icons:                  true;
-    icon-theme:                  "Papirus-Dark";
-    display-drun:                "⚡ Launch";
-    drun-display-format:         "{name}";
-    disable-history:             false;
-    fullscreen:                  false;
-    hide-scrollbar:              true;
-    sidebar-mode:                false;
-    hover-select:                true;
-    eh:                          1;
-    auto-select:                 false;
-    parse-hosts:                 false;
-    parse-known-hosts:           false;
-    combi-modi:                  "drun";
-    matching:                    "fuzzy";
-    scroll-method:               0;
-    normalize-match:             true;
-    lazy-grab:                   false;
-    case-sensitive:              false;
-}

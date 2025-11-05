@@ -25,6 +25,8 @@ window {
     cursor:                      "default";
     spacing:                     0em;
     padding:                     0em;
+    border:                      2px solid;
+    border-radius:               10px;
     border-color:                @main-br;
     background-color:            transparent;
 }
