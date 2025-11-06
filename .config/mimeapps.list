@@ -36,6 +36,7 @@ video/x-matroska=mpv.desktop
 video/webm=mpv.desktop
 video/avi=mpv.desktop
 x-scheme-handler/terminal=ghostty.desktop
+x-scheme-handler/discord=vesktop.desktop
 
 [Added Associations]
 x-scheme-handler/http=librewolf.desktop;

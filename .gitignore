@@ -10,7 +10,8 @@ lazy-lock.json
 logs
 *data
 history.txt
-accounts.conf 
+accounts.conf
 dconf
 systemd
 pulse
+vesktop
