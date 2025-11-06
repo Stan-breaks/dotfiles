@@ -35,3 +35,4 @@ $env.config.edit_mode = 'vi'
 source ~/.cache/nushell/init.nu
 source ~/dotfiles/.config/nushell/vim.nu
 source ~/.zoxide.nu
+source ~/.local/share/atuin/init.nu
