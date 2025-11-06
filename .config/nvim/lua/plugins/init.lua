@@ -39,7 +39,13 @@ return {
         preview = {
           hidden = 'hidden', -- completely disable preview window
         },
-      }
+      },
+      keymap = {
+        fzf = {
+          ["tab"] = "down",
+          ["shift-tab"] = "up",
+        }
+      },
     },
   },
   --oil
