@@ -5,8 +5,8 @@
 #download_mode=false
 #history_mode=false
 #format_selection=false
-#download_dir="$HOME/Downloads"
+download_dir="$HOME/Downloads"
 #max_history_entries=20
-#notify=true
+notify=true
 #editor="nvim"
 #player="mpv"
