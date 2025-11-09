@@ -112,6 +112,11 @@ local config = function()
     capabilities = capabilities,
   })
 
+  --java
+  vim.lsp.config("jdtls", {
+    capabilities = capabilities,
+  })
+
   --dart
   vim.lsp.config("dartls", {
     capabilities = capabilities,
