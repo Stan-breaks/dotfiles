@@ -11,6 +11,5 @@ esac
 
 
 swappy -f "$file"
-notify-send -t 2000 "Screenshot taken" "file saved at ~/Pictures/Screenshots/" -i "$file" 
 cat "$file" | wl-copy --type image/png
 rm "$file"
