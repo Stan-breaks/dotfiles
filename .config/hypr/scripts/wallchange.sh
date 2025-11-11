@@ -5,6 +5,7 @@ set -u pipefail
 WALLPAPER_DIR="$HOME/Pictures/wallpapers"
 TMPDIR=""
 applications="$HOME/.local/share/applications/wallpaper/"
+WALLPAPER_SCRIPT="/home/Stanbreaks/.config/hypr/scripts/randomWallpaper.sh"
 
 # Create a temporary desktop entry for each wallpaper
 create_entries() {
@@ -50,7 +51,7 @@ main() {
   setup_cleanup
   create_entries
   wallpaper=$(pick_wallpaper)
-  [ -z "$wallpaper" ] || pkill -x swaybg ; swaybg -i "$wallpaper" -m fill &
+  [ -z "$wallpaper" ] || pkill -f "$WALLPAPER_SCRIPT"; "$WALLPAPER_SCRIPT" "$wallpaper" &
 }
 
 main "$@"
