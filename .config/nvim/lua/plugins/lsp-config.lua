@@ -58,6 +58,10 @@ local config = function()
       "templ",
     },
   })
+  -- react
+  vim.lsp.config("vtsls",{
+    capabilities = capabilities,
+  })
 
   -- bash
   vim.lsp.config("bashls", {
