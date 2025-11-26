@@ -1,114 +1,54 @@
-* {
-    background-image: none;
-    font-size: ${fntSize}px;
-}
-
-@import "$HOME/.config/waybar/theme.css";
-
 window {
-    background-color: transparent;
+  font-family: "JetBrains Mono Nerd Font";
+  font-size: 12pt;
+  color: #E5E5E5;
+  background-color: rgba(32, 32, 32, 0.90);
 }
 
 button {
-    color: ${BtnCol};
-    background-color: @main-bg;
-    outline-style: none;
-    border: none;
-    border-width: 0px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 10%;
-    border-radius: 0px;
-    box-shadow: none;
-    text-shadow: none;
-    animation: gradient_f 20s ease-in infinite;
-}
-
-button:focus {
-    background-color: @wb-act-bg;
-    background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgba(20, 20, 20, 0.35);
+  border-color: #4A4A4A;
+  color: #E5E5E5;
+  margin: 6px;
+  border-radius: 18px;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
 button:hover {
-    background-color: @wb-hvr-bg;
-    background-size: 25%;
-{
-    "label" : "logout",
-    "action" : "hyprctl dispatch exit 0",
-    "text" : "        "     
+  background-color: rgba(50, 50, 50, 0.60);
+  border-color: #8A8A8A;
 }
 
-{
-    "label" : "lock",
-    "action" : "swaylock",
-    "text" : "        "
-}
-
-
-{
-    "label" : "shutdown",
-    "action" : "systemctl poweroff",
-    "text" : "        "
-}
-
-{
-    "label" : "reboot",
-    "action" : "systemctl reboot",
-    "text" : "        "     
-}
-
-{
-    "label" : "suspend",
-    "action" : "systemctl suspend",
-    "text" : "        "    
-}
-
-
-    border-radius: ${active_rad}px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
-}
-
-button:hover#lock {
-    border-radius: ${active_rad}px ${active_rad}px 0px ${active_rad}px;
-    margin : ${y_hvr}px 0px 0px ${x_hvr}px;
-}
-
-button:hover#logout {
-    border-radius: ${active_rad}px 0px ${active_rad}px ${active_rad}px;
-    margin : 0px 0px ${y_hvr}px ${x_hvr}px;
-}
-
-button:hover#shutdown {
-    border-radius: ${active_rad}px ${active_rad}px ${active_rad}px 0px;
-    margin : ${y_hvr}px ${x_hvr}px 0px 0px;
-}
-
-button:hover#reboot {
-    border-radius: 0px ${active_rad}px ${active_rad}px ${active_rad}px;
-    margin : 0px ${x_hvr}px ${y_hvr}px 0px;
+button:focus {
+  background-color: rgba(50, 50, 50, 0.60);
+  border-color: #AAAAAA;
 }
 
 #lock {
-    background-image: image(url("$HOME/.config/wlogout/icons/lock_${BtnCol}.png"), url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
-    border-radius: ${button_rad}px 0px 0px 0px;
-    margin : ${y_mgn}px 0px 0px ${x_mgn}px;
+  background-image: image(url("icons/lock_white.png"));
 }
 
 #logout {
-    background-image: image(url("$HOME/.config/wlogout/icons/logout_${BtnCol}.png"), url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
-    border-radius: 0px 0px 0px ${button_rad}px;
-    margin : 0px 0px ${y_mgn}px ${x_mgn}px;
+  background-image: image(url("icons/logout_white.png"));
 }
 
-#shutdown {
-    background-image: image(url("$HOME/.config/wlogout/icons/shutdown_${BtnCol}.png"), url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
-    border-radius: 0px ${button_rad}px 0px 0px;
-    margin : ${y_mgn}px ${x_mgn}px 0px 0px;
+#suspend {
+  background-image: image(url("icons/suspend_white.png"));
+}
+
+#hibernate {
+  background-image: image(url("icons/hibernate_white.png"));
 }
 
 #reboot {
-    background-image: image(url("$HOME/.config/wlogout/icons/reboot_${BtnCol}.png"), url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
-    border-radius: 0px 0px ${button_rad}px 0px;
-    margin : 0px ${x_mgn}px ${y_mgn}px 0px;
+  background-image: image(url("icons/reboot_white.png"));
+}
+
+#shutdown {
+  background-image: image(url("icons/shutdown_white.png"));
 }
