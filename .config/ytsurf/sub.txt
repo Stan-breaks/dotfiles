@@ -5,3 +5,5 @@ JID,@jid6871
 Megan Thee Stallion,@megantheestallion
 21 Savage,@21savage
 NetLoss,@Net-Loss
+Yeat Music,@yeatmusic3280
+Cardi B,@cardib
