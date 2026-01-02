@@ -31,7 +31,6 @@ $env.PROMPT_MULTILINE_INDICATOR = "::: "
 $env.config.buffer_editor = "nvim"
 $env.config.edit_mode = 'vi'
 
-
 source ~/.cache/nushell/init.nu
 source ~/dotfiles/.config/nushell/vim.nu
 source ~/.zoxide.nu
