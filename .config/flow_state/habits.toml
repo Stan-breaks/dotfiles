@@ -1,0 +1,23 @@
+[[habits]]
+name = "Morning run"
+habit_type = "Build"
+days_completed = []
+created = "2025-06-12"
+
+[[habits]]
+name = "Read 10 pages"
+habit_type = "Build"
+days_completed = []
+created = "2025-06-12"
+
+[[habits]]
+name = "Social media scrolling"
+habit_type = "Avoid"
+days_completed = []
+created = "2025-06-12"
+
+[[habits]]
+name = "Late-night snacking"
+habit_type = "Avoid"
+days_completed = []
+created = "2025-06-12"
