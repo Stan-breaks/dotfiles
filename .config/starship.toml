@@ -1,35 +1,33 @@
 [character] 
-success_symbol = "[❯](bold #a6a6a6)"  # light graphite gray
-error_symbol   = "[❯](bold #d75f5f)"  # muted graphite red
+success_symbol = "[❯](bold #a6a6a6)"  
+error_symbol   = "[❯](bold #d75f5f)" 
 
 [directory]
 format = "[$path]($style) "
-style = "bold #b0b0b0"  # medium graphite gray
+style = "bold #b0b0b0" 
 truncation_length = 3
 truncate_to_repo = true
 truncation_symbol = ""
 
 [git_branch]
 format = "on [$symbol$branch]($style) "
-symbol = " "  # Nerd Font Git icon
-style = "bold #808080"  # dark graphite gray
+symbol = " " 
+style = "bold #808080" 
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
-style = "bold #d75f5f"  # muted graphite red
+style = "bold #d75f5f"
 
 [cmd_duration]
 format = "\t[$duration]($style) "
-style = "bold #c0c0c0"  # soft graphite highlight
-min_time = 5
-show_milliseconds = false
+style = "bold #c0c0c0" 
+min_time = 0
 
 [package]
 format = "[$symbol$version]($style) "
 symbol = "📦 "
-style = "bold #9e9e9e"  # neutral graphite
+style = "bold #9e9e9e" 
 
-# Clean look: unnecessary modules disabled
 [aws]
 disabled = true
 
