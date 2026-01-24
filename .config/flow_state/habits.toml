@@ -1,23 +1,47 @@
-[[habits]]
-name = "Morning run"
+[[build_habits]]
+name = "Coding hobby project"
+habit_type = "Build"
+days_completed = ["2026-01-13", "2026-01-21", "2026-01-20", "2026-01-23", "2026-01-15", "2026-01-14"]
+created = "2026-01-13"
+
+[[build_habits]]
+name = "Coding for work"
+habit_type = "Build"
+days_completed = ["2026-01-13", "2026-01-21", "2026-01-17", "2026-01-15", "2026-01-23", "2026-01-20"]
+created = "2026-01-13"
+
+[[build_habits]]
+name = "Coding for other clients"
+habit_type = "Build"
+days_completed = ["2026-01-23"]
+created = "2026-01-13"
+
+[[build_habits]]
+name = "Playing chess"
+habit_type = "Build"
+days_completed = ["2026-01-15", "2026-01-20", "2026-01-13", "2026-01-21", "2026-01-17", "2026-01-14", "2026-01-23"]
+created = "2026-01-13"
+
+[[build_habits]]
+name = "read a chapter"
 habit_type = "Build"
 days_completed = []
-created = "2025-06-12"
+created = "2026-01-21"
 
-[[habits]]
-name = "Read 10 pages"
-habit_type = "Build"
-days_completed = []
-created = "2025-06-12"
-
-[[habits]]
-name = "Social media scrolling"
+[[avoid_habits]]
+name = "Excess use of socialmedia"
 habit_type = "Avoid"
-days_completed = []
-created = "2025-06-12"
+days_completed = ["2026-01-23", "2026-01-13", "2026-01-21"]
+created = "2026-01-13"
 
-[[habits]]
-name = "Late-night snacking"
+[[avoid_habits]]
+name = "Watching porn"
 habit_type = "Avoid"
-days_completed = []
-created = "2025-06-12"
+days_completed = ["2026-01-17", "2026-01-15", "2026-01-13", "2026-01-12", "2026-01-14"]
+created = "2026-01-13"
+
+[[avoid_habits]]
+name = "Excess gaming "
+habit_type = "Avoid"
+days_completed = ["2026-01-17", "2026-01-23", "2026-01-21", "2026-01-20", "2026-01-15", "2026-01-14", "2026-01-13"]
+created = "2026-01-13"
