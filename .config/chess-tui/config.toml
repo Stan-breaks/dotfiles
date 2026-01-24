@@ -1,0 +1,6 @@
+engine_path = ""
+display_mode = "CUSTOM"
+log_level = "OFF"
+bot_depth = 10
+selected_skin_name = "Midnight"
+sound_enabled = true
