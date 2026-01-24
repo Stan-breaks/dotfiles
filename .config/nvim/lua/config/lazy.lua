@@ -26,7 +26,6 @@ require("lazy").setup({
   checker = { enabled = false },
 })
 vim.o.background = "dark"
---vim.cmd.colorscheme("gruvbox")
 vim.cmd.colorscheme("graphite")
 vim.api.nvim_set_hl(0,"Normal",{bg = "none"})
 vim.api.nvim_set_hl(0,"statusline",{bg = "none"})
