@@ -59,7 +59,7 @@ local config = function()
     },
   })
   -- react
-  vim.lsp.config("vtsls",{
+  vim.lsp.config("vtsls", {
     capabilities = capabilities,
   })
 
@@ -132,8 +132,10 @@ local config = function()
       }
     }
   })
+
   vim.lsp.enable('dartls')
 
+  --nushell
   vim.lsp.config("nuls", {
     cmd = { 'nu', '--lsp' },
     capabilities = capabilities,
@@ -141,6 +143,15 @@ local config = function()
   })
 
   vim.lsp.enable("nuls")
+
+  --haskell
+  vim.lsp.config("hls", {
+    cmd = { 'haskell-language-server', '--lsp' },
+    capabilities = capabilities,
+    filetypes = { "haskell" }
+  })
+
+  vim.lsp.enable("hls")
 end
 
 return {
