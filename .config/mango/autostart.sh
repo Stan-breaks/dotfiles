@@ -11,20 +11,18 @@ dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 
 waybar -c ~/.config/mango/config.jsonc -s ~/.config/mango/style.css &
 
-"$HOME/.local/share/bin/batterynotify.sh" &
+batterynotify.sh &
 
 dunst &
 
-wl-paste --type text --watch cliphist store 
-wl-paste --type image --watch cliphist store
+udiskie &
 
-wlsunset -T 3501 -t 3500 &
+wl-paste --type text --watch cliphist store &
+wl-paste --type image --watch cliphist store &
+
+wlsunset -T 6500 -t 3500 &
 
 notify-send -i /home/Stanbreaks/Pictures/logo.png -t 14000 "Hey Stanley. Glad you're back." "Let’s get to work." &
-
-
-export PATH="$PATH:$HOME/.local/bin"
-
 
 # Permission authentication
 /usr/lib/xfce-polkit/xfce-polkit &

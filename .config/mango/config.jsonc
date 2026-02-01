@@ -121,7 +121,7 @@
     "tooltip-format": "󰾆 {percentage}%\n {used:0.1f}GB/{total:0.1f}GB"
   },
   "custom/cpuinfo": {
-    "exec": "/home/Stanbreaks/.local/share/bin/cpuinfo.sh",
+    "exec": "cpuinfo.sh",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
@@ -130,17 +130,17 @@
     "max-length": 1000
   },
   "custom/gpuinfo": {
-    "exec": "/home/Stanbreaks/.local/share/bin/gpuinfo.sh",
+    "exec": "gpuinfo.sh",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
     "interval": 5,
     "tooltip": true,
     "max-length": 1000,
-    "on-click": "/home/Stanbreaks/.local/share/bin/gpuinfo.sh --toggle"
+    "on-click": "gpuinfo.sh --toggle"
   },
   "custom/gpuinfo#intel": {
-    "exec": " /home/Stanbreaks/.local/share/bin/gpuinfo.sh --use intel",
+    "exec": "gpuinfo.sh --use intel",
     "return-type": "json",
     "format": "{}",
     "rotate": 0,
@@ -193,7 +193,7 @@
     "format-disconnected": "󰖪 ",
     "tooltip-format-disconnected": "Disconnected",
     "tooltip-format-wifi": "connected to {essid}",
-    "on-click": "mmsg -t 5 && ghostty -e impala"
+    "on-click": "ghostty -e impala"
   },
   "bluetooth": {
     "format-on": "󰂯",
@@ -202,7 +202,7 @@
     "rotate": 0,
     "tooltip": true,
     "tooltip-format": "bluetooth",
-    "on-click": "mmsg -t 5 && ghostty -e bluetui"
+    "on-click": "ghostty -e bluetui"
   },
   "tray": {
     "icon-size": 12,
