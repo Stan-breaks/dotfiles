@@ -1,4 +1,5 @@
 limit=15
+#format_code="bestvideo[height<=720]+bestaudio/best"
 #audio_only=false
 #use_rofi=false
 #use_sentaku=false
