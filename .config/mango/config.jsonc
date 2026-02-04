@@ -193,7 +193,7 @@
     "format-disconnected": "󰖪 ",
     "tooltip-format-disconnected": "Disconnected",
     "tooltip-format-wifi": "connected to {essid}",
-    "on-click": "ghostty -e impala"
+    "on-click": "foot -e impala"
   },
   "bluetooth": {
     "format-on": "󰂯",
@@ -202,7 +202,7 @@
     "rotate": 0,
     "tooltip": true,
     "tooltip-format": "bluetooth",
-    "on-click": "ghostty -e bluetui"
+    "on-click": "foot -e bluetui"
   },
   "tray": {
     "icon-size": 12,
