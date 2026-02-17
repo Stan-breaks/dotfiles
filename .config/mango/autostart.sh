@@ -3,8 +3,6 @@
 set +e
 
 
-gsettings set org.gnome.desktop.interface text-scaling-factor 1.0
-
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=wlroots
 
 "$HOME/.config/scripts/randomWallpaper.sh" "$HOME/Pictures/wallpapers/saitama.jpeg" &
