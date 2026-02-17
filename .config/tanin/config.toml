@@ -1,0 +1,10 @@
+[general]
+enable_bundled_sounds = true
+category_order = []
+hidden_categories = []
+
+[audio]
+sample_rate = 44100
+buffer_size = 100
+
+[sounds]
