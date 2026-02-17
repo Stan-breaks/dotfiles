@@ -35,63 +35,42 @@ local config = function()
       },
     },
   })
+  vim.lsp.enable("lua_ls")
 
   --rust
   vim.lsp.config("rust_analyzer", {
     capabilities = capabilities,
   })
+  vim.lsp.enable("rust_analyzer")
 
   -- json
   vim.lsp.config("jsonls", {
     capabilities = capabilities,
   })
+  vim.lsp.enable("jsonls")
 
   -- python
-  vim.lsp.config("pyright", {
+  vim.lsp.config("pylsp", {
     capabilities = capabilities,
   })
+  vim.lsp.enable("pylsp")
 
-  -- typescript
-  vim.lsp.config("ts_ls", {
-    capabilities = capabilities,
-    filetypes = {
-      "templ",
-    },
-  })
-  -- react
   vim.lsp.config("vtsls", {
     capabilities = capabilities,
   })
+  vim.lsp.enable("vtsls")
 
   -- bash
   vim.lsp.config("bashls", {
     capabilities = capabilities,
-    settings = {
-      bashIde = {
-        shellcheckPath = "shellcheck", -- ensure bashls knows where to find it
-        includeAllWorkspaceSymbols = true,
-      },
-    },
   })
-
-  -- docker
-  vim.lsp.config("dockerls", {
-    capabilities = capabilities,
-  })
+  vim.lsp.enable("bashls")
 
   -- C/C++
-  vim.lsp.config("clangd", {
-    capabilities = capabilities,
-    cmd = {
-      "clangd",
-      "--offset-encoding=utf-16",
-    },
-  })
-
-  --php
-  vim.lsp.config("intelephense", {
+  vim.lsp.config("ccls", {
     capabilities = capabilities,
   })
+  vim.lsp.enable("ccls")
 
   --go
   vim.lsp.config("gopls", {
@@ -105,21 +84,19 @@ local config = function()
       },
     },
   })
+  vim.lsp.enable("gopls")
+
   --zig
   vim.lsp.config("zls", {
     capabilities = capabilities,
-    filetypes = { "zig" },
   })
-
-  --htmx
-  vim.lsp.config("htmx", {
-    capabilities = capabilities,
-  })
+  vim.lsp.enable("zls")
 
   --java
   vim.lsp.config("jdtls", {
     capabilities = capabilities,
   })
+  vim.lsp.enable("jdtls")
 
   --dart
   vim.lsp.config("dartls", {
@@ -137,21 +114,10 @@ local config = function()
 
   --nushell
   vim.lsp.config("nuls", {
-    cmd = { 'nu', '--lsp' },
     capabilities = capabilities,
-    filetypes = { "nu" }
   })
 
   vim.lsp.enable("nuls")
-
-  --haskell
-  vim.lsp.config("hls", {
-    cmd = { 'haskell-language-server', '--lsp' },
-    capabilities = capabilities,
-    filetypes = { "haskell" }
-  })
-
-  vim.lsp.enable("hls")
 end
 
 return {
