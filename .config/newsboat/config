@@ -1,0 +1,11 @@
+refresh-on-startup yes
+reload-threads 100
+show-read-feeds no
+show-read-articles no
+# Vim-style movement
+bind-key j down
+bind-key k up
+bind-key h quit
+bind-key l open
+#color
+highlight article "^(Title|Date|Author):.*$" color6 default bold

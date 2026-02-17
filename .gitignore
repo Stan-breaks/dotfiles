@@ -32,3 +32,5 @@ xfce4
 QtProject.conf
 Android Open Source Project
 chromium
+*.db
+history.cmdline
