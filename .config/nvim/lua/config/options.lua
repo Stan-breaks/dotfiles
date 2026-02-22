@@ -1,4 +1,5 @@
 local opt = vim.opt
+
 -- Indentation & Whitespace --------------------------
 opt.expandtab = true -- Convert tabs to spaces
 opt.tabstop = 2 -- Number of spaces a tab counts for
@@ -68,3 +69,4 @@ opt.visualbell = true
 -- Spellings
 opt.spell = true
 opt.spelllang = "en_us"
+
