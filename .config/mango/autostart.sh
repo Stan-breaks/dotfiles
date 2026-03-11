@@ -2,7 +2,6 @@
 
 set +e
 
-
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=wlroots
 
 "$HOME/.config/scripts/randomWallpaper.sh" "$HOME/Pictures/wallpapers/saitama.jpeg" &
@@ -25,15 +24,5 @@ notify-send -i /home/Stanbreaks/Pictures/logo.png -t 14000 "Hey Stanley. Glad yo
 # Permission authentication
 /usr/lib/xfce-polkit/xfce-polkit &
 
+/usr/lib/xdg-desktop-portal-wlr &
 
-
-
-
-
-
-
-
-
-
-
-#
