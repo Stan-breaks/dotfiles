@@ -14,9 +14,8 @@ My personal configuration files for Arch Linux, managed using GNU Stow.
 - Neovim
 - tmux
 - lsd
-- Hyprland
+- mango
 - Dunst
-- Dolphin
 
 ## Installation
 
@@ -36,7 +35,7 @@ To symlink configurations, use the following commands:
 stow nvim
 stow tmux
 stow lsd
-stow hyprland
+stow mango
 stow dunst
 stow dolphin
 ```
@@ -77,11 +76,6 @@ sudo pacman -S neovim tmux lsd hyprland dunst dolphin
 
 - Prefix key customizations
 - Additional plugins and status bar configurations
-
-### Hyprland
-
-- Modify keyboard/mouse bindings
-- Adjust display and workspace configurations
 
 ## Troubleshooting
 
