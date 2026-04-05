@@ -17,7 +17,7 @@ udiskie &
 wl-paste --type text --watch cliphist store &
 wl-paste --type image --watch cliphist store &
 
-wlsunset -T 6500 -t 3500 &
+wlsunset -l -1.2921 -L 36.8219 -T 6500 -t 3500 &
 
 notify-send -i /home/Stanbreaks/Pictures/logo.png -t 14000 "Hey Stanley. Glad you're back." "Let’s get to work." &
 

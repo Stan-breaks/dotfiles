@@ -16,8 +16,6 @@ window#waybar {
 tooltip {
   background: @main-bg;
   color: @main-fg;
-  border-radius: 5px;
-  border-width: 0px;
 }
 
 #workspaces button {
@@ -107,11 +105,9 @@ tooltip {
 #language,
 #memory,
 #network,
-#custom-notifications,
 #custom-power,
 #privacy,
 #wireplumber,
-#custom-spotify,
 #taskbar,
 #custom-theme,
 #tray,

@@ -18,8 +18,6 @@
     "backlight",
     "wireplumber",
     "wireplumber#source",
-    "custom/updates",
-    "custom/keybindhint",
     "custom/r_end",
     "custom/padd"
   ],
