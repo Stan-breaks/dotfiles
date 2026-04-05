@@ -47,7 +47,6 @@ opt.undodir = vim.fn.expand("~/.vim/undodir")
 opt.backspace = "indent,eol,start"
 opt.autochdir = false         -- Don't change directory automatically
 opt.mouse = "a"               -- Enable mouse in all modes
-opt.clipboard = "unnamedplus" -- Use system clipboard
 opt.modifiable = true         -- Allow buffer modifications
 opt.encoding = "UTF-8"        -- Set default encoding
 
