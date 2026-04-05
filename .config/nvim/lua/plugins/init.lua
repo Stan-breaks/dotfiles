@@ -26,6 +26,8 @@ vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 vim.api.nvim_set_hl(0, "Pmenu", { bg = "none" })
 
+require('vim._core.ui2').enable({ enable = true })
+
 require("nvim-ts-autotag").setup({
   filetypes = {
     "html",
