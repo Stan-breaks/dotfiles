@@ -117,3 +117,10 @@ vim.lsp.config("nuls", {
 })
 
 vim.lsp.enable("nuls")
+
+--protols
+vim.lsp.config("protols", {
+  capabilities = capabilities,
+})
+
+vim.lsp.enable("protols")
