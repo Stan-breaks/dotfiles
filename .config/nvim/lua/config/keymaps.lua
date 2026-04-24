@@ -5,10 +5,6 @@ local opts = { noremap = true, silent = true }
 -- Oil
 keymap.set("n", "-", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
 
---noice
-keymap.set("n", "<leader>uh", ":NoiceHistory<CR>", opts) -- Notification History
-keymap.set("n", "<leader>un", ":NoiceDismiss<CR>", opts) -- Notification Dismiss
-
 --fzf
 local fzf = require('fzf-lua')
 keymap.set("n", "<leader>ff", fzf.files, opts)
