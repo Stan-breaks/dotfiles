@@ -5,6 +5,7 @@ vim.pack.add({
   "https://github.com/ibhagwan/fzf-lua",
   "https://github.com/stevearc/oil.nvim",
   "https://github.com/windwp/nvim-ts-autotag",
+  "https://github.com/saghen/blink.lib",
   "https://github.com/saghen/blink.cmp",
   "https://github.com/rafamadriz/friendly-snippets",
   "https://github.com/OXY2DEV/markview.nvim",
@@ -26,7 +27,53 @@ vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 vim.api.nvim_set_hl(0, "Pmenu", { bg = "none" })
 
-require('vim._core.ui2').enable({ enable = true })
+vim.o.cmdheight = 1
+require("vim._core.ui2").enable({
+  enable = true,
+  msg = {
+    targets = {
+      [""] = "msg",
+      empty = "cmd",
+      bufwrite = "msg",
+      confirm = "cmd",
+      emsg = "pager",
+      echo = "msg",
+      echomsg = "msg",
+      echoerr = "pager",
+      completion = "cmd",
+      list_cmd = "pager",
+      lua_error = "pager",
+      lua_print = "msg",
+      progress = "pager",
+      rpc_error = "pager",
+      quickfix = "msg",
+      search_cmd = "cmd",
+      search_count = "cmd",
+      shell_cmd = "pager",
+      shell_err = "pager",
+      shell_out = "pager",
+      shell_ret = "msg",
+      undo = "msg",
+      verbose = "pager",
+      wildlist = "cmd",
+      wmsg = "msg",
+      typed_cmd = "cmd",
+    },
+    cmd = {
+      height = 0.5,
+    },
+    dialog = {
+      height = 0.5,
+    },
+    msg = {
+      height = 0.3,
+      timeout = 5000,
+    },
+    pager = {
+      height = 0.5,
+    },
+  },
+})
 
 require("nvim-ts-autotag").setup({
   filetypes = {
@@ -37,7 +84,7 @@ require("nvim-ts-autotag").setup({
     "typescriptreact",
   }
 })
-
+require("nvim-autopairs").setup {}
 
 local presets = require("markview.presets");
 require("markview").setup({
@@ -109,7 +156,8 @@ require("oil").setup({
   },
 })
 
-require("blink.cmp").setup({
+local cmp = require("blink.cmp")
+cmp.setup({
   keymap = {
     preset = 'default',
     ['<CR>'] = { 'accept', 'fallback' },
