@@ -32,5 +32,10 @@ xfce4
 QtProject.conf
 Android Open Source Project
 chromium
+flow_state
+gajim
+kdenliverc
+opencode
+config.yaml
 *.db
 history.cmdline
