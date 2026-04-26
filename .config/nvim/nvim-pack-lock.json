@@ -1,11 +1,12 @@
 {
   "plugins": {
     "blink.cmp": {
-      "rev": "fd0fe1ad450a407be34d18642784c71d3ee48d19",
-      "src": "https://github.com/saghen/blink.cmp"
+      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "1.0.0 - 2.0.0"
     },
     "blink.lib": {
-      "rev": "1c9dfb261b8be35f689c6d83dfd3e92b7f59ecf8",
+      "rev": "dda2666685a5ac3598166577d2e34f1fff6b1637",
       "src": "https://github.com/saghen/blink.lib"
     },
     "friendly-snippets": {
@@ -13,7 +14,7 @@
       "src": "https://github.com/rafamadriz/friendly-snippets"
     },
     "fzf-lua": {
-      "rev": "ffa44ee9470743a7697d28df3a1a216fdfe2b09d",
+      "rev": "1ae863c83e0823225b4e041845f10c918d5fb882",
       "src": "https://github.com/ibhagwan/fzf-lua"
     },
     "gitsigns.nvim": {
@@ -29,7 +30,7 @@
       "src": "https://github.com/kdheepak/lazygit.nvim"
     },
     "markview.nvim": {
-      "rev": "692887ec334c41b618ba732047ac9dac3edfaead",
+      "rev": "86cf4bcede58e88497f7e5214efb281d4a6f633d",
       "src": "https://github.com/OXY2DEV/markview.nvim"
     },
     "nvim-autopairs": {
@@ -37,7 +38,7 @@
       "src": "https://github.com/windwp/nvim-autopairs"
     },
     "nvim-lspconfig": {
-      "rev": "81878de76c0de4ce289513734ad80c31ec7871b8",
+      "rev": "8fde495949782bb61c2605174e231d145a048d8c",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
     "nvim-treesitter": {
