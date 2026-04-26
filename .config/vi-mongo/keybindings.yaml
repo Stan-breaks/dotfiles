@@ -1,0 +1,313 @@
+global:
+    closeApp:
+        keys: [Ctrl+c]
+        runes: [q]
+        description: Close application
+    toggleFullScreenHelp:
+        runes: ['?']
+        description: Toggle full screen help
+    openConnection:
+        keys: [Ctrl+o]
+        description: Open connection page
+    showStyleModal:
+        keys: [Ctrl+t]
+        description: Toggle style change modal
+    toggleHeader:
+        runes: [t]
+        description: Expand/collapse header
+navigation:
+    moveUp:
+        keys: [Up]
+        runes: [k]
+        description: Move up
+    moveDown:
+        keys: [Down]
+        runes: [j]
+        description: Move down
+    moveLeft:
+        keys: [Left]
+        runes: [h]
+        description: Move left
+    moveRight:
+        keys: [Right]
+        runes: [l]
+        description: Move right
+help:
+    close:
+        keys: [Esc]
+        description: Close help
+    search:
+        runes: [/]
+        description: Search keybindings
+    editKey:
+        runes: [e]
+        description: Edit keybinding
+connection:
+    connectionForm:
+        saveConnection:
+            keys: [Ctrl+s]
+            description: Save connection
+        focusList:
+            keys: [Ctrl+h, Ctrl+Left]
+            description: Focus Connection List
+    connectionList:
+        focusForm:
+            keys: [Ctrl+l, Ctrl+Right]
+            description: Move focus to form
+        deleteConnection:
+            keys: [Ctrl+d]
+            runes: [D]
+            description: Delete selected connection
+        editConnection:
+            runes: [E]
+            description: Edit selected connection
+        setConnection:
+            keys: [Enter, Space]
+            description: Set selected connection
+main:
+    focusNext:
+        keys: [Ctrl+l, Tab]
+        description: Focus next component
+    focusPrevious:
+        keys: [Ctrl+h, Backtab]
+        description: Focus previous component
+    hideDatabases:
+        keys: [Ctrl+n]
+        description: Hide databases
+    showAIQuery:
+        keys: [Alt+a]
+        description: Show AI prompt
+    showServerInfo:
+        keys: [Ctrl+s]
+        description: Show server info
+databases:
+    filterBar:
+        runes: [/]
+        description: Focus filter bar
+    clearFilter:
+        keys: [Ctrl+u]
+        description: Clear filter
+    expandAll:
+        runes: [E]
+        description: Expand all
+    collapseAll:
+        runes: [W]
+        description: Collapse all
+    addCollection:
+        runes: [A]
+        description: Add collection
+    deleteCollection:
+        keys: [Ctrl+d]
+        runes: [D]
+        description: Delete collection
+    renameCollection:
+        runes: [R]
+        description: Rename collection
+filterBar:
+    closeFilter:
+        keys: [Escape]
+        description: Close filter bar
+    clearFilter:
+        keys: [Ctrl+u]
+        description: Clear filter
+content:
+    switchView:
+        runes: [f]
+        description: Change view
+    peekDocument:
+        keys: [Enter]
+        runes: [p]
+        description: Quick peek
+    fullPagePeek:
+        runes: [P]
+        description: Full page peek
+    addDocument:
+        runes: [A]
+        description: Add new
+    editDocument:
+        runes: [E]
+        description: Edit
+    inlineEdit:
+        runes: [e]
+        description: Inline edit cell
+    duplicateDocument:
+        runes: [D]
+        description: Duplicate
+    duplicateDocumentNoConfirm:
+        keys: [Alt+D]
+        description: Duplicate without confirmation
+    deleteDocument:
+        keys: [Ctrl+d]
+        runes: [d]
+        description: Delete
+    deleteDocumentNoConfirm:
+        keys: [Alt+d]
+        description: Delete without confirmation
+    copyValue:
+        runes: [c]
+        description: Copy highlighted
+    copyDocument:
+        runes: [C]
+        description: Copy document
+    refresh:
+        keys: [Ctrl+r]
+        runes: [R]
+        description: Refresh
+    toggleQueryBar:
+        runes: [/]
+        description: Toggle query bar
+    nextDocument:
+        runes: [']']
+        description: Next document
+    previousDocument:
+        runes: ['[']
+        description: Previous document
+    nextPage:
+        runes: ["n"]
+        description: Next page
+    previousPage:
+        runes: [b]
+        description: Previous page
+    toggleSortBar:
+        runes: [s]
+        description: Toggle sort bar
+    sortByColumn:
+        runes: [S]
+        description: Sort by current column
+    hideColumn:
+        runes: [H]
+        description: Hide current column
+    resetHiddenColumns:
+        keys: [Ctrl+r]
+        runes: [r]
+        description: Reset hidden columns
+    toggleQueryOptions:
+        keys: [Alt+o]
+        description: Toggle query options
+    multipleSelect:
+        runes: [V]
+        description: Multiple select
+    clearSelection:
+        keys: [Esc]
+        description: Clear selection
+peeker:
+    moveToTop:
+        runes: [g]
+        description: Move to top
+    moveToBottom:
+        runes: [G]
+        description: Move to bottom
+    copyHighlight:
+        runes: [c]
+        description: Copy highlighted
+    copyValue:
+        runes: [C]
+        description: Copy only value
+    toggleFullScreen:
+        runes: [F]
+        description: Toggle full screen
+    exit:
+        runes: [p, P]
+        description: Exit
+queryBar:
+    showHistory:
+        keys: [Ctrl+y]
+        description: Show history
+    clearInput:
+        keys: [Ctrl+d]
+        description: Clear input
+    paste:
+        keys: [Ctrl+v]
+        description: Paste from clipboard
+    nextMarker:
+        keys: [Ctrl+l]
+        description: Next marker
+sortBar:
+    clearInput:
+        keys: [Ctrl+d]
+        description: Clear input
+    paste:
+        keys: [Ctrl+v]
+        description: Paste from clipboard
+index:
+    addIndex:
+        runes: [A]
+        description: Add index
+    deleteIndex:
+        keys: [Ctrl+d]
+        runes: [D]
+        description: Delete index
+indexAddForm:
+    exitForm:
+        keys: [Esc]
+        description: Exit form
+    addColumn:
+        keys: [Ctrl+a]
+        description: Add column
+    createIndex:
+        keys: [Ctrl+s]
+        description: Create index
+aiQuery:
+    exitAIQuery:
+        keys: [Esc]
+        description: Exit AI query
+    clearPrompt:
+        keys: [Ctrl+u]
+        description: Clear prompt
+history:
+    clearHistory:
+        keys: [Ctrl+d]
+        runes: [C]
+        description: Clear history
+    acceptEntry:
+        keys: [Enter, Space]
+        description: Accept entry
+    closeHistory:
+        keys: [Esc, Ctrl+y]
+        description: Close history
+aggregation:
+    stages:
+        addStage:
+            runes: [a]
+            description: Add new stage
+        editStage:
+            runes: [e]
+            description: Edit selected stage
+        deleteStage:
+            keys: [Ctrl+d]
+            description: Delete selected stage
+        runPipeline:
+            runes: [R]
+            description: Run pipeline
+        clearPipeline:
+            runes: [C]
+            description: Clear all stages
+        moveStageDown:
+            runes: [J]
+            description: Move stage down
+        moveStageUp:
+            runes: [K]
+            description: Move stage up
+        focusResults:
+            keys: [Ctrl+j]
+            description: Focus results
+    results:
+        focusStages:
+            keys: [Ctrl+j]
+            description: Focus stages
+        changeView:
+            runes: [v]
+            description: Switch view
+        peekDocument:
+            keys: [Enter]
+            runes: [o]
+            description: Peek document
+        fullPagePeek:
+            runes: [O]
+            description: Full page peek
+        copyHighlight:
+            runes: [c]
+            description: Copy cell
+        copyDocument:
+            runes: [C]
+            description: Copy document

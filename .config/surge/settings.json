@@ -1,0 +1,69 @@
+{
+  "general": {
+    "default_download_dir": "/home/Stanbreaks/Downloads",
+    "warn_on_duplicate": true,
+    "download_complete_notification": true,
+    "allow_remote_open_actions": false,
+    "extension_prompt": true,
+    "auto_resume": false,
+    "skip_update_check": false,
+    "category_enabled": false,
+    "categories": [
+      {
+        "name": "Videos",
+        "description": "MP4s, MKVs, AVIs, and other video files.",
+        "pattern": "(?i)\\.(mp4|mkv|avi|mov|wmv|flv|webm|m4v|mpg|mpeg|3gp)$",
+        "path": "/home/Stanbreaks/Videos"
+      },
+      {
+        "name": "Music",
+        "description": "MP3s, FLACs, and other audio files.",
+        "pattern": "(?i)\\.(mp3|flac|wav|aac|ogg|wma|m4a|opus)$",
+        "path": "/home/Stanbreaks"
+      },
+      {
+        "name": "Compressed",
+        "description": "ZIPs, RARs, and other archive files.",
+        "pattern": "(?i)\\.(zip|rar|7z|tar|gz|bz2|xz|zst|tgz)$",
+        "path": "/home/Stanbreaks/Downloads"
+      },
+      {
+        "name": "Documents",
+        "description": "PDFs, Word docs, spreadsheets, etc.",
+        "pattern": "(?i)\\.(pdf|doc|docx|xls|xlsx|ppt|pptx|odt|ods|txt|rtf|csv|epub)$",
+        "path": "/home/Stanbreaks/Documents"
+      },
+      {
+        "name": "Programs",
+        "description": "Executables, installers, and scripts.",
+        "pattern": "(?i)\\.(exe|msi|deb|rpm|appimage|dmg|pkg|flatpak|snap|sh|run|bin)$",
+        "path": "/home/Stanbreaks/Downloads"
+      },
+      {
+        "name": "Images",
+        "description": "JPEGs, PNGs, and other image files.",
+        "pattern": "(?i)\\.(jpg|jpeg|png|gif|bmp|svg|webp|ico|tiff|psd)$",
+        "path": "/home/Stanbreaks/Pictures"
+      }
+    ],
+    "clipboard_monitor": true,
+    "theme": 2,
+    "log_retention_count": 5
+  },
+  "network": {
+    "max_connections_per_host": 32,
+    "max_concurrent_downloads": 3,
+    "user_agent": "",
+    "proxy_url": "",
+    "sequential_download": false,
+    "min_chunk_size": 2097152,
+    "worker_buffer_size": 524288
+  },
+  "performance": {
+    "max_task_retries": 3,
+    "slow_worker_threshold": 0.3,
+    "slow_worker_grace_period": 5000000000,
+    "stall_timeout": 3000000000,
+    "speed_ema_alpha": 0.3
+  }
+}
