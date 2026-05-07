@@ -39,3 +39,4 @@ opencode
 config.yaml
 *.db
 history.cmdline
+git
