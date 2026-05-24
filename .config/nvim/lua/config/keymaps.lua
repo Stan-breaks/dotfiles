@@ -27,7 +27,7 @@ keymap.set("n", "K", vim.lsp.buf.hover, opts)                -- show documentati
 --lazygit
 keymap.set('n', "<leader>lg",
   "<cmd>LazyGit<cr><cmd>hi LazyGitFloat guibg=NONE guifg=NONE<cr><cmd>setlocal winhl=NormalFloat:LazyGitFloat<cr>", opts)
-
+ 
 --common keymaps
 keymap.set("n", "<leader>w", ":write<CR>", opts)
 keymap.set("n", "<leader>q", ":quit<CR>", opts)
