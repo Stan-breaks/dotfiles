@@ -19,7 +19,7 @@ wl-paste --type image --watch cliphist store &
 
 wlsunset -l -1.2921 -L 36.8219 -T 6500 -t 3500 &
 
-notify-send -i /home/Stanbreaks/Pictures/logo.png -t 14000 "Hey Stanley. Glad you're back." "Let’s get to work." &
+notify-send -i /home/Stanbreaks/Pictures/wallpapers/logo.png -t 14000 "Hey Stanley. Glad you're back." "Let’s get to work." &
 
 # Permission authentication
 /usr/lib/xfce-polkit/xfce-polkit &
