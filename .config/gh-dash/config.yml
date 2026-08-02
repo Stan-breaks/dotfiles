@@ -1,4 +1,6 @@
 prSections:
+    - title: Pull Requests
+      filters: is:open
     - title: My Pull Requests
       filters: is:open author:@me
     - title: Needs My Review
@@ -85,7 +87,7 @@ theme:
             showSeparator: true
             compact: false
 pager:
-    diff: "delta --side-by-side"
+    diff: "diffnav"
 confirmQuit: false
 showAuthorIcons: true
 smartFilteringAtLaunch: true
