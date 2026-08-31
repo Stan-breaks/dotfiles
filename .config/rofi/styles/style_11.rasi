@@ -8,7 +8,7 @@ configuration {
     display-window:              " ";
     drun-display-format:         "{name}";
     window-format:               "{w}{t}";
-    font:                        "JetBrainsMono Nerd Font 10";
+    font:                        "JetBrainsMono Nerd Font 13";
     icon-theme:                  "Tela-circle-dracula";
 }
 
@@ -47,7 +47,7 @@ inputbar {
     children:                    [ "entry" ];
     expand:                      false;
     background-color:            @main-bg;
-    background-image:            url("~/.cache/hyde/wall.quad", width);
+    background-image:            url("~/Pictures/wallpapers/gojo.png", width);
     border-radius:               1em 0em 0em 1em;
 }
 entry {

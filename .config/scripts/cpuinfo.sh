@@ -165,6 +165,9 @@ tooltip_str="$emoji $CPUINFO_MODEL\n"
 tooltip_str+=" Clock Speed: $frequency/$CPUINFO_MAX_FREQ MHz"
 
 # Print the output
-cat <<JSON
-{"text":"$thermo $(get_temp_color "${temperature}")", "tooltip":"$tooltip_str"}
-JSON
+text="$thermo $(get_temp_color "$temperature")"
+
+jq -cn \
+  --arg text "$text" \
+  --arg tooltip "$tooltip_str" \
+  '{text: $text, tooltip: $tooltip}'

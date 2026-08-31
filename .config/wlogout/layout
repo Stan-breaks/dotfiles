@@ -14,28 +14,28 @@
 
 {
     "label" : "suspend",
-    "action" : "swaylock -f && systemctl suspend",
+    "action" : "swaylock -f && loginctl suspend",
     "text" : "Suspend",
     "keybind" : "u"
 }
 
 {
     "label" : "shutdown",
-    "action" : "systemctl poweroff",
-    "text" : "Shutdown",
+    "action" : "loginctl poweroff",
+    "text" : "Shutdown now",
     "keybind" : "s"
 }
 
 {
     "label" : "hibernate",
-    "action" : "systemctl hibernate",
+    "action" : "loginctl hibernate",
     "text" : "Hibernate",
     "keybind" : "h"
 }
 
 {
     "label" : "reboot",
-    "action" : "systemctl reboot",
+    "action" : "loginctl reboot",
     "text" : "Reboot",
     "keybind" : "r"
 }

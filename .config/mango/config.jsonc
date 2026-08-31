@@ -11,7 +11,7 @@
     "custom/padd",
     "custom/l_end",
     "ext/workspaces",
-    "dwl/window",
+    //"dwl/window",
     "custom/r_end",
     "custom/padd",
     "custom/l_end",
@@ -54,7 +54,7 @@
     "sort-by-id": true
   },
   "dwl/window": {
-    "format": "  ",
+    "format": " ",
     "rotate": 0,
     "separate-outputs": true,
     "max-length": 1000
@@ -189,7 +189,7 @@
     "format-disconnected": "󰖪 ",
     "tooltip-format-disconnected": "Disconnected",
     "tooltip-format-wifi": "connected to {essid}",
-    "on-click": "foot -e impala"
+    "on-click": "foot -e wlctl"
   },
   "bluetooth": {
     "format-on": "󰂯",

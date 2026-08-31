@@ -2,11 +2,12 @@
 
 set +e
 
-dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=wlroots
+export WAYLAND_DISPLAY=wayland-0
+export XDG_CURRENT_DESKTOP=wlroots
 
 "$HOME/.config/scripts/randomWallpaper.sh" "$HOME/Pictures/wallpapers/saitama.jpeg" &
 
-waybar -c ~/.config/mango/config.jsonc -s ~/.config/mango/style.css &
+ waybar -c ~/.config/mango/config.jsonc -s ~/.config/mango/style.css &
 
 batterynotify.sh &
 
@@ -26,3 +27,4 @@ notify-send -i /home/Stanbreaks/Pictures/wallpapers/logo.png -t 14000 "Hey Stanl
 
 /usr/lib/xdg-desktop-portal-wlr &
 
+exec gentoo-pipewire-launcher &
