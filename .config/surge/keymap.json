@@ -6,6 +6,18 @@
       ],
       "help": "add download"
     },
+    "AddFromClipboard": {
+      "keys": [
+        "A"
+      ],
+      "help": "add from clipboard"
+    },
+    "AssignCategory": {
+      "keys": [
+        "c"
+      ],
+      "help": "assign category"
+    },
     "BatchImport": {
       "keys": [
         "b",
@@ -15,7 +27,8 @@
     },
     "CategoryFilter": {
       "keys": [
-        "c"
+        "C",
+        "shift+c"
       ],
       "help": "category"
     },
@@ -469,12 +482,13 @@
       ],
       "help": "ignore for now"
     },
-    "NeverRemind": {
+    "Install": {
       "keys": [
-        "n",
-        "N"
+        "enter",
+        "u",
+        "U"
       ],
-      "help": "never remind"
+      "help": "install update"
     },
     "OpenGitHub": {
       "keys": [
