@@ -1,4 +1,4 @@
-vim.pack.add({"https://github.com/neovim/nvim-lspconfig"})
+vim.pack.add({ "https://github.com/neovim/nvim-lspconfig" })
 
 vim.diagnostic.config({
   signs = {
@@ -20,7 +20,7 @@ capabilities = vim.tbl_deep_extend("force", capabilities, require('blink.cmp').g
 -- lua
 vim.lsp.config("lua_ls", {
   capabilities = capabilities,
-  settings = {   -- custom settings for lua
+  settings = { -- custom settings for lua
     Lua = {
       diagnostics = {
         globals = { "vim" },
@@ -128,5 +128,6 @@ vim.lsp.enable("protols")
 -- harper-ls
 vim.lsp.config("harper_ls", {
   capabilities = capabilities,
+  filetypes = { 'markdown' }
 })
 vim.lsp.enable("harper_ls")
