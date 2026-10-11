@@ -124,3 +124,9 @@ vim.lsp.config("protols", {
 })
 
 vim.lsp.enable("protols")
+
+-- harper-ls
+vim.lsp.config("harper_ls", {
+  capabilities = capabilities,
+})
+vim.lsp.enable("harper_ls")
